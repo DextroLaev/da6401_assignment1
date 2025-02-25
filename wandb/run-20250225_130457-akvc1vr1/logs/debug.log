@@ -1,0 +1,39 @@
+2025-02-25 13:04:57,750 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130457-akvc1vr1\logs\debug.log
+2025-02-25 13:04:57,752 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130457-akvc1vr1\logs\debug-internal.log
+2025-02-25 13:04:57,754 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:04:57,756 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:04:57,756 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:04:57,815 INFO    MainThread:22028 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/ttb94fng
+2025-02-25 13:04:57,817 INFO    MainThread:22028 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-25 13:04:57,819 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:57,820 INFO    MainThread:22028 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-02-25 13:04:57,821 INFO    MainThread:22028 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-02-25 13:04:57,823 INFO    MainThread:22028 [wandb_run.py:_restore():2324] restore
+2025-02-25 13:04:57,826 INFO    MainThread:22028 [wandb_run.py:_restore():2330] restore done
+2025-02-25 13:06:25,595 WARNING MsgRouterThr:22028 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 258, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 262, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router.py", line 70, in message_loop
+    msg = self._read_message()
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-02-25 13:06:25,633 INFO    MsgRouterThr:22028 [mailbox.py:close():115] Closing mailbox, abandoning 2 handles.

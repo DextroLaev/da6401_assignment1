@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\plot_image.py", line 36, in <module>
+    plot_img_wandb(train_data,train_label)
+  File "C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\plot_image.py", line 24, in plot_img_wandb
+    for idx in each_class_image_index:
+NameError: name 'each_class_image_index' is not defined. Did you mean: 'each_class_img_index'?
+Traceback (most recent call last):
+  File "C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\plot_image.py", line 36, in <module>
+    plot_img_wandb(train_data,train_label)
+  File "C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\plot_image.py", line 24, in plot_img_wandb
+    for idx in each_class_image_index:
+NameError: name 'each_class_image_index' is not defined. Did you mean: 'each_class_img_index'?

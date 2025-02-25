@@ -1,0 +1,65 @@
+{"time":"2025-02-25T12:57:26.46551+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\rajsh\\OneDrive\\Desktop\\DL\\da6401_assignments\\wandb\\run-20250225_125726-ttb94fng\\logs\\debug-core.log"}
+{"time":"2025-02-25T12:57:27.7806207+05:30","level":"INFO","msg":"created new stream","id":"ttb94fng"}
+{"time":"2025-02-25T12:57:27.7814964+05:30","level":"INFO","msg":"stream: started","id":"ttb94fng"}
+{"time":"2025-02-25T12:57:27.7821287+05:30","level":"INFO","msg":"sender: started","stream_id":"ttb94fng"}
+{"time":"2025-02-25T12:57:27.7814964+05:30","level":"INFO","msg":"handler: started","stream_id":"ttb94fng"}
+{"time":"2025-02-25T12:57:27.7821287+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ttb94fng"}
+{"time":"2025-02-25T12:57:28.2051641+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-25T12:57:32.9695418+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:57:46.2614523+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:57:47.3134805+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T12:59:24.5674472+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T12:59:24.7259199+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:03.6167021+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/cs24s031-indian-institute-of-technology-madras/dl-assignment1/ttb94fng/file_stream"}
+{"time":"2025-02-25T13:00:03.6167021+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/cs24s031-indian-institute-of-technology-madras/dl-assignment1/ttb94fng/file_stream: {\"error\":\"run dl-assignment1/ttb94fng not found while streaming file\"}"}
+{"time":"2025-02-25T13:00:13.145717+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:00:13.3232021+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:13.456089+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:13.456089+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:00:13.5092123+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:13.5092123+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:00:13.5637323+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:13.5637323+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:00:31.7106947+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:00:32.0176871+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:32.0384299+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:00:32.0413531+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:32.310259+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:00:32.59571+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:34.9629836+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:00:35.1297534+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:00:35.2797693+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:35.2797693+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:00:35.3365212+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:35.3365212+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:00:35.3907668+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:00:35.3907668+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:03:34.6818186+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:03:35.3383001+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:03:55.8639492+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:03:56.1330189+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:03.3277376+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:03.3309681+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:03.6348448+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:03.9307773+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:06.5043262+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:06.6222275+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:19.7249115+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:19.9791234+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:24.4804238+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:24.7914657+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:28.7136289+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:28.8189475+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-25T13:04:57.7410276+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-25T13:04:57.8282678+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-25T13:04:57.8289904+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-25T13:04:58.0614746+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-02-25T13:04:58.0625966+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-25T13:04:58.0628658+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run dl-assignment1/ttb94fng not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-02-25T13:04:58.8495885+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":1.0268488,"error_status":"retrying HTTP 409: run ttb94fng was previously created and deleted; try a new run name"}],"total_operations":1}}
+{"time":"2025-02-25T13:05:00.378368+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-02-25T13:05:04.7837525+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-02-25T13:05:13.9423733+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-02-25T13:05:33.7412388+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-02-25T13:05:59.2159295+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":61.3931898,"error_status":"retrying HTTP 409: run ttb94fng was previously created and deleted; try a new run name"}],"total_operations":1}}
+{"time":"2025-02-25T13:06:10.0152164+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run ttb94fng was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

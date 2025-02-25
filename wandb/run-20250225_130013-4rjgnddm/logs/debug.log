@@ -1,0 +1,162 @@
+2025-02-25 13:00:13,310 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130013-4rjgnddm\logs\debug.log
+2025-02-25 13:00:13,312 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130013-4rjgnddm\logs\debug-internal.log
+2025-02-25 13:00:13,312 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:13,313 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:13,314 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:13,321 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:00:13,322 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:00:31,707 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:00:32,015 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:00:32,016 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:00:32,036 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:00:32,038 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:00:32,039 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:00:32,307 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:00:32,593 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:00:32,594 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:00:34,960 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:00:34,975 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130034-tuu1r91h\logs\debug.log
+2025-02-25 13:00:34,976 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130034-tuu1r91h\logs\debug-internal.log
+2025-02-25 13:00:34,978 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:34,979 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:34,980 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,000 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130034-wvuw4v4f\logs\debug.log
+2025-02-25 13:00:35,002 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130034-wvuw4v4f\logs\debug-internal.log
+2025-02-25 13:00:35,002 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,003 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,004 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,017 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-7b7pqnt9\logs\debug.log
+2025-02-25 13:00:35,018 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-7b7pqnt9\logs\debug-internal.log
+2025-02-25 13:00:35,019 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,019 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,020 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,032 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-rsegtila\logs\debug.log
+2025-02-25 13:00:35,032 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-rsegtila\logs\debug-internal.log
+2025-02-25 13:00:35,034 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,035 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,036 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,047 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-bom31yej\logs\debug.log
+2025-02-25 13:00:35,048 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-bom31yej\logs\debug-internal.log
+2025-02-25 13:00:35,050 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,050 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,051 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,060 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-t943pjo6\logs\debug.log
+2025-02-25 13:00:35,062 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-t943pjo6\logs\debug-internal.log
+2025-02-25 13:00:35,063 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,064 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,064 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,077 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-55y5v3xb\logs\debug.log
+2025-02-25 13:00:35,078 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-55y5v3xb\logs\debug-internal.log
+2025-02-25 13:00:35,079 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,080 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,081 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,092 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-m2qbpwah\logs\debug.log
+2025-02-25 13:00:35,093 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-m2qbpwah\logs\debug-internal.log
+2025-02-25 13:00:35,094 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,095 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,095 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,105 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-3dh2zwhe\logs\debug.log
+2025-02-25 13:00:35,107 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-3dh2zwhe\logs\debug-internal.log
+2025-02-25 13:00:35,107 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,108 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,109 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,119 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-69gn4mg9\logs\debug.log
+2025-02-25 13:00:35,120 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130035-69gn4mg9\logs\debug-internal.log
+2025-02-25 13:00:35,121 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:00:35,122 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:00:35,123 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:00:35,128 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:00:35,128 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:03:34,676 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:03:34,693 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130334-zm810vp7\logs\debug.log
+2025-02-25 13:03:34,695 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130334-zm810vp7\logs\debug-internal.log
+2025-02-25 13:03:34,696 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:03:34,697 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:03:34,698 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:03:35,335 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:03:35,336 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:03:55,858 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:03:56,130 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:03:56,130 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:03,323 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:03,328 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:03,329 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:03,632 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:03,929 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:03,930 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:06,501 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:06,514 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130406-mq5loyrv\logs\debug.log
+2025-02-25 13:04:06,515 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130406-mq5loyrv\logs\debug-internal.log
+2025-02-25 13:04:06,517 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:04:06,518 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:04:06,519 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:04:06,619 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:06,620 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:19,722 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:19,976 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:19,977 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:24,476 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:24,789 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:24,789 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:28,710 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:28,721 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130428-v70zll8c\logs\debug.log
+2025-02-25 13:04:28,722 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130428-v70zll8c\logs\debug-internal.log
+2025-02-25 13:04:28,722 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:04:28,723 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:04:28,724 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:04:28,816 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:28,816 INFO    MainThread:22028 [wandb_init.py:_pause_backend():564] pausing backend
+2025-02-25 13:04:57,736 INFO    MainThread:22028 [wandb_init.py:_resume_backend():569] resuming backend
+2025-02-25 13:04:57,750 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130457-akvc1vr1\logs\debug.log
+2025-02-25 13:04:57,752 INFO    MainThread:22028 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\rajsh\OneDrive\Desktop\DL\da6401_assignments\wandb\run-20250225_130457-akvc1vr1\logs\debug-internal.log
+2025-02-25 13:04:57,754 INFO    MainThread:22028 [wandb_init.py:init():761] calling init triggers
+2025-02-25 13:04:57,756 INFO    MainThread:22028 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 13:04:57,756 INFO    MainThread:22028 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-02-25 13:04:57,815 INFO    MainThread:22028 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/ttb94fng
+2025-02-25 13:04:57,817 INFO    MainThread:22028 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-25 13:04:57,819 INFO    MainThread:22028 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-25 13:04:57,820 INFO    MainThread:22028 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-02-25 13:04:57,821 INFO    MainThread:22028 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-02-25 13:04:57,823 INFO    MainThread:22028 [wandb_run.py:_restore():2324] restore
+2025-02-25 13:04:57,826 INFO    MainThread:22028 [wandb_run.py:_restore():2330] restore done
+2025-02-25 13:06:25,595 WARNING MsgRouterThr:22028 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 258, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\lib\sock_client.py", line 262, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router.py", line 70, in message_loop
+    msg = self._read_message()
+  File "C:\Users\rajsh\AppData\Roaming\Python\Python310\site-packages\wandb\sdk\interface\router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-02-25 13:06:25,633 INFO    MsgRouterThr:22028 [mailbox.py:close():115] Closing mailbox, abandoning 2 handles.

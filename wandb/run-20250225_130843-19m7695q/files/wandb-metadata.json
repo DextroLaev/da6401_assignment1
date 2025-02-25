@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "CPython 3.10.0",
+  "startedAt":  "2025-02-25T07:38:43.826574Z",
+  "program":  "Neural net Fashion-Mnist.ipynb",
+  "codePath":  "Neural net Fashion-Mnist.ipynb",
+  "git":  {
+    "remote":  "https://github.com/DextroLaev/da6401_assignment1.git",
+    "commit":  "57cb376820bd7da9fc1e26caabcdcd989a37c18d"
+  },
+  "email":  "cs24s031@smail.iitm.ac.in",
+  "root":  "C:\\Users\\rajsh\\OneDrive\\Desktop\\DL\\da6401_assignments",
+  "host":  "Dextrolaev",
+  "executable":  "C:\\Program Files\\Python310\\python.exe",
+  "codePathLocal":  "Neural net Fashion-Mnist.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "255131119616",
+      "used":  "222251143168"
+    }
+  },
+  "memory":  {
+    "total":  "16866680832"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  3072,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}
