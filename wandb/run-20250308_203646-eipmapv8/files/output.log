@@ -1,0 +1,21 @@
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: divide by zero encountered in log
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: invalid value encountered in multiply
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+Epoch 1/10 - 16000/54000 - Loss: 2.352600 Train-Acc: 0.139563 val-loss:2.232947 val-Acc: 0.407667 
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: divide by zero encountered in log
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: invalid value encountered in multiply
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:199: RuntimeWarning: invalid value encountered in multiply
+  grad_L_ai = np.multiply(grad_L_hi.T,self.ReLU_derivtive(A[i-1]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: divide by zero encountered in log
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: invalid value encountered in multiply
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: divide by zero encountered in log
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:148: RuntimeWarning: invalid value encountered in multiply
+  train_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/3482080981.py:22: RuntimeWarning: invalid value encountered in subtract
+  exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))

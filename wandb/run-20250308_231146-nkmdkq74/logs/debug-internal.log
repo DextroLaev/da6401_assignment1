@@ -1,0 +1,22 @@
+{"time":"2025-03-08T23:11:46.556040429+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231146-nkmdkq74/logs/debug-core.log"}
+{"time":"2025-03-08T23:11:48.070018498+05:30","level":"INFO","msg":"created new stream","id":"nkmdkq74"}
+{"time":"2025-03-08T23:11:48.070529662+05:30","level":"INFO","msg":"handler: started","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:11:48.070570447+05:30","level":"INFO","msg":"stream: started","id":"nkmdkq74"}
+{"time":"2025-03-08T23:11:48.071895603+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:11:48.071915047+05:30","level":"INFO","msg":"sender: started","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:11:48.51822687+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:12:51.892666439+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T23:12:59.724131527+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T23:13:12.946532201+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T23:13:16.040328022+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T23:13:40.424495744+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T23:13:52.293958581+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T23:13:52.335244211+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:13:52.33562319+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:13:53.297884137+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.373154824,"progress":"230B/230B"}],"total_operations":1}}
+{"time":"2025-03-08T23:13:54.249069551+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:13:54.586070634+05:30","level":"INFO","msg":"stream: closing","id":"nkmdkq74"}
+{"time":"2025-03-08T23:13:54.586081452+05:30","level":"INFO","msg":"handler: closed","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:13:54.586094455+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:13:54.586119286+05:30","level":"INFO","msg":"sender: closed","stream_id":"nkmdkq74"}
+{"time":"2025-03-08T23:13:54.58614339+05:30","level":"INFO","msg":"stream: closed","id":"nkmdkq74"}

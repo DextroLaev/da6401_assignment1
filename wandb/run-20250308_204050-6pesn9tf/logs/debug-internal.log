@@ -1,0 +1,18 @@
+{"time":"2025-03-08T20:40:50.187076672+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_204050-6pesn9tf/logs/debug-core.log"}
+{"time":"2025-03-08T20:40:50.289139301+05:30","level":"INFO","msg":"created new stream","id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:50.289157936+05:30","level":"INFO","msg":"stream: started","id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:50.289175888+05:30","level":"INFO","msg":"handler: started","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:50.289174088+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:50.289198391+05:30","level":"INFO","msg":"sender: started","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:50.638555839+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T20:40:53.147529798+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T20:40:58.427423766+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T20:40:58.430228148+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T20:40:58.430782391+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T20:40:59.386446722+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T20:40:59.432014435+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 1-3, summary, console lines 0-6","runtime_seconds":0.045481678}],"total_operations":1}}
+{"time":"2025-03-08T20:40:59.69558799+05:30","level":"INFO","msg":"stream: closing","id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:59.695604535+05:30","level":"INFO","msg":"handler: closed","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:59.695613241+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:59.695627476+05:30","level":"INFO","msg":"sender: closed","stream_id":"6pesn9tf"}
+{"time":"2025-03-08T20:40:59.695651137+05:30","level":"INFO","msg":"stream: closed","id":"6pesn9tf"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:14:06.462706003+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231406-axetbazu/logs/debug-core.log"}
+{"time":"2025-03-08T23:14:06.56469031+05:30","level":"INFO","msg":"created new stream","id":"axetbazu"}
+{"time":"2025-03-08T23:14:06.564716208+05:30","level":"INFO","msg":"stream: started","id":"axetbazu"}
+{"time":"2025-03-08T23:14:06.564755563+05:30","level":"INFO","msg":"sender: started","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:14:06.564773015+05:30","level":"INFO","msg":"handler: started","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:14:06.564755564+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:14:06.934754446+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:21:23.85514185+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:21:23.855488826+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:21:24.857696916+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.385538774,"progress":"991B/991B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.385525312,"progress":"232B/232B"},{"desc":"uploading config.yaml","runtime_seconds":0.103336997,"progress":"581B/581B"}],"total_operations":3}}
+{"time":"2025-03-08T23:21:25.151719928+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:21:25.532305791+05:30","level":"INFO","msg":"stream: closing","id":"axetbazu"}
+{"time":"2025-03-08T23:21:25.532322876+05:30","level":"INFO","msg":"handler: closed","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:21:25.532330914+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:21:25.532387609+05:30","level":"INFO","msg":"sender: closed","stream_id":"axetbazu"}
+{"time":"2025-03-08T23:21:25.532402465+05:30","level":"INFO","msg":"stream: closed","id":"axetbazu"}

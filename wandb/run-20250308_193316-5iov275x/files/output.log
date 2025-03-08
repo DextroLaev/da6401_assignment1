@@ -1,0 +1,11 @@
+Epoch 1/10 - 54000/54000 - Loss: 2.041031 Train-Acc: 0.368111 val-loss:2.001819 val-Acc: 0.321667 
+Epoch 2/10 - 54000/54000 - Loss: 1.940214 Train-Acc: 0.417093 val-loss:1.911844 val-Acc: 0.405000 
+Epoch 3/10 - 54000/54000 - Loss: 1.853589 Train-Acc: 0.449167 val-loss:1.824173 val-Acc: 0.449500 
+Epoch 4/10 - 54000/54000 - Loss: 1.767827 Train-Acc: 0.476204 val-loss:1.740533 val-Acc: 0.483333 
+Epoch 5/10 - 54000/54000 - Loss: 1.687162 Train-Acc: 0.497222 val-loss:1.661289 val-Acc: 0.510167 
+Epoch 6/10 - 54000/54000 - Loss: 1.610603 Train-Acc: 0.516778 val-loss:1.587012 val-Acc: 0.530333 
+Epoch 7/10 - 54000/54000 - Loss: 1.538644 Train-Acc: 0.535389 val-loss:1.516991 val-Acc: 0.540000 
+Epoch 8/10 - 54000/54000 - Loss: 1.472343 Train-Acc: 0.551352 val-loss:1.453556 val-Acc: 0.554000 
+Epoch 9/10 - 54000/54000 - Loss: 1.412257 Train-Acc: 0.564704 val-loss:1.396500 val-Acc: 0.565833 
+Epoch 10/10 - 54000/54000 - Loss: 1.358005 Train-Acc: 0.577444 val-loss:1.344728 val-Acc: 0.575167 
+Epoch 1/10 - 23000/54000 - Loss: 2.298037 Train-Acc: 0.098957 val-loss:2.302585 val-Acc: 0.095667 

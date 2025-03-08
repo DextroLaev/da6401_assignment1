@@ -1,0 +1,2 @@
+Epoch 1/10 - 35000/54000 - Loss: 1.066735 Train-Acc: 0.768629 val-loss:1.199958 val-Acc: 0.779667 
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.

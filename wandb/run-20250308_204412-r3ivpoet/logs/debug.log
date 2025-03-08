@@ -1,0 +1,353 @@
+2025-03-08 20:44:12,750 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_204412-r3ivpoet/logs/debug.log
+2025-03-08 20:44:12,750 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_204412-r3ivpoet/logs/debug-internal.log
+2025-03-08 20:44:12,750 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:44:12,751 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 20:44:12,751 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 20:44:55,310 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:44:55,311 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 20:44:58,411 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 20:44:58,412 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/xctvoo1y
+2025-03-08 20:44:58,413 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 20:44:58,413 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:44:58,414 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 20:44:58,414 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 20:44:58,414 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 20:44:58,415 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 20:45:00,170 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 20:45:00,172 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 20:45:00,174 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_204533-8cxu1sp5/logs/debug.log
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_204533-8cxu1sp5/logs/debug-internal.log
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbe2693170>
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 20:45:33,492 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 20:45:33,493 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 20:45:33,493 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 20:45:33,493 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 20:45:33,495 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 20:45:33,496 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 20:45:33,499 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 20:45:35,385 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 20:45:35,500 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 20:45:35,500 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 20:45:35,500 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 20:45:35,500 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 20:45:35,501 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 20:51:06,065 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/8cxu1sp5
+2025-03-08 20:51:06,066 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 20:51:06,066 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 20:51:06,066 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 20:51:06,066 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 20:51:06,066 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 20:51:06,067 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 20:51:08,163 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 20:51:08,164 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 20:51:08,165 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 22:58:50,168 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_225850-4zutsnsh/logs/debug.log
+2025-03-08 22:58:50,168 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_225850-4zutsnsh/logs/debug-internal.log
+2025-03-08 22:58:50,169 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbe2a31df0>
+2025-03-08 22:58:50,169 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 22:58:50,169 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 22:58:50,169 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 22:58:50,169 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 22:58:50,170 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 22:58:50,170 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 22:58:50,171 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 22:58:50,172 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 22:58:50,174 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 22:58:52,083 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 22:58:52,196 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 22:58:52,197 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 22:58:52,197 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 22:58:52,197 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 22:58:52,198 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 22:58:52,211 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:58:52,211 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 22:59:16,644 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 22:59:16,645 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/4zutsnsh
+2025-03-08 22:59:16,645 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 22:59:16,645 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:59:16,645 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 22:59:16,646 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 22:59:16,646 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 22:59:16,646 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 22:59:17,970 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 22:59:17,971 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 22:59:17,971 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 22:59:52,429 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_225952-yyj8lu2r/logs/debug.log
+2025-03-08 22:59:52,430 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_225952-yyj8lu2r/logs/debug-internal.log
+2025-03-08 22:59:52,430 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbe27f2db0>
+2025-03-08 22:59:52,430 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 22:59:52,430 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 22:59:52,431 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 22:59:52,431 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 22:59:52,431 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 22:59:52,432 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 22:59:52,433 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 22:59:52,433 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 22:59:52,436 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 22:59:54,341 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 22:59:54,458 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 22:59:54,459 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 22:59:54,459 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 22:59:54,459 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 22:59:54,459 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 22:59:54,473 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 22:59:54,473 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:00:02,958 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:00:02,963 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:00:02,963 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:00:07,080 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:00:07,083 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230007-7aoevtc5/logs/debug.log
+2025-03-08 23:00:07,083 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230007-7aoevtc5/logs/debug-internal.log
+2025-03-08 23:00:07,084 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:00:07,084 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:00:07,084 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:00:07,098 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:00:07,098 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:00:18,269 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:00:18,272 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230018-z9gn4k0c/logs/debug.log
+2025-03-08 23:00:18,272 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230018-z9gn4k0c/logs/debug-internal.log
+2025-03-08 23:00:18,272 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:00:18,272 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:00:18,272 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:00:27,000 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:00:27,001 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:00:31,366 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:00:31,369 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230031-wf5b2wb3/logs/debug.log
+2025-03-08 23:00:31,369 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230031-wf5b2wb3/logs/debug-internal.log
+2025-03-08 23:00:31,370 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:00:31,370 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:00:31,370 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:00:41,099 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:00:41,099 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:00:44,148 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:00:44,150 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230044-3i9n54oz/logs/debug.log
+2025-03-08 23:00:44,150 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230044-3i9n54oz/logs/debug-internal.log
+2025-03-08 23:00:44,151 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:00:44,151 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:00:44,151 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:00:50,593 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:00:50,593 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:02:09,915 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:02:09,930 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:02:09,930 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:02:59,966 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:02:59,968 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230259-52s9uvmf/logs/debug.log
+2025-03-08 23:02:59,968 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230259-52s9uvmf/logs/debug-internal.log
+2025-03-08 23:02:59,968 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:02:59,968 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:02:59,969 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:03:05,470 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:03:05,470 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:03:13,993 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:03:13,996 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230313-r0ybqicw/logs/debug.log
+2025-03-08 23:03:13,997 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230313-r0ybqicw/logs/debug-internal.log
+2025-03-08 23:03:13,997 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:03:13,997 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:03:13,997 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:03:20,275 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:03:20,276 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:03:48,893 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:03:48,896 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230348-nutipe7h/logs/debug.log
+2025-03-08 23:03:48,896 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230348-nutipe7h/logs/debug-internal.log
+2025-03-08 23:03:48,897 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:03:48,897 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:03:48,897 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:03:54,234 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:03:54,235 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:03:56,508 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:03:56,511 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230356-02gvng81/logs/debug.log
+2025-03-08 23:03:56,512 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230356-02gvng81/logs/debug-internal.log
+2025-03-08 23:03:56,512 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:03:56,512 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:03:56,513 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:04:29,998 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:04:29,998 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:04:35,577 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:04:35,579 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/yyj8lu2r
+2025-03-08 23:04:35,582 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 23:04:35,582 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:04:35,582 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 23:04:35,583 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 23:04:35,583 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 23:04:35,583 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 23:05:10,904 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230510-fcsvdu41/logs/debug.log
+2025-03-08 23:05:10,905 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230510-fcsvdu41/logs/debug-internal.log
+2025-03-08 23:05:10,905 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbdc221ac0>
+2025-03-08 23:05:10,906 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:05:10,906 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:05:10,906 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 23:05:10,907 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 23:05:10,908 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 23:05:10,908 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 23:05:10,909 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 23:05:10,910 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 23:05:10,912 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 23:05:12,838 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 23:05:12,951 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 23:05:12,952 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 23:05:12,952 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 23:05:12,952 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 23:05:12,953 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 23:10:50,528 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/fcsvdu41
+2025-03-08 23:10:50,528 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 23:10:50,528 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:10:50,529 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 23:10:50,529 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 23:10:50,529 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 23:10:50,529 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 23:10:52,353 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 23:10:52,356 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 23:10:52,358 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 23:11:46,553 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231146-nkmdkq74/logs/debug.log
+2025-03-08 23:11:46,554 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231146-nkmdkq74/logs/debug-internal.log
+2025-03-08 23:11:46,554 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbdc221490>
+2025-03-08 23:11:46,554 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:11:46,554 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:11:46,555 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 23:11:46,555 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 23:11:46,555 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 23:11:46,556 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 23:11:46,557 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 23:11:46,557 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 23:11:46,560 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 23:11:48,473 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 23:11:48,586 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 23:11:48,587 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 23:11:48,587 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 23:11:48,587 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 23:11:48,588 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 23:12:51,891 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:12:51,892 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:12:59,723 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:12:59,725 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231259-ncz3995c/logs/debug.log
+2025-03-08 23:12:59,725 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231259-ncz3995c/logs/debug-internal.log
+2025-03-08 23:12:59,725 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:12:59,726 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:12:59,726 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:13:12,945 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:13:12,946 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:13:16,039 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:13:16,041 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231316-2dz73gpj/logs/debug.log
+2025-03-08 23:13:16,041 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231316-2dz73gpj/logs/debug-internal.log
+2025-03-08 23:13:16,042 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:13:16,042 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:13:16,042 INFO    MainThread:4231 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:13:40,423 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:13:40,424 INFO    MainThread:4231 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-08 23:13:52,291 INFO    MainThread:4231 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-08 23:13:52,294 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/nkmdkq74
+2025-03-08 23:13:52,294 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 23:13:52,295 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:13:52,295 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 23:13:52,295 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 23:13:52,295 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 23:13:52,296 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 23:13:54,580 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 23:13:54,581 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 23:13:54,583 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 23:14:06,460 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231406-axetbazu/logs/debug.log
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_231406-axetbazu/logs/debug-internal.log
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbdc22b770>
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 23:14:06,461 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 23:14:06,462 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 23:14:06,462 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 23:14:06,463 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 23:14:06,464 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 23:14:06,467 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 23:14:06,931 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 23:14:06,995 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 23:14:06,995 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 23:14:06,995 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 23:14:06,996 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 23:14:06,996 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 23:21:23,853 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/axetbazu
+2025-03-08 23:21:23,853 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 23:21:23,854 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:21:23,854 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 23:21:23,854 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 23:21:23,854 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 23:21:23,854 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 23:21:25,528 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 23:21:25,529 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 23:21:25,530 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-08 23:38:07,561 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_233807-0r5h2d6u/logs/debug.log
+2025-03-08 23:38:07,562 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_233807-0r5h2d6u/logs/debug-internal.log
+2025-03-08 23:38:07,562 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbdc2298b0>
+2025-03-08 23:38:07,562 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:38:07,562 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-08 23:38:07,562 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-08 23:38:07,563 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 23:38:07,563 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-08 23:38:07,563 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-08 23:38:07,564 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-08 23:38:07,565 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-08 23:38:07,568 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-08 23:38:09,457 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-08 23:38:09,567 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-08 23:38:09,568 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 23:38:09,568 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 23:38:09,569 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-08 23:38:09,569 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-08 23:48:42,278 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/0r5h2d6u
+2025-03-08 23:48:42,279 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-08 23:48:42,279 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-08 23:48:42,279 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-08 23:48:42,279 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-08 23:48:42,280 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-08 23:48:42,280 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-08 23:48:44,093 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-08 23:48:44,096 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-08 23:48:44,099 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 00:12:40,913 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_001240-45wjuezt/logs/debug.log
+2025-03-09 00:12:40,914 INFO    MainThread:4231 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_001240-45wjuezt/logs/debug-internal.log
+2025-03-09 00:12:40,914 INFO    MainThread:4231 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77dbdc220f50>
+2025-03-09 00:12:40,914 INFO    MainThread:4231 [wandb_init.py:init():761] calling init triggers
+2025-03-09 00:12:40,915 INFO    MainThread:4231 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-09 00:12:40,915 INFO    MainThread:4231 [wandb_init.py:init():784] starting backend
+2025-03-09 00:12:40,915 INFO    MainThread:4231 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 00:12:40,916 INFO    MainThread:4231 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 00:12:40,916 INFO    MainThread:4231 [wandb_init.py:init():798] backend started and connected
+2025-03-09 00:12:40,917 INFO    MainThread:4231 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 00:12:40,918 INFO    MainThread:4231 [wandb_init.py:init():891] updated telemetry
+2025-03-09 00:12:40,920 INFO    MainThread:4231 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 00:12:42,889 INFO    MainThread:4231 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 00:12:43,011 INFO    MainThread:4231 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 00:12:43,011 INFO    MainThread:4231 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 00:12:43,012 INFO    MainThread:4231 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 00:12:43,012 INFO    MainThread:4231 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 00:12:43,012 INFO    MainThread:4231 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 00:25:04,347 INFO    MainThread:4231 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/45wjuezt
+2025-03-09 00:25:04,347 INFO    MainThread:4231 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 00:25:04,348 INFO    MainThread:4231 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 00:25:04,348 INFO    MainThread:4231 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 00:25:04,348 INFO    MainThread:4231 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 00:25:04,348 INFO    MainThread:4231 [wandb_run.py:_restore():2322] restore
+2025-03-09 00:25:04,349 INFO    MainThread:4231 [wandb_run.py:_restore():2328] restore done
+2025-03-09 00:25:06,224 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 00:25:06,226 INFO    MainThread:4231 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 00:25:06,229 INFO    MainThread:4231 [wandb_run.py:_footer_sync_info():3917] logging synced files

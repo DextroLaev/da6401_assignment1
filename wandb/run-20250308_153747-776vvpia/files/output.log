@@ -1,0 +1,30 @@
+Epoch 1/10 - 60000/60000 - Loss: 2.117751 Train-Acc: 0.184883 Test-Acc: 0.181500 
+Epoch 1/10 - 60000/60000 - Loss: 2.089825 Train-Acc: 0.413567 Test-Acc: 0.411100 
+/tmp/ipykernel_74102/3780637773.py:76: RuntimeWarning: divide by zero encountered in log
+  total_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_74102/3780637773.py:76: RuntimeWarning: invalid value encountered in multiply
+  total_loss += -np.sum(label[d] * np.log(y_hat_i[0]))
+Epoch 1/10 - 60000/60000 - Loss: 2.068149 Train-Acc: 0.410850 Test-Acc: 0.407700 
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Epoch 2/10 - 60000/60000 - Loss: 1.975103 Train-Acc: 0.425433 Test-Acc: 0.423900 
+Epoch 3/10 - 60000/60000 - Loss: 1.899155 Train-Acc: 0.432683 Test-Acc: 0.435100 
+Epoch 4/10 - 60000/60000 - Loss: 1.821425 Train-Acc: 0.436683 Test-Acc: 0.439500 
+Epoch 5/10 - 60000/60000 - Loss: 1.742450 Train-Acc: 0.445000 Test-Acc: 0.447200 
+Epoch 6/10 - 60000/60000 - Loss: 1.664349 Train-Acc: 0.460933 Test-Acc: 0.464000 
+Epoch 7/10 - 60000/60000 - Loss: 1.590780 Train-Acc: 0.479800 Test-Acc: 0.484700 
+Epoch 8/10 - 60000/60000 - Loss: 1.522884 Train-Acc: 0.494917 Test-Acc: 0.500400 
+Epoch 9/10 - 60000/60000 - Loss: 1.461148 Train-Acc: 0.508983 Test-Acc: 0.514500 
+Epoch 10/10 - 60000/60000 - Loss: 1.405545 Train-Acc: 0.523567 Test-Acc: 0.530500 
+Epoch 1/10 - 60000/60000 - Loss: 2.083405 Train-Acc: 0.336983 Test-Acc: 0.333500 
+Epoch 2/10 - 60000/60000 - Loss: 2.007039 Train-Acc: 0.373350 Test-Acc: 0.370600 
+Epoch 3/10 - 60000/60000 - Loss: 1.933796 Train-Acc: 0.394733 Test-Acc: 0.390700 
+Epoch 4/10 - 60000/60000 - Loss: 1.854243 Train-Acc: 0.415267 Test-Acc: 0.413400 
+Epoch 5/10 - 60000/60000 - Loss: 1.775839 Train-Acc: 0.437783 Test-Acc: 0.436500 
+Epoch 6/10 - 60000/60000 - Loss: 1.699450 Train-Acc: 0.462050 Test-Acc: 0.455900 
+Epoch 7/10 - 60000/60000 - Loss: 1.625469 Train-Acc: 0.489917 Test-Acc: 0.484200 
+Epoch 8/10 - 60000/60000 - Loss: 1.555125 Train-Acc: 0.512683 Test-Acc: 0.509300 
+Epoch 9/10 - 60000/60000 - Loss: 1.489284 Train-Acc: 0.532083 Test-Acc: 0.529500 
+Epoch 10/10 - 60000/60000 - Loss: 1.428136 Train-Acc: 0.550267 Test-Acc: 0.547700 
+Epoch 1/10 - 54000/54000 - Loss: 2.116699 Train-Acc: 0.276556 val-loss:2.080282 val-Acc: 0.291667 
+Epoch 2/10 - 29000/54000 - Loss: 2.065009 Train-Acc: 0.304793 val-loss:2.047025 val-Acc: 0.331667 
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

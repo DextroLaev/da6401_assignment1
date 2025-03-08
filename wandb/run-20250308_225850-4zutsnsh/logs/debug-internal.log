@@ -1,0 +1,18 @@
+{"time":"2025-03-08T22:58:50.170735296+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_225850-4zutsnsh/logs/debug-core.log"}
+{"time":"2025-03-08T22:58:51.684871439+05:30","level":"INFO","msg":"created new stream","id":"4zutsnsh"}
+{"time":"2025-03-08T22:58:51.684966437+05:30","level":"INFO","msg":"stream: started","id":"4zutsnsh"}
+{"time":"2025-03-08T22:58:51.685195857+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:58:51.685267486+05:30","level":"INFO","msg":"sender: started","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:58:51.685420357+05:30","level":"INFO","msg":"handler: started","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:58:52.129253538+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T22:58:52.237338833+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T22:59:16.645134309+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T22:59:16.686290275+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T22:59:16.686729654+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T22:59:17.631715883+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T22:59:17.648038291+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.016268565}],"total_operations":1}}
+{"time":"2025-03-08T22:59:17.973309022+05:30","level":"INFO","msg":"stream: closing","id":"4zutsnsh"}
+{"time":"2025-03-08T22:59:17.973323259+05:30","level":"INFO","msg":"handler: closed","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:59:17.97333141+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:59:17.973338117+05:30","level":"INFO","msg":"sender: closed","stream_id":"4zutsnsh"}
+{"time":"2025-03-08T22:59:17.973365991+05:30","level":"INFO","msg":"stream: closed","id":"4zutsnsh"}

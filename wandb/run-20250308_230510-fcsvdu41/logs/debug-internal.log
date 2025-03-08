@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:05:10.908379934+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_230510-fcsvdu41/logs/debug-core.log"}
+{"time":"2025-03-08T23:05:12.422339549+05:30","level":"INFO","msg":"created new stream","id":"fcsvdu41"}
+{"time":"2025-03-08T23:05:12.422414212+05:30","level":"INFO","msg":"stream: started","id":"fcsvdu41"}
+{"time":"2025-03-08T23:05:12.422494645+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:05:12.422624894+05:30","level":"INFO","msg":"handler: started","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:05:12.422779168+05:30","level":"INFO","msg":"sender: started","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:05:12.883177481+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:10:50.529970766+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:10:50.530349507+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:10:51.535968186+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.259356755,"progress":"991B/991B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.259346453,"progress":"232B/232B"}],"total_operations":2}}
+{"time":"2025-03-08T23:10:51.957795121+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:10:52.361275145+05:30","level":"INFO","msg":"stream: closing","id":"fcsvdu41"}
+{"time":"2025-03-08T23:10:52.36128966+05:30","level":"INFO","msg":"handler: closed","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:10:52.361298567+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:10:52.36135379+05:30","level":"INFO","msg":"sender: closed","stream_id":"fcsvdu41"}
+{"time":"2025-03-08T23:10:52.361359516+05:30","level":"INFO","msg":"stream: closed","id":"fcsvdu41"}

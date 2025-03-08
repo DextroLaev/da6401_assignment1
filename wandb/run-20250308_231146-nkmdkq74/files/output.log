@@ -1,0 +1,2 @@
+Epoch 1/10 - 54000/54000 - Loss: 1.149338 Train-Acc: 0.773796 val-loss:1.367249 val-Acc: 0.766667 
+Epoch 1/10 - 31000/54000 - Loss: 0.740058 Train-Acc: 0.754161 val-loss:0.641427 val-Acc: 0.809333 

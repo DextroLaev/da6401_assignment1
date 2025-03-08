@@ -1,0 +1,18 @@
+{"time":"2025-03-08T20:11:52.281496038+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_201152-pwxmi2xo/logs/debug-core.log"}
+{"time":"2025-03-08T20:11:53.804575604+05:30","level":"INFO","msg":"created new stream","id":"pwxmi2xo"}
+{"time":"2025-03-08T20:11:53.804684255+05:30","level":"INFO","msg":"stream: started","id":"pwxmi2xo"}
+{"time":"2025-03-08T20:11:53.804880826+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:11:53.805204347+05:30","level":"INFO","msg":"handler: started","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:11:53.805405147+05:30","level":"INFO","msg":"sender: started","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:11:54.252961138+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T20:11:54.365496533+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T20:12:09.630395883+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T20:12:09.630446667+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T20:12:09.630966788+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T20:12:10.624616111+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.624613282},{"desc":"uploading config.yaml","runtime_seconds":0.336850357,"progress":"581B/581B"}],"total_operations":2}}
+{"time":"2025-03-08T20:12:11.311284801+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T20:12:11.647291516+05:30","level":"INFO","msg":"stream: closing","id":"pwxmi2xo"}
+{"time":"2025-03-08T20:12:11.64737134+05:30","level":"INFO","msg":"handler: closed","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:12:11.647414116+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:12:11.647583498+05:30","level":"INFO","msg":"sender: closed","stream_id":"pwxmi2xo"}
+{"time":"2025-03-08T20:12:11.647756125+05:30","level":"INFO","msg":"stream: closed","id":"pwxmi2xo"}

@@ -1,0 +1,18 @@
+{"time":"2025-03-08T19:58:45.069365009+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250308_195845-874eon54/logs/debug-core.log"}
+{"time":"2025-03-08T19:58:45.171825456+05:30","level":"INFO","msg":"created new stream","id":"874eon54"}
+{"time":"2025-03-08T19:58:45.171860111+05:30","level":"INFO","msg":"stream: started","id":"874eon54"}
+{"time":"2025-03-08T19:58:45.171942618+05:30","level":"INFO","msg":"handler: started","stream_id":"874eon54"}
+{"time":"2025-03-08T19:58:45.171970623+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"874eon54"}
+{"time":"2025-03-08T19:58:45.171975963+05:30","level":"INFO","msg":"sender: started","stream_id":"874eon54"}
+{"time":"2025-03-08T19:58:45.599993742+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T19:59:00.624390066+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-08T19:59:05.688142346+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-08T19:59:05.728801539+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T19:59:05.729187213+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T19:59:06.692328584+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T19:59:06.694404709+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.001990952}],"total_operations":1}}
+{"time":"2025-03-08T19:59:07.048332517+05:30","level":"INFO","msg":"stream: closing","id":"874eon54"}
+{"time":"2025-03-08T19:59:07.048380667+05:30","level":"INFO","msg":"handler: closed","stream_id":"874eon54"}
+{"time":"2025-03-08T19:59:07.048425991+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"874eon54"}
+{"time":"2025-03-08T19:59:07.048508916+05:30","level":"INFO","msg":"sender: closed","stream_id":"874eon54"}
+{"time":"2025-03-08T19:59:07.048568471+05:30","level":"INFO","msg":"stream: closed","id":"874eon54"}
