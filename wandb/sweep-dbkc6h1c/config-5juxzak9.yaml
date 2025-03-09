@@ -1,0 +1,24 @@
+wandb_version: 1
+
+activation_function:
+  value: tanh
+architecture:
+  value:
+    hidden_layer_size:
+    - 32
+    - 64
+    - 128
+    - 10
+    num_of_hidden_layers: 4
+batch_size:
+  value: 32
+epochs:
+  value: 10
+learning_rate:
+  value: 0.0001
+optimizer:
+  value: RMSprop
+weight_decay:
+  value: 0
+weight_initialization:
+  value: random

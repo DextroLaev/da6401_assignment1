@@ -1,0 +1,15 @@
+{"time":"2025-03-09T12:15:19.670322762+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_121519-j2plaayn/logs/debug-core.log"}
+{"time":"2025-03-09T12:15:21.18574074+05:30","level":"INFO","msg":"created new stream","id":"j2plaayn"}
+{"time":"2025-03-09T12:15:21.185840691+05:30","level":"INFO","msg":"stream: started","id":"j2plaayn"}
+{"time":"2025-03-09T12:15:21.186110603+05:30","level":"INFO","msg":"handler: started","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:15:21.186133458+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:15:21.186510295+05:30","level":"INFO","msg":"sender: started","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:15:21.613612228+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T12:22:15.95927034+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T12:22:15.95962349+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T12:22:16.459871147+05:30","level":"INFO","msg":"stream: closing","id":"j2plaayn"}
+{"time":"2025-03-09T12:22:17.373583177+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T12:22:17.711486167+05:30","level":"INFO","msg":"handler: closed","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:22:17.711582103+05:30","level":"INFO","msg":"sender: closed","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:22:17.711562085+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j2plaayn"}
+{"time":"2025-03-09T12:22:17.711699993+05:30","level":"INFO","msg":"stream: closed","id":"j2plaayn"}

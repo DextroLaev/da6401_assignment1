@@ -1,0 +1,5 @@
+Epoch 1/5 - Batch 1680/1687 - Loss: 2.302574 Train-Acc: 0.174721 val-loss:2.302571 val-Acc: 0.207000 
+Epoch 2/5 - Batch 1680/1687 - Loss: 2.302566 Train-Acc: 0.223717 val-loss:2.302563 val-Acc: 0.243333 
+Epoch 3/5 - Batch 1680/1687 - Loss: 2.302558 Train-Acc: 0.238597 val-loss:2.302555 val-Acc: 0.241500 
+Epoch 4/5 - Batch 1680/1687 - Loss: 2.302548 Train-Acc: 0.240551 val-loss:2.302543 val-Acc: 0.236667 
+Epoch 5/5 - Batch 1680/1687 - Loss: 2.302535 Train-Acc: 0.240978 val-loss:2.302529 val-Acc: 0.235333 

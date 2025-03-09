@@ -1,0 +1,16 @@
+{"time":"2025-03-09T11:31:45.75977469+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_113145-zf921ugn/logs/debug-core.log"}
+{"time":"2025-03-09T11:31:45.864285374+05:30","level":"INFO","msg":"created new stream","id":"zf921ugn"}
+{"time":"2025-03-09T11:31:45.864400658+05:30","level":"INFO","msg":"stream: started","id":"zf921ugn"}
+{"time":"2025-03-09T11:31:45.864557774+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:31:45.864646733+05:30","level":"INFO","msg":"sender: started","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:31:45.864967353+05:30","level":"INFO","msg":"handler: started","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:31:46.251355841+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T11:37:16.641832974+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T11:37:16.642430032+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T11:37:17.644044936+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.356389051,"progress":"221B/221B"},{"desc":"uploading output.log","runtime_seconds":0.356360206,"progress":"510B/510B"},{"desc":"uploading config.yaml","runtime_seconds":0.079947818,"progress":"872B/872B"}],"total_operations":3}}
+{"time":"2025-03-09T11:37:17.93118689+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T11:37:18.312327491+05:30","level":"INFO","msg":"stream: closing","id":"zf921ugn"}
+{"time":"2025-03-09T11:37:18.31235218+05:30","level":"INFO","msg":"handler: closed","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:37:18.312363563+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:37:18.312397315+05:30","level":"INFO","msg":"sender: closed","stream_id":"zf921ugn"}
+{"time":"2025-03-09T11:37:18.312448623+05:30","level":"INFO","msg":"stream: closed","id":"zf921ugn"}

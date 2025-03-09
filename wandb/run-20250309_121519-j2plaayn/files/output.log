@@ -1,0 +1,4 @@
+Epoch 1/10 - Batch 1680/1687 - Loss: 1.237886 Train-Acc: 0.400651 val-loss:0.783547 val-Acc: 0.677167 
+Epoch 2/10 - Batch 1680/1687 - Loss: 0.380841 Train-Acc: 0.790830 val-loss:0.199937 val-Acc: 0.834667 
+Epoch 3/10 - Batch 1640/1687 - Loss: 0.108061 Train-Acc: 0.855412 val-loss:0.071153 val-Acc: 0.865000 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

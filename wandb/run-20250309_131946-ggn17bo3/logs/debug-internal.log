@@ -1,0 +1,9 @@
+{"time":"2025-03-09T13:19:46.322394389+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_131946-ggn17bo3/logs/debug-core.log"}
+{"time":"2025-03-09T13:19:47.84266196+05:30","level":"INFO","msg":"created new stream","id":"ggn17bo3"}
+{"time":"2025-03-09T13:19:47.842949495+05:30","level":"INFO","msg":"stream: started","id":"ggn17bo3"}
+{"time":"2025-03-09T13:19:47.843174025+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ggn17bo3"}
+{"time":"2025-03-09T13:19:47.84316138+05:30","level":"INFO","msg":"handler: started","stream_id":"ggn17bo3"}
+{"time":"2025-03-09T13:19:47.843412682+05:30","level":"INFO","msg":"sender: started","stream_id":"ggn17bo3"}
+{"time":"2025-03-09T13:19:48.254175216+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T13:20:44.43949493+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T13:20:44.439949272+05:30","level":"INFO","msg":"Stopped system monitor"}

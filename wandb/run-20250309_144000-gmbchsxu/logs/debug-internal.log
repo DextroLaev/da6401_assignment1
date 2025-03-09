@@ -1,0 +1,16 @@
+{"time":"2025-03-09T14:40:00.621359104+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_144000-gmbchsxu/logs/debug-core.log"}
+{"time":"2025-03-09T14:40:00.723943278+05:30","level":"INFO","msg":"created new stream","id":"gmbchsxu"}
+{"time":"2025-03-09T14:40:00.723979126+05:30","level":"INFO","msg":"stream: started","id":"gmbchsxu"}
+{"time":"2025-03-09T14:40:00.723997761+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:40:00.724042157+05:30","level":"INFO","msg":"sender: started","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:40:00.724082042+05:30","level":"INFO","msg":"handler: started","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:40:01.189459836+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T14:42:17.012427653+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T14:42:17.01275834+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T14:42:18.019733061+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.380182245,"progress":"562B/562B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.380135615,"progress":"231B/231B"},{"desc":"uploading config.yaml","runtime_seconds":0.098152505,"progress":"987B/987B"}],"total_operations":3}}
+{"time":"2025-03-09T14:42:18.36611974+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T14:42:18.956935939+05:30","level":"INFO","msg":"stream: closing","id":"gmbchsxu"}
+{"time":"2025-03-09T14:42:18.956983612+05:30","level":"INFO","msg":"handler: closed","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:42:18.957011456+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:42:18.957072712+05:30","level":"INFO","msg":"sender: closed","stream_id":"gmbchsxu"}
+{"time":"2025-03-09T14:42:18.957260087+05:30","level":"INFO","msg":"stream: closed","id":"gmbchsxu"}

@@ -1,0 +1,28 @@
+2025-03-09 12:23:01,830 INFO    Thread-4 (_run_job):73399 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 12:23:01,831 INFO    Thread-4 (_run_job):73399 [wandb_setup.py:_flush():67] Configure stats pid to 73399
+2025-03-09 12:23:01,831 INFO    Thread-4 (_run_job):73399 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 12:23:01,831 INFO    Thread-4 (_run_job):73399 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 12:23:01,831 INFO    Thread-4 (_run_job):73399 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 12:23:01,831 INFO    Thread-4 (_run_job):73399 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_122301-5sqaysiu/logs/debug.log
+2025-03-09 12:23:01,832 INFO    Thread-4 (_run_job):73399 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_122301-5sqaysiu/logs/debug-internal.log
+2025-03-09 12:23:01,832 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():761] calling init triggers
+2025-03-09 12:23:01,832 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation_function': 'tanh', 'architecture': {'hidden_layer_size': [512, 256, 128, 64, 10], 'num_of_hidden_layers': 5}, 'batch_size': 32, 'epochs': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 12:23:01,832 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():784] starting backend
+2025-03-09 12:23:01,832 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 12:23:01,838 INFO    Thread-4 (_run_job):73399 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 12:23:01,838 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():798] backend started and connected
+2025-03-09 12:23:01,840 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_config_callback():1261] config_cb None None {'activation_function': 'tanh', 'architecture': {'hidden_layer_size': [512, 256, 128, 64, 10], 'num_of_hidden_layers': 5}, 'batch_size': 32, 'epochs': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_initialization': 'random'}
+2025-03-09 12:23:01,842 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():891] updated telemetry
+2025-03-09 12:23:01,846 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 12:23:03,925 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 12:23:04,032 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 12:23:04,032 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 12:23:04,032 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 12:23:04,032 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 12:23:04,033 INFO    Thread-4 (_run_job):73399 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 12:23:46,376 INFO    MainThread:73399 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/5sqaysiu
+2025-03-09 12:23:46,376 INFO    MainThread:73399 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 12:23:46,376 INFO    MainThread:73399 [wandb_run.py:_restore():2322] restore
+2025-03-09 12:23:46,376 INFO    MainThread:73399 [wandb_run.py:_restore():2328] restore done
+2025-03-09 12:23:47,080 INFO    Thread-4 (_run_job):73399 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/5sqaysiu

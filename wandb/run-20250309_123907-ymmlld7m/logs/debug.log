@@ -1,0 +1,36 @@
+2025-03-09 12:39:07,697 INFO    Thread-7 (_run_job):74735 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_setup.py:_flush():67] Configure stats pid to 74735
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_123907-ymmlld7m/logs/debug.log
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_123907-ymmlld7m/logs/debug-internal.log
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():761] calling init triggers
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation_function': 'sigmoid', 'architecture': {'hidden_layer_size': [256, 128, 64, 10], 'num_of_hidden_layers': 4}, 'batch_size': 16, 'epochs': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0.0005, 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():784] starting backend
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():798] backend started and connected
+2025-03-09 12:39:07,698 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_config_callback():1261] config_cb None None {'activation_function': 'sigmoid', 'architecture': {'hidden_layer_size': [256, 128, 64, 10], 'num_of_hidden_layers': 4}, 'batch_size': 16, 'epochs': 5, 'learning_rate': 0.0001, 'optimizer': 'nadam', 'weight_decay': 0.0005, 'weight_initialization': 'xavier'}
+2025-03-09 12:39:07,699 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():891] updated telemetry
+2025-03-09 12:39:07,703 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 12:39:08,204 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 12:39:08,263 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 12:39:08,263 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 12:39:08,263 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 12:39:08,263 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_config.py:__setitem__():154] config set num_hidden_layers = 4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7cd52841d220>>
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_config_callback():1261] config_cb num_hidden_layers 4 None
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_config.py:__setitem__():154] config set layer_1_size = 256 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7cd52841d220>>
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_config_callback():1261] config_cb layer_1_size 256 None
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_config.py:__setitem__():154] config set layer_2_size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7cd52841d220>>
+2025-03-09 12:39:08,264 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_config_callback():1261] config_cb layer_2_size 128 None
+2025-03-09 13:09:22,335 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/ymmlld7m
+2025-03-09 13:09:22,335 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 13:09:22,335 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_restore():2322] restore
+2025-03-09 13:09:22,335 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_restore():2328] restore done
+2025-03-09 13:09:23,968 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 13:09:23,970 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 13:09:23,971 INFO    Thread-7 (_run_job):74735 [wandb_run.py:_footer_sync_info():3917] logging synced files

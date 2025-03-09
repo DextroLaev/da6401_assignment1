@@ -1,0 +1,11 @@
+{"time":"2025-03-09T13:17:52.201875458+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_131752-mh1skjk0/logs/debug-core.log"}
+{"time":"2025-03-09T13:17:53.719101727+05:30","level":"INFO","msg":"created new stream","id":"mh1skjk0"}
+{"time":"2025-03-09T13:17:53.719193368+05:30","level":"INFO","msg":"stream: started","id":"mh1skjk0"}
+{"time":"2025-03-09T13:17:53.719403476+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mh1skjk0"}
+{"time":"2025-03-09T13:17:53.719731993+05:30","level":"INFO","msg":"sender: started","stream_id":"mh1skjk0"}
+{"time":"2025-03-09T13:17:53.719710401+05:30","level":"INFO","msg":"handler: started","stream_id":"mh1skjk0"}
+{"time":"2025-03-09T13:17:54.176650879+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T13:18:12.17587435+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T13:18:12.177472137+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T13:18:12.51490843+05:30","level":"INFO","msg":"stream: closing","id":"mh1skjk0"}
+{"time":"2025-03-09T13:18:12.514936776+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}

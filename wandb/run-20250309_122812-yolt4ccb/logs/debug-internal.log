@@ -1,0 +1,15 @@
+{"time":"2025-03-09T12:28:12.679096582+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_122812-yolt4ccb/logs/debug-core.log"}
+{"time":"2025-03-09T12:28:14.193424242+05:30","level":"INFO","msg":"created new stream","id":"yolt4ccb"}
+{"time":"2025-03-09T12:28:14.193568827+05:30","level":"INFO","msg":"stream: started","id":"yolt4ccb"}
+{"time":"2025-03-09T12:28:14.193672382+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:28:14.193805087+05:30","level":"INFO","msg":"sender: started","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:28:14.193824247+05:30","level":"INFO","msg":"handler: started","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:28:14.629362156+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T12:31:36.868406917+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T12:31:36.868773036+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T12:31:37.064254821+05:30","level":"INFO","msg":"stream: closing","id":"yolt4ccb"}
+{"time":"2025-03-09T12:31:38.151561466+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T12:31:38.506931482+05:30","level":"INFO","msg":"handler: closed","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:31:38.507031786+05:30","level":"INFO","msg":"sender: closed","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:31:38.507033902+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yolt4ccb"}
+{"time":"2025-03-09T12:31:38.507260883+05:30","level":"INFO","msg":"stream: closed","id":"yolt4ccb"}

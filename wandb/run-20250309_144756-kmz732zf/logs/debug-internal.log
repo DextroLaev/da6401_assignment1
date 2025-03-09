@@ -1,0 +1,12 @@
+{"time":"2025-03-09T14:47:56.768609295+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_144756-kmz732zf/logs/debug-core.log"}
+{"time":"2025-03-09T14:47:56.871168062+05:30","level":"INFO","msg":"created new stream","id":"kmz732zf"}
+{"time":"2025-03-09T14:47:56.871189279+05:30","level":"INFO","msg":"stream: started","id":"kmz732zf"}
+{"time":"2025-03-09T14:47:56.871201882+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kmz732zf"}
+{"time":"2025-03-09T14:47:56.871272298+05:30","level":"INFO","msg":"sender: started","stream_id":"kmz732zf"}
+{"time":"2025-03-09T14:47:56.871274042+05:30","level":"INFO","msg":"handler: started","stream_id":"kmz732zf"}
+{"time":"2025-03-09T14:47:57.264887355+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T16:11:19.618624701+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/cs24s031-indian-institute-of-technology-madras/dl-assignment1/kmz732zf/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-03-09T16:11:48.917028829+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-09T16:12:21.384036557+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-09T16:12:56.170641428+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-09T16:13:35.911425332+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

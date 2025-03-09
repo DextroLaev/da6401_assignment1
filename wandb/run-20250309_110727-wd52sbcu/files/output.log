@@ -15,4 +15,4 @@ Epoch 8/10 - Batch 3370/3375 - Loss: nan Train-Acc: 0.872867 val-loss:0.437168 v
 /tmp/ipykernel_43799/1111212547.py:140: RuntimeWarning: invalid value encountered in multiply
   train_loss += -np.sum(batch_label[i] * np.log(y_hat_i[0]))
 Epoch 9/10 - Batch 3370/3375 - Loss: nan Train-Acc: 0.880378 val-loss:0.395745 val-Acc: 0.864667 4500 
-Epoch 10/10 - Batch 150/3375 - Loss: 0.342734 Train-Acc: 0.880000 val-loss:0.375252 val-Acc: 0.872833 
+Epoch 10/10 - Batch 3370/3375 - Loss: nan Train-Acc: 0.879618 val-loss:nan val-Acc: 0.870833 8667 4167 

@@ -1,0 +1,4 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_4_bs_32_ac_sigmoid
+Epoch 1/10 - Batch 680/1687 - Loss: 2.303388 Train-Acc: 0.095312 val-loss:2.302190 val-Acc: 0.102833 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

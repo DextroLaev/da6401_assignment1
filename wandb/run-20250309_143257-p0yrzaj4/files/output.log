@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_4_bs_16_ac_sigmoid
+Epoch 1/5 - Batch 3370/3375 - Loss: 0.792878 Train-Acc: 0.689911 val-loss:0.496528 val-Acc: 0.822167 
+Epoch 2/5 - Batch 3370/3375 - Loss: 0.440338 Train-Acc: 0.834310 val-loss:0.410600 val-Acc: 0.839833 
+Epoch 3/5 - Batch 3370/3375 - Loss: 0.361019 Train-Acc: 0.851521 val-loss:0.358092 val-Acc: 0.848000 
+Epoch 4/5 - Batch 3370/3375 - Loss: 0.303406 Train-Acc: 0.860145 val-loss:0.307873 val-Acc: 0.854500 
+Epoch 5/5 - Batch 3370/3375 - Loss: 0.251772 Train-Acc: 0.866135 val-loss:0.258174 val-Acc: 0.862333 

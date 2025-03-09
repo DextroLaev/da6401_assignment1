@@ -1,0 +1,7 @@
+Starting training with run name: hl_3_bs_16_ac_tanh
+Epoch 1/10 - Batch 3370/3375 - Loss: 10.659859 Train-Acc: 0.817915 val-loss:12.276200 val-Acc: 0.856667 
+Epoch 2/10 - Batch 3370/3375 - Loss: 17.770030 Train-Acc: 0.856528 val-loss:19.500139 val-Acc: 0.871000 
+Epoch 3/10 - Batch 3370/3375 - Loss: 24.487961 Train-Acc: 0.869381 val-loss:23.577197 val-Acc: 0.873667 
+Epoch 4/10 - Batch 3370/3375 - Loss: 29.314692 Train-Acc: 0.876892 val-loss:28.797007 val-Acc: 0.876500 
+Epoch 5/10 - Batch 1860/3375 - Loss: 30.826470 Train-Acc: 0.880108 val-loss:29.162113 val-Acc: 0.873333 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
