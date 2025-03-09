@@ -1,0 +1,2 @@
+Epoch 1/10 - Batch 1680/1687 - Loss: 0.543012 Train-Acc: 0.805543 val-loss:0.434986 val-Acc: 0.836667 
+Epoch 2/10 - Batch 290/1687 - Loss: 0.443915 Train-Acc: 0.839440 val-loss:0.450166 val-Acc: 0.839667 

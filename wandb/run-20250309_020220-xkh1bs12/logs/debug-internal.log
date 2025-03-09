@@ -1,0 +1,18 @@
+{"time":"2025-03-09T02:02:20.722300639+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_020220-xkh1bs12/logs/debug-core.log"}
+{"time":"2025-03-09T02:02:22.238287309+05:30","level":"INFO","msg":"created new stream","id":"xkh1bs12"}
+{"time":"2025-03-09T02:02:22.238409231+05:30","level":"INFO","msg":"stream: started","id":"xkh1bs12"}
+{"time":"2025-03-09T02:02:22.238569281+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:02:22.238712156+05:30","level":"INFO","msg":"sender: started","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:02:22.238719169+05:30","level":"INFO","msg":"handler: started","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:02:22.696929029+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T02:09:04.425147773+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-09T02:09:17.844461156+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-09T02:09:17.886283682+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T02:09:17.886710263+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T02:09:18.850018912+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.372625013,"progress":"1.0KB/1.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.372618795,"progress":"226B/226B"},{"desc":"uploading config.yaml","runtime_seconds":0.083492808,"progress":"581B/581B"}],"total_operations":3}}
+{"time":"2025-03-09T02:09:20.145687457+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T02:09:20.525996105+05:30","level":"INFO","msg":"stream: closing","id":"xkh1bs12"}
+{"time":"2025-03-09T02:09:20.526054446+05:30","level":"INFO","msg":"handler: closed","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:09:20.526078505+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:09:20.526185236+05:30","level":"INFO","msg":"sender: closed","stream_id":"xkh1bs12"}
+{"time":"2025-03-09T02:09:20.526298126+05:30","level":"INFO","msg":"stream: closed","id":"xkh1bs12"}

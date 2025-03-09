@@ -1,0 +1,16 @@
+{"time":"2025-03-09T05:48:34.138739002+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_054834-3d352nx9/logs/debug-core.log"}
+{"time":"2025-03-09T05:48:35.655624521+05:30","level":"INFO","msg":"created new stream","id":"3d352nx9"}
+{"time":"2025-03-09T05:48:35.655776345+05:30","level":"INFO","msg":"stream: started","id":"3d352nx9"}
+{"time":"2025-03-09T05:48:35.655995422+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:35.656128108+05:30","level":"INFO","msg":"sender: started","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:35.656452961+05:30","level":"INFO","msg":"handler: started","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:36.068480188+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T05:48:36.183856187+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T05:48:36.184887369+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T05:48:37.14705194+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.702644035,"progress":"2.6KB/2.6KB"},{"desc":"uploading output.log","runtime_seconds":0.091225192},{"desc":"uploading wandb-summary.json","runtime_seconds":0.091156603,"progress":"24B/24B"}],"total_operations":3}}
+{"time":"2025-03-09T05:48:38.37025714+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T05:48:38.696308707+05:30","level":"INFO","msg":"stream: closing","id":"3d352nx9"}
+{"time":"2025-03-09T05:48:38.696335274+05:30","level":"INFO","msg":"handler: closed","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:38.696348338+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:38.696412349+05:30","level":"INFO","msg":"sender: closed","stream_id":"3d352nx9"}
+{"time":"2025-03-09T05:48:38.696490181+05:30","level":"INFO","msg":"stream: closed","id":"3d352nx9"}

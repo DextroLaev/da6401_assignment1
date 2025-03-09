@@ -1,0 +1,14 @@
+Epoch 1/10 - Batch 1680/1687 - Loss: 0.541494 Train-Acc: 0.806045 val-loss:0.448334 val-Acc: 0.841500 
+Epoch 2/10 - Batch 1680/1687 - Loss: 0.434099 Train-Acc: 0.846763 val-loss:0.449959 val-Acc: 0.844167 
+Epoch 3/10 - Batch 1680/1687 - Loss: 0.415157 Train-Acc: 0.853013 val-loss:0.398900 val-Acc: 0.858500 
+Epoch 4/10 - Batch 1680/1687 - Loss: 0.401847 Train-Acc: 0.856771 val-loss:0.400388 val-Acc: 0.856333 
+Epoch 5/10 - Batch 1680/1687 - Loss: nan Train-Acc: 0.860286 val-loss:0.419271 val-Acc: 0.850500 833 
+/tmp/ipykernel_4231/2173182615.py:61: RuntimeWarning: divide by zero encountered in log
+  error += -np.sum(val_label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/2173182615.py:61: RuntimeWarning: invalid value encountered in multiply
+  error += -np.sum(val_label[d] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/2173182615.py:134: RuntimeWarning: divide by zero encountered in log
+  train_loss += -np.sum(batch_label[i] * np.log(y_hat_i[0]))
+/tmp/ipykernel_4231/2173182615.py:134: RuntimeWarning: invalid value encountered in multiply
+  train_loss += -np.sum(batch_label[i] * np.log(y_hat_i[0]))
+Epoch 6/10 - Batch 360/1687 - Loss: nan Train-Acc: 0.856597 val-loss:0.449972 val-Acc: 0.841333 333 

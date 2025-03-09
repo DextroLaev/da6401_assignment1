@@ -1,0 +1,9 @@
+Epoch 1/10 - Batch 840/843 - Loss: 0.958152 Train-Acc: 0.620964 val-loss:0.707084 val-Acc: 0.741333 
+Epoch 2/10 - Batch 840/843 - Loss: 0.646979 Train-Acc: 0.764230 val-loss:0.588375 val-Acc: 0.789333 
+Epoch 3/10 - Batch 840/843 - Loss: 0.561592 Train-Acc: 0.801042 val-loss:0.535338 val-Acc: 0.812667 
+Epoch 4/10 - Batch 840/843 - Loss: 0.511279 Train-Acc: 0.821187 val-loss:0.500748 val-Acc: 0.825167 
+Epoch 5/10 - Batch 840/843 - Loss: 0.473893 Train-Acc: 0.833371 val-loss:0.468359 val-Acc: 0.834667 
+Epoch 6/10 - Batch 840/843 - Loss: 0.444329 Train-Acc: 0.843080 val-loss:0.441386 val-Acc: 0.845667 
+Epoch 7/10 - Batch 840/843 - Loss: 0.420781 Train-Acc: 0.850465 val-loss:0.421689 val-Acc: 0.852167 
+Epoch 8/10 - Batch 80/843 - Loss: 0.406977 Train-Acc: 0.861523 val-loss:0.434776 val-Acc: 0.847833 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

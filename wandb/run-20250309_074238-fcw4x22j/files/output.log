@@ -1,0 +1,5 @@
+Epoch 1/5 - Batch 840/843 - Loss: 1.395358 Train-Acc: 0.449461 val-loss:1.001212 val-Acc: 0.607167 
+Epoch 2/5 - Batch 840/843 - Loss: 0.926205 Train-Acc: 0.630599 val-loss:0.862715 val-Acc: 0.658333 
+Epoch 3/5 - Batch 840/843 - Loss: 0.847978 Train-Acc: 0.662909 val-loss:0.821888 val-Acc: 0.683500 
+Epoch 4/5 - Batch 840/843 - Loss: 0.808338 Train-Acc: 0.688969 val-loss:0.775187 val-Acc: 0.708500 
+Epoch 5/5 - Batch 840/843 - Loss: 0.752383 Train-Acc: 0.724442 val-loss:0.718335 val-Acc: 0.742167 

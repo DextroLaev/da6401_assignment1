@@ -1,0 +1,7 @@
+{"time":"2025-03-09T11:07:27.693769478+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_110727-wd52sbcu/logs/debug-core.log"}
+{"time":"2025-03-09T11:07:27.798858421+05:30","level":"INFO","msg":"created new stream","id":"wd52sbcu"}
+{"time":"2025-03-09T11:07:27.798941883+05:30","level":"INFO","msg":"stream: started","id":"wd52sbcu"}
+{"time":"2025-03-09T11:07:27.79914382+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wd52sbcu"}
+{"time":"2025-03-09T11:07:27.799279014+05:30","level":"INFO","msg":"sender: started","stream_id":"wd52sbcu"}
+{"time":"2025-03-09T11:07:27.799435491+05:30","level":"INFO","msg":"handler: started","stream_id":"wd52sbcu"}
+{"time":"2025-03-09T11:07:28.171214189+05:30","level":"INFO","msg":"Starting system monitor"}

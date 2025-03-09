@@ -1,0 +1,16 @@
+{"time":"2025-03-09T05:43:17.538173695+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_054317-60yunxsk/logs/debug-core.log"}
+{"time":"2025-03-09T05:43:17.644517542+05:30","level":"INFO","msg":"created new stream","id":"60yunxsk"}
+{"time":"2025-03-09T05:43:17.644538186+05:30","level":"INFO","msg":"stream: started","id":"60yunxsk"}
+{"time":"2025-03-09T05:43:17.644573766+05:30","level":"INFO","msg":"handler: started","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:17.644584712+05:30","level":"INFO","msg":"sender: started","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:17.644560091+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:17.962513153+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T05:43:18.076618552+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T05:43:18.077197716+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T05:43:19.040113605+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.704814755,"progress":"2.6KB/2.6KB"},{"desc":"uploading output.log","runtime_seconds":0.063890085},{"desc":"uploading wandb-summary.json","runtime_seconds":0.063883767,"progress":"24B/24B"}],"total_operations":3}}
+{"time":"2025-03-09T05:43:20.327816112+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T05:43:20.652415442+05:30","level":"INFO","msg":"stream: closing","id":"60yunxsk"}
+{"time":"2025-03-09T05:43:20.652442949+05:30","level":"INFO","msg":"handler: closed","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:20.652454905+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:20.65253043+05:30","level":"INFO","msg":"sender: closed","stream_id":"60yunxsk"}
+{"time":"2025-03-09T05:43:20.652581629+05:30","level":"INFO","msg":"stream: closed","id":"60yunxsk"}

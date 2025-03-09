@@ -1,0 +1,1309 @@
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060459-mcimbrbm/logs/debug.log
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060459-mcimbrbm/logs/debug-internal.log
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a29b3e0>
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'RMSprop'}
+config: {'_wandb': {}}
+2025-03-09 06:04:59,527 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:04:59,528 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:04:59,529 INFO    Thread-18 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:04:59,529 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:04:59,529 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'RMSprop'}
+2025-03-09 06:04:59,530 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:04:59,532 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:04:59,537 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:04:59,949 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:05:00,017 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:05:00,017 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:05:00,017 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:05:00,017 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:05:00,017 INFO    Thread-18 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:06:10,153 INFO    MainThread:43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:06:10,153 INFO    MainThread:43799 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/mcimbrbm
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:06:10,334 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:06:10,335 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:06:10,335 INFO    Thread-18 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:06:10,335 ERROR   Thread-18 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2361] Problem finishing run
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/2366844136.py", line 16, in train
+    nn.train(
+  File "/tmp/ipykernel_43799/3906281316.py", line 146, in train
+    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {batch + 1}/{num_batches} - Loss: {train_loss / ((batch+1)*batch_size):.6f} Train-Acc: {train_acc / ((batch+1)*batch_size):.6f} val-loss:{val_loss:.6f} val-Acc: {val_acc:.6f} ")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/console_capture.py", line 147, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2352, in _atexit_cleanup
+    self._on_finish()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2604, in _on_finish
+    with progress.progress_printer(
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/progress.py", line 92, in progress_printer
+    with printer.dynamic_text() as text_area:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 436, in dynamic_text
+    handle = self._ipython_display.display(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 285, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 73, in publish_display_data
+    display_pub.publish(
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2025-03-09 06:06:30,540 INFO    MainThread:43799 [pyagent.py:run():322] Starting sweep agent: entity=None, project=None, count=50
+2025-03-09 06:06:31,580 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060632-slyj8da9/logs/debug.log
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060632-slyj8da9/logs/debug-internal.log
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a0726f0>
+2025-03-09 06:06:32,338 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:06:32,339 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'xavier'}
+2025-03-09 06:06:32,340 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:06:32,340 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:06:32,343 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:06:32,788 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:06:32,860 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:06:32,860 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:06:32,860 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:06:32,860 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/slyj8da9
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:06:32,861 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:06:35,487 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:06:35,488 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:06:35,488 INFO    Thread-23 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:06:35,495 ERROR   MainThread:43799 [pyagent.py:_run_jobs_from_queue():234] Run slyj8da9 errored:
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/1025322279.py", line 10, in train
+    nn = Neural_net(
+         ^^^^^^^^^^^
+TypeError: Neural_net.__init__() got an unexpected keyword argument 'type_of_init'
+
+2025-03-09 06:06:37,488 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:06:38,264 INFO    Thread-26 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060638-ofz2ogio/logs/debug.log
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060638-ofz2ogio/logs/debug-internal.log
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007accd2b0>
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 32, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:06:38,265 INFO    Thread-26 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:06:38,266 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:06:38,266 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 32, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+2025-03-09 06:06:38,267 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:06:38,268 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:06:38,271 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:06:38,709 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:06:38,773 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/ofz2ogio
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:06:38,774 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:06:41,335 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:06:41,335 INFO    Thread-26 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:06:41,335 ERROR   Thread-26 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2361] Problem finishing run
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/1025322279.py", line 10, in train
+    nn = Neural_net(
+         ^^^^^^^^^^^
+TypeError: Neural_net.__init__() got an unexpected keyword argument 'type_of_init'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2352, in _atexit_cleanup
+    self._on_finish()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2604, in _on_finish
+    with progress.progress_printer(
+  File "/usr/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/progress.py", line 92, in progress_printer
+    with printer.dynamic_text() as text_area:
+  File "/usr/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 446, in dynamic_text
+    handle.update(self._ipython_display.HTML(""))
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 354, in update
+    update_display(obj, display_id=self.display_id, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 306, in update_display
+    display(obj, display_id=display_id, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 285, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 73, in publish_display_data
+    display_pub.publish(
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2025-03-09 06:06:49,215 INFO    MainThread:43799 [pyagent.py:run():322] Starting sweep agent: entity=None, project=None, count=50
+2025-03-09 06:06:50,343 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060651-iue9s0o1/logs/debug.log
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060651-iue9s0o1/logs/debug-internal.log
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a1d26f0>
+2025-03-09 06:06:51,124 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:06:51,125 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+2025-03-09 06:06:51,126 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:06:51,126 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:06:51,129 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:06:52,972 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:06:53,080 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:06:53,081 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:06:53,081 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:06:53,081 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:06:53,081 INFO    Thread-31 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:07:22,204 INFO    MainThread:43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:07:22,205 INFO    MainThread:43799 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/iue9s0o1
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:07:30,531 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:07:30,532 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:07:30,532 INFO    Thread-31 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:07:30,532 ERROR   Thread-31 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2361] Problem finishing run
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/1025322279.py", line 17, in train
+    nn.train(
+  File "/tmp/ipykernel_43799/1111212547.py", line 152, in train
+    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {batch + 1}/{num_batches} - Loss: {train_loss / ((batch+1)*batch_size):.6f} Train-Acc: {train_acc / ((batch+1)*batch_size):.6f} val-loss:{val_loss:.6f} val-Acc: {val_acc:.6f} ")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/console_capture.py", line 147, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2352, in _atexit_cleanup
+    self._on_finish()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2604, in _on_finish
+    with progress.progress_printer(
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/progress.py", line 92, in progress_printer
+    with printer.dynamic_text() as text_area:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 436, in dynamic_text
+    handle = self._ipython_display.display(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 285, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 73, in publish_display_data
+    display_pub.publish(
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2025-03-09 06:07:42,472 INFO    MainThread:43799 [pyagent.py:run():322] Starting sweep agent: entity=None, project=None, count=50
+2025-03-09 06:07:43,794 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060744-4zx6fu08/logs/debug.log
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060744-4zx6fu08/logs/debug-internal.log
+2025-03-09 06:07:44,586 INFO    Thread-36 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007aa59340>
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:07:44,587 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:07:44,588 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+2025-03-09 06:07:44,588 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:07:44,589 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:07:44,591 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:07:45,050 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:07:45,132 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:07:45,133 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:07:45,133 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:07:45,133 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:07:45,133 INFO    Thread-36 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/4zx6fu08
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:09:44,102 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:09:46,414 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:09:46,415 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:09:46,417 INFO    Thread-36 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:09:50,419 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060951-c748sqgr/logs/debug.log
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_060951-c748sqgr/logs/debug-internal.log
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a2b0e00>
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:09:51,216 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:09:51,217 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:09:51,217 INFO    Thread-39 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:09:51,217 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:09:51,217 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+2025-03-09 06:09:51,219 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:09:51,221 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:09:51,227 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:09:51,656 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:09:51,736 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:09:51,736 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:09:51,736 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:09:51,736 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:09:51,736 INFO    Thread-39 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:12:48,917 INFO    MainThread:43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:12:48,917 INFO    MainThread:43799 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/c748sqgr
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:12:50,541 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:12:50,542 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:12:50,542 INFO    Thread-39 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:12:50,542 ERROR   Thread-39 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2361] Problem finishing run
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/1025322279.py", line 17, in train
+    nn.train(
+  File "/tmp/ipykernel_43799/1111212547.py", line 152, in train
+    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {batch + 1}/{num_batches} - Loss: {train_loss / ((batch+1)*batch_size):.6f} Train-Acc: {train_acc / ((batch+1)*batch_size):.6f} val-loss:{val_loss:.6f} val-Acc: {val_acc:.6f} ")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/console_capture.py", line 147, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2352, in _atexit_cleanup
+    self._on_finish()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2604, in _on_finish
+    with progress.progress_printer(
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/progress.py", line 92, in progress_printer
+    with printer.dynamic_text() as text_area:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 436, in dynamic_text
+    handle = self._ipython_display.display(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 285, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 73, in publish_display_data
+    display_pub.publish(
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2025-03-09 06:13:25,493 INFO    MainThread:43799 [pyagent.py:run():322] Starting sweep agent: entity=None, project=None, count=50
+2025-03-09 06:13:27,025 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_061327-cl78mylf/logs/debug.log
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_061327-cl78mylf/logs/debug-internal.log
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a9ee150>
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:13:27,785 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:13:27,786 INFO    Thread-44 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:13:27,786 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:13:27,786 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+2025-03-09 06:13:27,787 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:13:27,787 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:13:27,790 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:13:29,614 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:13:29,715 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:13:29,716 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:13:29,716 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:13:29,716 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:13:29,716 INFO    Thread-44 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:14:40,129 INFO    MainThread:43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:14:40,130 INFO    MainThread:43799 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/cl78mylf
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:14:40,562 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:14:40,563 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:14:40,563 INFO    Thread-44 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:14:40,563 ERROR   Thread-44 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2361] Problem finishing run
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "/tmp/ipykernel_43799/1025322279.py", line 17, in train
+    nn.train(
+  File "/tmp/ipykernel_43799/1111212547.py", line 152, in train
+    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {batch + 1}/{num_batches} - Loss: {train_loss / ((batch+1)*batch_size):.6f} Train-Acc: {train_acc / ((batch+1)*batch_size):.6f} val-loss:{val_loss:.6f} val-Acc: {val_acc:.6f} ")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/console_capture.py", line 147, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2352, in _atexit_cleanup
+    self._on_finish()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2604, in _on_finish
+    with progress.progress_printer(
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/progress.py", line 92, in progress_printer
+    with printer.dynamic_text() as text_area:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/lib/printer.py", line 436, in dynamic_text
+    handle = self._ipython_display.display(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 285, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/IPython/core/display_functions.py", line 73, in publish_display_data
+    display_pub.publish(
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/zmq/sugar/socket.py", line 707, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_zmq.py", line 1092, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1134, in zmq.backend.cython._zmq.Socket.send
+  File "_zmq.py", line 1209, in zmq.backend.cython._zmq._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2025-03-09 06:14:45,302 INFO    MainThread:43799 [pyagent.py:run():322] Starting sweep agent: entity=None, project=None, count=50
+2025-03-09 06:14:46,798 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:14:47,578 INFO    Thread-49 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:14:47,578 INFO    Thread-49 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:14:47,578 INFO    Thread-49 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:14:47,578 INFO    Thread-49 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:14:47,579 INFO    Thread-49 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:14:47,579 INFO    Thread-49 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_061447-w7z0sn2s/logs/debug.log
+2025-03-09 06:14:47,579 INFO    Thread-49 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_061447-w7z0sn2s/logs/debug-internal.log
+2025-03-09 06:14:47,580 INFO    Thread-49 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007aa5a6f0>
+2025-03-09 06:14:47,580 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:14:47,580 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 06:14:47,580 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:14:47,581 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:14:47,582 INFO    Thread-49 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:14:47,583 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:14:47,584 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+2025-03-09 06:14:47,585 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:14:47,586 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:14:47,590 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:14:48,037 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:14:48,113 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:14:48,113 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:14:48,113 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:14:48,114 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:14:48,114 INFO    Thread-49 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/w7z0sn2s
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 06:20:04,414 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:20:04,415 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:20:06,741 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:20:06,742 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:20:06,744 INFO    Thread-49 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:20:08,743 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:20:09,529 INFO    Thread-52 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:20:09,530 INFO    Thread-52 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:20:09,530 INFO    Thread-52 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:20:09,531 INFO    Thread-52 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:20:09,531 INFO    Thread-52 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:20:09,531 INFO    Thread-52 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_062009-fwuurzg0/logs/debug.log
+2025-03-09 06:20:09,532 INFO    Thread-52 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_062009-fwuurzg0/logs/debug-internal.log
+2025-03-09 06:20:09,532 INFO    Thread-52 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007aa595b0>
+2025-03-09 06:20:09,532 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:20:09,532 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:20:09,533 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:20:09,533 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:20:09,535 INFO    Thread-52 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:20:09,535 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:20:09,536 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'random'}
+2025-03-09 06:20:09,537 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:20:09,539 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:20:09,542 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:20:09,988 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:20:10,059 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:20:10,060 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:20:10,060 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:20:10,060 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:20:10,060 INFO    Thread-52 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:22:09,691 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/fwuurzg0
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:22:09,692 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:22:11,901 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:22:11,912 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:22:11,917 INFO    Thread-52 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:22:14,904 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:22:15,697 INFO    Thread-55 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:22:15,697 INFO    Thread-55 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:22:15,697 INFO    Thread-55 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:22:15,697 INFO    Thread-55 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_062215-q5518iqs/logs/debug.log
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_062215-q5518iqs/logs/debug-internal.log
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a0ecdd0>
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:22:15,698 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:22:15,699 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+2025-03-09 06:22:15,699 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:22:15,700 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:22:15,703 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:22:16,328 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:22:16,395 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:22:16,395 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:22:16,395 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:22:16,395 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:22:16,395 INFO    Thread-55 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/q5518iqs
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:33:35,096 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:33:37,397 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:33:37,398 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:33:37,400 INFO    Thread-55 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:33:39,398 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:33:40,161 INFO    Thread-58 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:33:40,162 INFO    Thread-58 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:33:40,162 INFO    Thread-58 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:33:40,162 INFO    Thread-58 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:33:40,163 INFO    Thread-58 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:33:40,163 INFO    Thread-58 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_063340-clfg2spb/logs/debug.log
+2025-03-09 06:33:40,163 INFO    Thread-58 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_063340-clfg2spb/logs/debug-internal.log
+2025-03-09 06:33:40,164 INFO    Thread-58 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079ff52e0>
+2025-03-09 06:33:40,164 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:33:40,165 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 06:33:40,165 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:33:40,165 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:33:40,167 INFO    Thread-58 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:33:40,168 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:33:40,170 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'xavier'}
+2025-03-09 06:33:40,171 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:33:40,173 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:33:40,176 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:33:40,615 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:33:40,681 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:33:40,681 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:33:40,681 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:33:40,681 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:33:40,682 INFO    Thread-58 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/clfg2spb
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 06:37:36,748 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 06:37:38,504 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 06:37:38,505 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 06:37:38,506 INFO    Thread-58 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 06:37:41,508 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 06:37:42,276 INFO    Thread-61 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 06:37:42,276 INFO    Thread-61 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_063742-268fe59z/logs/debug.log
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_063742-268fe59z/logs/debug-internal.log
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a026f00>
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 06:37:42,277 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 06:37:42,278 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'random'}
+2025-03-09 06:37:42,278 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 06:37:42,279 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 06:37:42,282 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 06:37:42,704 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 06:37:42,772 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 06:37:42,772 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 06:37:42,772 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 06:37:42,772 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 06:37:42,773 INFO    Thread-61 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 07:39:13,751 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/268fe59z
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 07:39:13,752 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 07:39:16,309 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 07:39:16,310 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 07:39:16,312 INFO    Thread-61 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 07:39:17,309 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 07:39:18,075 INFO    Thread-64 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 07:39:18,075 INFO    Thread-64 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 07:39:18,075 INFO    Thread-64 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 07:39:18,075 INFO    Thread-64 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 07:39:18,076 INFO    Thread-64 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 07:39:18,076 INFO    Thread-64 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_073918-6uv8tl47/logs/debug.log
+2025-03-09 07:39:18,076 INFO    Thread-64 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_073918-6uv8tl47/logs/debug-internal.log
+2025-03-09 07:39:18,076 INFO    Thread-64 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007aa5a6f0>
+2025-03-09 07:39:18,077 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 07:39:18,077 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 32, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 07:39:18,077 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 07:39:18,077 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 07:39:18,079 INFO    Thread-64 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 07:39:18,079 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 07:39:18,080 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 32, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_initialization': 'xavier'}
+2025-03-09 07:39:18,081 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 07:39:18,082 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 07:39:18,086 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 07:39:18,552 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 07:39:18,627 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 07:39:18,628 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 07:39:18,628 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 07:39:18,628 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 07:39:18,628 INFO    Thread-64 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 07:42:31,569 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/6uv8tl47
+2025-03-09 07:42:31,569 INFO    Thread-64 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 07:42:31,570 INFO    Thread-64 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 07:42:31,570 INFO    Thread-64 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 07:42:31,570 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 07:42:31,570 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 07:42:31,570 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 07:42:33,960 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 07:42:33,962 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 07:42:33,967 INFO    Thread-64 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 07:42:37,965 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074238-fcw4x22j/logs/debug.log
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074238-fcw4x22j/logs/debug-internal.log
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a0252e0>
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 07:42:38,742 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 07:42:38,743 INFO    Thread-67 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 07:42:38,743 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 07:42:38,743 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'random'}
+2025-03-09 07:42:38,744 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 07:42:38,744 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 07:42:38,747 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 07:42:39,175 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 07:42:39,237 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 07:42:39,237 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 07:42:39,237 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 07:42:39,237 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 07:42:39,237 INFO    Thread-67 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/fcw4x22j
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 07:44:41,743 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 07:44:43,313 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 07:44:43,314 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 07:44:43,316 INFO    Thread-67 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 07:44:54,328 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074455-rb1ebw5f/logs/debug.log
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074455-rb1ebw5f/logs/debug-internal.log
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a29b980>
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 07:44:55,127 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 07:44:55,128 INFO    Thread-70 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 07:44:55,128 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 07:44:55,128 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+2025-03-09 07:44:55,128 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 07:44:55,129 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 07:44:55,132 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 07:44:56,992 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 07:44:57,112 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 07:44:57,112 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 07:44:57,113 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 07:44:57,113 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 07:44:57,113 INFO    Thread-70 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 07:47:01,535 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/rb1ebw5f
+2025-03-09 07:47:01,535 INFO    Thread-70 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 07:47:01,535 INFO    Thread-70 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 07:47:01,535 INFO    Thread-70 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 07:47:01,536 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 07:47:01,536 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 07:47:01,536 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 07:47:03,781 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 07:47:03,782 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 07:47:03,784 INFO    Thread-70 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 07:47:06,786 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 07:47:07,567 INFO    Thread-73 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074707-4zozsbap/logs/debug.log
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074707-4zozsbap/logs/debug-internal.log
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079ff4710>
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 07:47:07,568 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 07:47:07,569 INFO    Thread-73 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 07:47:07,569 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 07:47:07,570 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+2025-03-09 07:47:07,571 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 07:47:07,572 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 07:47:07,575 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 07:47:08,013 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 07:47:08,082 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 07:47:08,082 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 07:47:08,082 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 07:47:08,082 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 07:47:08,083 INFO    Thread-73 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/4zozsbap
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 07:49:06,019 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 07:49:08,274 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 07:49:08,276 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 07:49:08,279 INFO    Thread-73 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 07:49:13,279 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 07:49:14,078 INFO    Thread-76 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 07:49:14,078 INFO    Thread-76 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 07:49:14,078 INFO    Thread-76 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 07:49:14,078 INFO    Thread-76 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074914-i5qzbfq7/logs/debug.log
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_074914-i5qzbfq7/logs/debug-internal.log
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a01f650>
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 07:49:14,079 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 07:49:14,080 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+2025-03-09 07:49:14,080 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 07:49:14,082 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 07:49:14,084 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 07:49:14,524 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 07:49:14,594 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 07:49:14,594 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 07:49:14,594 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 07:49:14,594 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 07:49:14,594 INFO    Thread-76 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 08:55:24,257 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/i5qzbfq7
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 08:55:24,258 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 08:55:25,819 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 08:55:25,820 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 08:55:25,822 INFO    Thread-76 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 08:55:30,825 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_085531-r05rkgm4/logs/debug.log
+2025-03-09 08:55:31,599 INFO    Thread-79 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_085531-r05rkgm4/logs/debug-internal.log
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7700eb9052e0>
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 08:55:31,600 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0006, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'xavier'}
+2025-03-09 08:55:31,601 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 08:55:31,602 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 08:55:31,605 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 08:55:32,045 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 08:55:32,112 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 08:55:32,112 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 08:55:32,112 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 08:55:32,112 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 08:55:32,112 INFO    Thread-79 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 09:02:11,975 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/r05rkgm4
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 09:02:11,976 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 09:02:13,576 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 09:02:13,578 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 09:02:13,582 INFO    Thread-79 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 09:02:15,577 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090217-6ib3yxmj/logs/debug.log
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090217-6ib3yxmj/logs/debug-internal.log
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079ffb620>
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 09:02:17,789 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 09:02:17,790 INFO    Thread-82 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 09:02:17,790 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 09:02:17,790 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'random'}
+2025-03-09 09:02:17,791 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 09:02:17,792 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 09:02:17,794 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 09:02:18,238 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 09:02:18,312 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 09:02:18,312 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 09:02:18,312 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 09:02:18,313 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 09:02:18,313 INFO    Thread-82 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/6ib3yxmj
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 09:04:23,691 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 09:04:25,366 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 09:04:25,367 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 09:04:25,368 INFO    Thread-82 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 09:04:27,368 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 09:04:28,138 INFO    Thread-85 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 09:04:28,139 INFO    Thread-85 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 09:04:28,139 INFO    Thread-85 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 09:04:28,140 INFO    Thread-85 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 09:04:28,140 INFO    Thread-85 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 09:04:28,140 INFO    Thread-85 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090428-5fnxajw3/logs/debug.log
+2025-03-09 09:04:28,141 INFO    Thread-85 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090428-5fnxajw3/logs/debug-internal.log
+2025-03-09 09:04:28,141 INFO    Thread-85 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a2b33e0>
+2025-03-09 09:04:28,141 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 09:04:28,141 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 09:04:28,142 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 09:04:28,142 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 09:04:28,144 INFO    Thread-85 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 09:04:28,144 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 09:04:28,145 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+2025-03-09 09:04:28,147 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 09:04:28,149 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 09:04:28,153 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 09:04:28,599 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 09:04:28,670 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 09:04:28,670 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 09:04:28,670 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 09:04:28,670 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 09:04:28,671 INFO    Thread-85 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/5fnxajw3
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 09:06:30,025 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 09:06:31,648 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 09:06:31,650 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 09:06:31,654 INFO    Thread-85 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 09:06:33,650 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090634-kzfu7jgp/logs/debug.log
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_090634-kzfu7jgp/logs/debug-internal.log
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079ffb3e0>
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 09:06:34,432 INFO    Thread-88 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 09:06:34,433 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 09:06:34,433 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+2025-03-09 09:06:34,433 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 09:06:34,434 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 09:06:34,437 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 09:06:34,885 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 09:06:34,946 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 09:06:34,947 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 09:06:34,947 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 09:06:34,947 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 09:06:34,947 INFO    Thread-88 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 09:49:18,899 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/kzfu7jgp
+2025-03-09 09:49:18,899 INFO    Thread-88 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 09:49:18,899 INFO    Thread-88 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 09:49:18,899 INFO    Thread-88 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 09:49:18,899 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 09:49:18,900 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 09:49:18,900 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 09:49:21,271 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 09:49:21,273 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 09:49:21,276 INFO    Thread-88 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 09:49:25,276 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 09:49:26,051 INFO    Thread-91 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 09:49:26,051 INFO    Thread-91 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 09:49:26,052 INFO    Thread-91 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 09:49:26,052 INFO    Thread-91 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 09:49:26,052 INFO    Thread-91 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 09:49:26,053 INFO    Thread-91 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_094926-atybwznj/logs/debug.log
+2025-03-09 09:49:26,053 INFO    Thread-91 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_094926-atybwznj/logs/debug-internal.log
+2025-03-09 09:49:26,053 INFO    Thread-91 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a0133e0>
+2025-03-09 09:49:26,054 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 09:49:26,054 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 09:49:26,054 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 09:49:26,054 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 09:49:26,056 INFO    Thread-91 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 09:49:26,056 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 09:49:26,058 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'random'}
+2025-03-09 09:49:26,060 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 09:49:26,063 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 09:49:26,066 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 09:49:26,498 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 09:49:26,563 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 09:49:26,564 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 09:49:26,564 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 09:49:26,564 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 09:49:26,564 INFO    Thread-91 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/atybwznj
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 10:00:30,266 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 10:00:31,876 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 10:00:31,877 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 10:00:31,879 INFO    Thread-91 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 10:00:33,878 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100034-zbfsrl4t/logs/debug.log
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100034-zbfsrl4t/logs/debug-internal.log
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a024950>
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 10:00:34,670 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 10:00:34,671 INFO    Thread-94 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 10:00:34,671 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 10:00:34,671 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+2025-03-09 10:00:34,672 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 10:00:34,673 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 10:00:34,677 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 10:00:35,112 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 10:00:35,178 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 10:00:35,178 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 10:00:35,178 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 10:00:35,178 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 10:00:35,179 INFO    Thread-94 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/zbfsrl4t
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 10:05:58,791 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 10:06:00,532 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 10:06:00,534 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 10:06:00,546 INFO    Thread-94 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 10:06:05,538 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 10:06:06,363 INFO    Thread-97 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 10:06:06,364 INFO    Thread-97 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 10:06:06,364 INFO    Thread-97 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 10:06:06,364 INFO    Thread-97 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 10:06:06,365 INFO    Thread-97 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 10:06:06,365 INFO    Thread-97 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100606-cxquwu0o/logs/debug.log
+2025-03-09 10:06:06,365 INFO    Thread-97 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100606-cxquwu0o/logs/debug-internal.log
+2025-03-09 10:06:06,365 INFO    Thread-97 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a0ec950>
+2025-03-09 10:06:06,366 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 10:06:06,366 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 10:06:06,366 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 10:06:06,367 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 10:06:06,368 INFO    Thread-97 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 10:06:06,368 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 10:06:06,369 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0001, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'random'}
+2025-03-09 10:06:06,370 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 10:06:06,372 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 10:06:06,375 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 10:06:06,844 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 10:06:06,917 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 10:06:06,917 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 10:06:06,917 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 10:06:06,917 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 10:06:06,918 INFO    Thread-97 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/cxquwu0o
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 10:08:06,868 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 10:08:08,383 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 10:08:08,385 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 10:08:08,387 INFO    Thread-97 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 10:08:12,387 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100813-81oje62b/logs/debug.log
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_100813-81oje62b/logs/debug-internal.log
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a250d40>
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 10:08:13,170 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 10:08:13,171 INFO    Thread-100 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 10:08:13,171 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 10:08:13,171 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0005, 'num_of_hidden_layers': 4, 'optimizer': 'adam', 'weight_initialization': 'xavier'}
+2025-03-09 10:08:13,172 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 10:08:13,173 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 10:08:13,176 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 10:08:13,791 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 10:08:13,862 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 10:08:13,863 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 10:08:13,863 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 10:08:13,863 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 10:08:13,863 INFO    Thread-100 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 10:58:31,555 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/81oje62b
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 10:58:31,556 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 10:58:33,355 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 10:58:33,357 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 10:58:33,360 INFO    Thread-100 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 10:58:44,365 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 10:58:45,206 INFO    Thread-103 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 10:58:45,207 INFO    Thread-103 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 10:58:45,207 INFO    Thread-103 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 10:58:45,207 INFO    Thread-103 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 10:58:45,207 INFO    Thread-103 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 10:58:45,207 INFO    Thread-103 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_105845-r6spjugj/logs/debug.log
+2025-03-09 10:58:45,208 INFO    Thread-103 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_105845-r6spjugj/logs/debug-internal.log
+2025-03-09 10:58:45,208 INFO    Thread-103 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079ffb560>
+2025-03-09 10:58:45,208 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 10:58:45,208 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 10:58:45,209 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 10:58:45,209 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 10:58:45,210 INFO    Thread-103 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 10:58:45,210 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 10:58:45,211 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 32, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'nesterov', 'weight_initialization': 'xavier'}
+2025-03-09 10:58:45,214 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 10:58:45,216 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 10:58:45,228 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 10:58:47,083 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 10:58:47,187 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 10:58:47,188 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 10:58:47,188 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 10:58:47,188 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 10:58:47,189 INFO    Thread-103 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/r6spjugj
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 11:05:19,739 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 11:05:22,241 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 11:05:22,243 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 11:05:22,245 INFO    Thread-103 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 11:05:25,243 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 11:05:26,066 INFO    Thread-106 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 11:05:26,066 INFO    Thread-106 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 11:05:26,066 INFO    Thread-106 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 11:05:26,066 INFO    Thread-106 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 11:05:26,066 INFO    Thread-106 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_110526-a87391k1/logs/debug.log
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_110526-a87391k1/logs/debug-internal.log
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x770079e93620>
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 11:05:26,067 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 11:05:26,068 INFO    Thread-106 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 11:05:26,068 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 11:05:26,069 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 64, 'epochs': 5, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.0003, 'num_of_hidden_layers': 4, 'optimizer': 'sgd', 'weight_initialization': 'xavier'}
+2025-03-09 11:05:26,070 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 11:05:26,071 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 11:05:26,074 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 11:05:26,769 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 11:05:26,845 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 11:05:26,845 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 11:05:26,845 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 11:05:26,845 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 11:05:26,846 INFO    Thread-106 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/a87391k1
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-03-09 11:07:21,231 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_restore():2322] restore
+2025-03-09 11:07:21,232 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_restore():2328] restore done
+2025-03-09 11:07:22,872 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-03-09 11:07:22,873 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-03-09 11:07:22,875 INFO    Thread-106 (_run_job):43799 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-03-09 11:07:26,876 INFO    MsgRouterThr:43799 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-09 11:07:27,685 INFO    Thread-109 (_run_job):43799 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-09 11:07:27,685 INFO    Thread-109 (_run_job):43799 [wandb_setup.py:_flush():67] Configure stats pid to 43799
+2025-03-09 11:07:27,685 INFO    Thread-109 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-09 11:07:27,686 INFO    Thread-109 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-09 11:07:27,686 INFO    Thread-109 (_run_job):43799 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-09 11:07:27,687 INFO    Thread-109 (_run_job):43799 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_110727-wd52sbcu/logs/debug.log
+2025-03-09 11:07:27,687 INFO    Thread-109 (_run_job):43799 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_110727-wd52sbcu/logs/debug-internal.log
+2025-03-09 11:07:27,687 INFO    Thread-109 (_run_job):43799 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x77007a2b23f0>
+2025-03-09 11:07:27,687 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():761] calling init triggers
+2025-03-09 11:07:27,688 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():766] wandb.init called with sweep_config: {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+config: {'_wandb': {}}
+2025-03-09 11:07:27,688 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():784] starting backend
+2025-03-09 11:07:27,688 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():788] sending inform_init request
+2025-03-09 11:07:27,690 INFO    Thread-109 (_run_job):43799 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-09 11:07:27,690 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():798] backend started and connected
+2025-03-09 11:07:27,691 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_config_callback():1261] config_cb None None {'batch_size': 16, 'epochs': 10, 'hidden_layer_size': [128, 64, 32, 10], 'learning_rate': 0.005, 'num_of_hidden_layers': 4, 'optimizer': 'nadam', 'weight_initialization': 'random'}
+2025-03-09 11:07:27,693 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-09 11:07:27,695 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():891] updated telemetry
+2025-03-09 11:07:27,698 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-09 11:07:28,162 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():990] starting run threads in backend
+2025-03-09 11:07:28,244 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-09 11:07:28,244 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-09 11:07:28,244 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-09 11:07:28,244 INFO    Thread-109 (_run_job):43799 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-09 11:07:28,245 INFO    Thread-109 (_run_job):43799 [wandb_init.py:init():1032] run started, returning control to user process

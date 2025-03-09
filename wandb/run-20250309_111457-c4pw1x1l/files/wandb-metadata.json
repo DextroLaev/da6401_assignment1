@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-55-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-03-09T05:44:57.173212Z",
+  "program": "Experiment.ipynb",
+  "codePath": "Experiment.ipynb",
+  "git": {
+    "remote": "https://DextroLaev:@github.com/DextroLaev/da6401_assignment1.git",
+    "commit": "ed5681231abb64aec729533fcf93d7f320c6ae76"
+  },
+  "email": "cs24s031@smail.iitm.ac.in",
+  "root": "/home/dextrolaev/Desktop/DL/da6401_assignment1",
+  "host": "dextrolaev",
+  "executable": "/home/dextrolaev/myenv/bin/python",
+  "codePathLocal": "Experiment.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "269427478528",
+      "used": "39396921344"
+    }
+  },
+  "memory": {
+    "total": "16455622656"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

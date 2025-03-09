@@ -1,0 +1,25 @@
+wandb_version: 1
+
+activation_function:
+  value: sigmoid
+architecture:
+  value:
+    hidden_layer_size:
+    - 512
+    - 256
+    - 128
+    - 64
+    - 10
+    num_of_hidden_layers: 5
+batch_size:
+  value: 16
+epochs:
+  value: 5
+learning_rate:
+  value: 0.0003
+optimizer:
+  value: nesterov
+weight_decay:
+  value: 0
+weight_initialization:
+  value: random

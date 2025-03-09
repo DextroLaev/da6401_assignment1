@@ -1,0 +1,10 @@
+Epoch 1/10 - Batch 3370/3375 - Loss: 0.645132 Train-Acc: 0.773090 val-loss:0.480999 val-Acc: 0.822833 
+Epoch 2/10 - Batch 3370/3375 - Loss: 0.424762 Train-Acc: 0.847515 val-loss:0.419201 val-Acc: 0.843167 
+Epoch 3/10 - Batch 3370/3375 - Loss: 0.380465 Train-Acc: 0.860886 val-loss:0.396758 val-Acc: 0.850500 
+Epoch 4/10 - Batch 3370/3375 - Loss: 0.352453 Train-Acc: 0.870809 val-loss:0.360805 val-Acc: 0.862667 
+Epoch 5/10 - Batch 3370/3375 - Loss: 0.332113 Train-Acc: 0.877244 val-loss:0.349245 val-Acc: 0.870000 
+Epoch 6/10 - Batch 3370/3375 - Loss: 0.315766 Train-Acc: 0.883865 val-loss:0.344366 val-Acc: 0.870000 
+Epoch 7/10 - Batch 3370/3375 - Loss: 0.301188 Train-Acc: 0.890226 val-loss:0.348367 val-Acc: 0.871833 
+Epoch 8/10 - Batch 3370/3375 - Loss: 0.288780 Train-Acc: 0.893416 val-loss:0.336299 val-Acc: 0.876833 
+Epoch 9/10 - Batch 3370/3375 - Loss: 0.278249 Train-Acc: 0.897404 val-loss:0.327044 val-Acc: 0.881667 
+Epoch 10/10 - Batch 3370/3375 - Loss: 0.268028 Train-Acc: 0.901076 val-loss:0.337895 val-Acc: 0.876333 

@@ -1,0 +1,19 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+epochs:
+  value: 5
+hidden_layer_size:
+  value:
+  - 128
+  - 64
+  - 32
+learning_rate:
+  value: 0.0006
+num_of_hidden_layers:
+  value: 3
+optimizer:
+  value: momentum
+weight_initialization:
+  value: random

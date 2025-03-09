@@ -1,0 +1,3 @@
+Epoch 1/10 - Batch 150/1687 - Loss: 1.832580 Train-Acc: 0.460625 val-loss:1.346241 val-Acc: 0.601500 Create sweep with ID: 9c7seybg
+Sweep URL: https://wandb.ai/cs24s031-indian-institute-of-technology-madras/dl-assignment1/sweeps/9c7seybg
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

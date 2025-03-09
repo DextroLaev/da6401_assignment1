@@ -1,0 +1,5 @@
+Epoch 1/5 - Batch 3370/3375 - Loss: 0.581964 Train-Acc: 0.786220 val-loss:0.455212 val-Acc: 0.829500 
+Epoch 2/5 - Batch 3370/3375 - Loss: 0.437125 Train-Acc: 0.841042 val-loss:0.424148 val-Acc: 0.842167 
+Epoch 3/5 - Batch 3370/3375 - Loss: 0.397561 Train-Acc: 0.855119 val-loss:0.382274 val-Acc: 0.852833 
+Epoch 4/5 - Batch 3370/3375 - Loss: 0.379174 Train-Acc: 0.862036 val-loss:0.391990 val-Acc: 0.847667 
+Epoch 5/5 - Batch 3370/3375 - Loss: 0.365183 Train-Acc: 0.868064 val-loss:0.399513 val-Acc: 0.842000 

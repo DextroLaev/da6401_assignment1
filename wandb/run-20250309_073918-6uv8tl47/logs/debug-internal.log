@@ -1,0 +1,16 @@
+{"time":"2025-03-09T07:39:18.082726123+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_073918-6uv8tl47/logs/debug-core.log"}
+{"time":"2025-03-09T07:39:18.191212872+05:30","level":"INFO","msg":"created new stream","id":"6uv8tl47"}
+{"time":"2025-03-09T07:39:18.191322782+05:30","level":"INFO","msg":"stream: started","id":"6uv8tl47"}
+{"time":"2025-03-09T07:39:18.191569595+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:39:18.191674632+05:30","level":"INFO","msg":"handler: started","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:39:18.191892047+05:30","level":"INFO","msg":"sender: started","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:39:18.556543632+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T07:42:31.570524318+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T07:42:31.57089477+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T07:42:32.576132513+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.432577846,"progress":"228B/228B"},{"desc":"uploading config.yaml","runtime_seconds":0.159940468,"progress":"872B/872B"}],"total_operations":2}}
+{"time":"2025-03-09T07:42:33.63454101+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T07:42:33.974734949+05:30","level":"INFO","msg":"stream: closing","id":"6uv8tl47"}
+{"time":"2025-03-09T07:42:33.974786639+05:30","level":"INFO","msg":"handler: closed","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:42:33.974817866+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:42:33.974912303+05:30","level":"INFO","msg":"sender: closed","stream_id":"6uv8tl47"}
+{"time":"2025-03-09T07:42:33.975011463+05:30","level":"INFO","msg":"stream: closed","id":"6uv8tl47"}
