@@ -1,19 +1,20 @@
 import numpy as np
 from loss import *
 from dataset import *
-# from optimizers import *
-from optimizer2 import SGD,Momentum
+from optimizer import *
 from typing import List,Tuple
 import sys
+from activations import *
+import wandb
 
 class Neural_Net:
 
-    def __init__(self,input_shape,number_of_hidden_layers,hidden_neurons_per_layer,activation_function,output_shape,type_of_init,L2reg_const) -> None:
+    def __init__(self,input_shape,number_of_hidden_layers,hidden_neurons_per_layer,activation_name,output_shape,type_of_init,L2reg_const) -> None:
         self.input_shape = input_shape
         self.number_of_hidden_layers = number_of_hidden_layers
         self.hidden_neurons_per_layer = hidden_neurons_per_layer
         self.output_shape = output_shape
-        self.activation_function = activation_function
+        self.activation = self.select_activation(activation_name)
         self.type_of_init = type_of_init
         self.L2reg_const = L2reg_const
         self.W, self.B = self.weight_init(type_of_init)
@@ -51,56 +52,21 @@ class Neural_Net:
     	input_d = data
     	for i in range(self.number_of_hidden_layers):
     		linear_out = np.dot(input_d,W[i]) + B[i]
-    		activation_out = self.activation(linear_out)
+    		activation_out = self.activation.out(linear_out)
     		A.append(linear_out)
     		H.append(activation_out)
     		input_d = activation_out
-    	y_pred = self.softmax(np.dot(H[-1],W[-1]) + B[-1])
+    	y_pred = Softmax().out(np.dot(H[-1],W[-1]) + B[-1])
     	return A,H,y_pred
 
-    def activation(self,x:str):
-    	if self.activation_function == 'ReLU':
-    		return self.ReLU(x)
-    	elif self.activation_function == 'tanh':
-    		return self.tanh(x)
-    	elif self.activation_function == 'sigmoid':
-    		return self.sigmoid(x)
-    	elif self.activation_function == 'linear':
-    		return x
-
-    def activation_derivative(self,x:str):
-        if self.activation_function == 'ReLU':
-            return self.ReLU_derivative(x)
-        elif self.activation_function == 'tanh':
-            return self.tanh_derivative(x)
-        elif self.activation_function == 'sigmoid':
-            return self.sigmoid_derivative(x)
-        elif self.activation_function == 'linear':
-            return 1
-
-    def ReLU(self,x: List[np.ndarray]):
-        return np.maximum(0,x)
-
-    def ReLU_derivative(self,x:List[np.ndarray]):
-        return np.where(x > 0, 1, 0)
-    
-    def sigmoid(self,x: List[np.ndarray]):
-        # x = np.clip(x, -500, 500)
-        return 1/(1+np.exp(-x))
-
-    def sigmoid_derivative(self,x: List[np.ndarray]):
-        return self.sigmoid(x)*(1-self.sigmoid(x))
-
-    def tanh(self,x: List[np.ndarray]):
-        return np.tanh(x)
-
-    def tanh_derivative(self,x: List[np.ndarray]):
-        return 1 - self.tanh(x)**2
-
-    def softmax(self,x: List[np.ndarray]):
-        exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
-        out = exp_x / np.sum(exp_x, axis=1, keepdims=True)
-        return out
+    def select_activation(self,name:str):
+        activation_func = {
+            'sigmoid': Sigmoid,
+            'tanh': Tanh,
+            'ReLU': ReLU,
+            'softmax': Softmax
+        }
+        return activation_func[name]()
 
     def accuracy(self,data: List[np.ndarray],label:List[np.ndarray]) -> float:
         A,H,y_prob = self.feed_forward(data,self.W,self.B)
@@ -110,8 +76,7 @@ class Neural_Net:
                 acc += 1
         return acc/data.shape[0]
 
-    def gradients(self,A: List[np.ndarray],H:List[np.ndarray],W:List[np.ndarray],B:List[np.ndarray],
-    	batch_data: List[np.ndarray], y_prob: List[np.ndarray], batch_label: List[np.ndarray]):
+    def gradients(self,A: List[np.ndarray],H:List[np.ndarray],W:List[np.ndarray],B:List[np.ndarray],batch_data: List[np.ndarray], y_prob: List[np.ndarray], batch_label: List[np.ndarray]):
     	dW = []
     	db = []
 
@@ -124,12 +89,12 @@ class Neural_Net:
     	# Backpropagate through hidden layers
     	delta = error
     	for i in range(self.number_of_hidden_layers - 1, 0, -1):
-    		delta = np.dot(delta, W[i+1].T) * self.activation_derivative(A[i])
+    		delta = np.dot(delta, W[i+1].T) * self.activation.derivative(A[i])
     		dW.insert(0, np.dot(H[i-1].T, delta)+ self.L2reg_const * W[i])
     		db.insert(0, np.sum(delta, axis=0,keepdims=True))
 
     	# Backpropagate through input layer
-    	delta = np.dot(delta, W[1].T) * self.activation_derivative(A[0])
+    	delta = np.dot(delta, W[1].T) * self.activation.derivative(A[0])
     	dW.insert(0, np.dot(batch_data.T, delta)+ self.L2reg_const * W[0])
     	db.insert(0, np.sum(delta, axis=0,keepdims=True))
     	return dW, db
@@ -149,13 +114,17 @@ class Neural_Net:
 
     	optimizer_classes = {
     		'sgd': SGD,
-    		'momentum':Momentum
+    		'momentum':Momentum,
+            'RMSProp':RMSProp,
+            'Adam':Adam,
+            'Nadam':Nadam,
+            'Nestrov':Nestrov
     	}
     	if optimizer not in optimizer_classes:
     		raise ValueError(f"Unsupported optimizer: {optimizer}")
 
     	opti = optimizer_classes[optimizer](learning_rate)
-    	opti.config(self.W,self.B)
+    	W,B = opti.config(self.W,self.B)
 
     	num_batches = train_data.shape[0]//batch_size
     	for ep in range(epochs):
@@ -165,24 +134,31 @@ class Neural_Net:
                 batch_data = train_data[batch_start:batch_end]
                 batch_label = train_label[batch_start:batch_end]                
 
-                A,H,y_prob = self.feed_forward(batch_data,self.W,self.B)
-                
-                dw,db = self.gradients(A,H,self.W,self.B,batch_data,y_prob,batch_label)
+                if isinstance(opti, Nestrov):
+                    W_lookahead = [w - opti.beta * mw for w, mw in zip(W, opti.optimizer_config['momentum_W'])]
+                    B_lookahead = [b - opti.beta * mb for b, mb in zip(B, opti.optimizer_config['momentum_B'])]
+                    W = W_lookahead
+                    B = B_lookahead
+                #     A, H, y_prob = self.feed_forward(batch_data, W_lookahead, B_lookahead)
+                # else:
+                A, H, y_prob = self.feed_forward(batch_data, W, B)
+
+                dw,db = self.gradients(A,H,W,B,batch_data,y_prob,batch_label)
                 opti.update(self.W,self.B,dw,db)
 
                 
                 if(b_id+1)%100 == 0:
-                    _,_,test_y_prob = self.feed_forward(test_data,self.W,self.B)
-                    test_loss = loss.compute(test_label,test_y_prob)
+                    _,_,val_y_prob = self.feed_forward(val_data,self.W,self.B)
+                    val_loss = loss.compute(val_y_prob,val_label)
                     train_acc = self.accuracy(batch_data,batch_label)
-                    train_loss = loss.compute(batch_label,y_prob)
-                    test_acc = self.accuracy(test_data,test_label)                    
-                    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {b_id + 1}/{num_batches} - train-loss: {train_loss:.6f} train-acc: {train_acc:.6f} test-loss:{test_loss:.6f} test-acc : {test_acc:.6f} ")
+                    train_loss = loss.compute(y_prob,batch_label)
+                    val_acc = self.accuracy(val_data,val_label)
+                    wandb.log({'train_loss': train_loss, 'train_acc': train_acc, 'val_loss': val_loss, 'val_acc': val_acc})                    
+                    sys.stdout.write(f"\rEpoch {ep + 1}/{epochs} - Batch {b_id + 1}/{num_batches} - train-loss: {train_loss:.6f} train-acc: {train_acc:.6f} val-loss:{val_loss:.6f} test-acc : {val_acc:.6f} ")
                     sys.stdout.flush()
             print()
-
 
 if __name__ == '__main__':
 	(train_data,train_label),(test_data,test_label),(val_data,val_label) = Dataset('fashion_mnist').load_data()
 	nn = Neural_Net(784,4,[32,32,32,32],'ReLU',10,'Xavier',0.005)
-	nn.train('momentum',10,0.001,32,'ce',train_data,train_label,test_data,test_label,val_data,val_label)
+	nn.train('Adam',10,0.001,32,'ce',train_data,train_label,test_data,test_label,val_data,val_label)
