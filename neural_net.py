@@ -2,7 +2,7 @@ import numpy as np
 from loss import *
 from dataset import *
 # from optimizers import *
-from optimizer2 import SGD
+from optimizer2 import SGD,Momentum
 from typing import List,Tuple
 import sys
 
@@ -149,12 +149,13 @@ class Neural_Net:
 
     	optimizer_classes = {
     		'sgd': SGD,
+    		'momentum':Momentum
     	}
     	if optimizer not in optimizer_classes:
     		raise ValueError(f"Unsupported optimizer: {optimizer}")
 
     	opti = optimizer_classes[optimizer](learning_rate)
-    	opti.config()
+    	opti.config(self.W,self.B)
 
     	num_batches = train_data.shape[0]//batch_size
     	for ep in range(epochs):
@@ -184,4 +185,4 @@ class Neural_Net:
 if __name__ == '__main__':
 	(train_data,train_label),(test_data,test_label),(val_data,val_label) = Dataset('fashion_mnist').load_data()
 	nn = Neural_Net(784,4,[32,32,32,32],'ReLU',10,'Xavier',0.005)
-	nn.train('sgd',10,0.001,32,'ce',train_data,train_label,test_data,test_label,val_data,val_label)
+	nn.train('momentum',10,0.001,32,'ce',train_data,train_label,test_data,test_label,val_data,val_label)
