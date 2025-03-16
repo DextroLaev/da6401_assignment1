@@ -17,7 +17,8 @@ These files contain the essential code for building and running the neural netwo
   - Currently supports **Fashion-MNIST** and **MNIST** datasets.
 
 - **`activations.py`** ⚡  
-  - Implements various **activation functions** along with their derivatives.  
+  - Implements various **activation functions** along with their derivatives.
+  - Currently it supports **`sigmoid`**, **`ReLU`**, **`Tanh`**, **`identity`**
   - New activation functions can be added by **inheriting the `Activation` base class** and modifying the necessary code.
 
 - **`loss.py`** 📊  
