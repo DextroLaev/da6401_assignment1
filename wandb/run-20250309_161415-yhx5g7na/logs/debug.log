@@ -25,3 +25,4 @@ config: {'_wandb': {}}
 2025-03-09 16:34:18,112 INFO    Thread-4 (_run_job):9639 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
 2025-03-09 16:34:18,112 INFO    Thread-4 (_run_job):9639 [wandb_run.py:_restore():2322] restore
 2025-03-09 16:34:18,112 INFO    Thread-4 (_run_job):9639 [wandb_run.py:_restore():2328] restore done
+2025-03-09 16:37:22,392 INFO    MainThread:9639 [wandb_run.py:_finish():2112] finishing run cs24s031-indian-institute-of-technology-madras/dl-assignment1/yhx5g7na

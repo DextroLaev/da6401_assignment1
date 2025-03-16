@@ -41,13 +41,13 @@ def train():
         test_label=test_label,
         val_data = val_data,
         val_label = val_label,
-        loss_type = 'ce',
+        loss_type = 'mse',
         batch_size=config.batch_size
     )
 
 if __name__ == '__main__':
-	sweep_config = {
-		'name': 'fashion-mnist-exp(random-select)-2.10',
+    sweep_config = {
+		'name': 'fashion-mnist-exp(random-select)-3.3.1-mse',
 		'method': 'bayes',
 		'metric': {'goal': 'maximize', 'name': 'val_acc'},
 		'parameters': {
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 		    'weight_initialization': {'values': ['random', 'Xavier']},
 		    'weight_decay': {'values': [0, 0.0005,0.5]},
 		  }
-	}
-	sweep_id = wandb.sweep(sweep_config,project='dl-assignment1')
-	wandb.agent(sweep_id,train,count=50)
-	wandb.finish()
+    }
+    sweep_id = wandb.sweep(sweep_config,project='dl-assignment1')
+    wandb.agent(sweep_id,train,count=50)
+    wandb.finish()

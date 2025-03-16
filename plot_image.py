@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 import wandb
 from keras.datasets import fashion_mnist
@@ -21,12 +20,14 @@ def plot_img_wandb(data,label):
 			break
 	images = []
 	wandb.init(project='dl-assignment1')
-	for idx in each_class_img_index:
-	    img = data[idx]
-	    img_label = class_names[label[idx]]
-	    images.append(wandb.Image(img, caption=img_label))
-	    wandb.log({'image':wandb.Image(img,caption=img_label)})
+	# for idx in each_class_img_index:
+	#     img = data[idx]
+	#     img_label = class_names[label[idx]]
+	#     images.append(wandb.Image(img, caption=img_label))
+	#     wandb.log({'image':wandb.Image(img,caption=img_label)})
 
+	wandb.log({'Image':[wandb.Image(img,caption=img_label) for img, img_label
+		in zip(data,classes)]})
 	# wandb.log({"Fashion-MNIST Grid": images})
 	wandb.finish()
 	

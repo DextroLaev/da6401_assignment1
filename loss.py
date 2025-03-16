@@ -18,6 +18,7 @@ class CrossEntropyLoss(Loss):
 		loss_val = - np.sum(true_class*np.log(pred_logits+1e-18),axis=1)
 		return np.mean(loss_val)
 
+
 class MeanSquaredErrorLoss(Loss):
 	"""
 		calculates the mean-squared error loss
@@ -25,5 +26,5 @@ class MeanSquaredErrorLoss(Loss):
 
 	def compute(self,pred_logits: np.ndarray, true_class: np.ndarray) -> float:
 
-		loss_val = np.mean((pred_logits - true_class)**2)
+		loss_val = np.mean(np.square(pred_logits - true_class))
 		return loss_val

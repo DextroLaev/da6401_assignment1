@@ -4,7 +4,7 @@ from abc import abstractmethod
 from typing import List,Tuple
 
 class Optimizer:
-	def __init__(self, learning_rate: float) -> None:
+	def __init__(self, learning_rate: float, **kwargs) -> None:
 
 		"""
 			Base class for optimizers.
@@ -14,7 +14,6 @@ class Optimizer:
 				Learning_rate (float): learning_rate for optimizer
 		"""
 		self.learning_rate = learning_rate
-
 
 	@abstractmethod
 	def update(self, W: List[np.ndarray], B: List[np.ndarray],
@@ -35,8 +34,8 @@ class Optimizer:
 
 	@abstractmethod
 	def config(self,W,B) -> None:
-		return W,B
-
+		'adds the neccesary stuffs needed for specific optimizer'
+		pass
 
 class SGD(Optimizer):
 	def update(self,W,B,dw,db):
@@ -44,12 +43,10 @@ class SGD(Optimizer):
 			W[i] -= self.learning_rate * dw[i]
 			B[i] -= self.learning_rate * db[i]
 
-		return W,B
-
 class Momentum(Optimizer):
-	def __init__(self,learning_rate,beta=0.9):
-		super().__init__(learning_rate)
-		self.beta = beta
+	def __init__(self,learning_rate,**kwargs):
+		super().__init__(learning_rate)		
+		self.beta = kwargs['momentum']
 		self.momentum_W = None
 		self.momentum_B = None
 
@@ -58,7 +55,6 @@ class Momentum(Optimizer):
 		self.optimizer_config = {}
 		self.optimizer_config['momentum_W'] = [np.zeros_like(w) for w in W]
 		self.optimizer_config['momentum_B'] = [np.zeros_like(b) for b in B]
-		return W,B
 
 
 	def update(self,W,B,dw,db):
@@ -75,36 +71,36 @@ class Momentum(Optimizer):
 		self.optimizer_config['momentum_B'] = momentum_B
 
 class Nestrov(Momentum):
-	def __init__(self,learning_rate,beta=0.9):
-		super().__init__(learning_rate)
-		self.beta = beta
+	def __init__(self,learning_rate,**kwargs):
+		super().__init__(learning_rate, **kwargs)
+		self.beta = kwargs['momentum']
+
 
 	def config(self,W,B):
 		self.optimizer_config = {}
 		self.optimizer_config['momentum_W'] = [np.zeros_like(w) for w in W]
 		self.optimizer_config['momentum_B'] = [np.zeros_like(b) for b in B]
-		return W,B
 
 	def update(self, W, B, dw, db):
 		for i in range(len(W)):
-			self.optimizer_config['momentum_W'][i] = self.beta * self.optimizer_config['momentum_W'][i] + dw[i]
-			self.optimizer_config['momentum_B'][i] = self.beta * self.optimizer_config['momentum_B'][i] + db[i]
-			W[i] -= self.learning_rate * self.optimizer_config['momentum_W'][i]
-			B[i] -= self.learning_rate * self.optimizer_config['momentum_B'][i]
-
+			self.optimizer_config['momentum_W'][i] = self.beta * self.optimizer_config['momentum_W'][i] + self.learning_rate* dw[i]
+			self.optimizer_config['momentum_B'][i] = self.beta * self.optimizer_config['momentum_B'][i] + self.learning_rate* db[i]
+			# W[i] -= self.learning_rate * self.optimizer_config['momentum_W'][i]
+			# B[i] -= self.learning_rate * self.optimizer_config['momentum_B'][i]
+			W[i] -= self.optimizer_config['momentum_W'][i]
+			B[i] -= self.optimizer_config['momentum_B'][i]
         
 
 class RMSProp(Optimizer):
-    def __init__(self, learning_rate, beta=0.9, eps=1e-8):
+    def __init__(self, learning_rate, **kwargs):
         super().__init__(learning_rate)
-        self.beta = beta
-        self.eps = eps
+        self.beta = kwargs['beta']
+        self.eps = kwargs['eps']
 
     def config(self,W,B):
     	self.optimizer_config = {}
     	self.optimizer_config['v_W'] = [np.zeros_like(w) for w in W]
     	self.optimizer_config['v_B'] = [np.zeros_like(b) for b in B]
-    	return W,B
 
     def update(self, W, B, dw, db):
         
@@ -121,11 +117,12 @@ class RMSProp(Optimizer):
         
 
 class Adam(Optimizer):
-    def __init__(self, learning_rate, beta1=0.9, beta2=0.999, eps=1e-8):
+    def __init__(self, learning_rate, **kwargs):
         super().__init__(learning_rate)
-        self.beta1 = beta1
-        self.beta2 = beta2
-        self.eps = eps
+
+        self.beta1 = kwargs['beta1']
+        self.beta2 = kwargs['beta2']
+        self.eps = kwargs['eps']
         self.t = 0
         
     def config(self,W,B):
@@ -135,7 +132,6 @@ class Adam(Optimizer):
     	self.optimizer_config['momentum2_W'] = [np.zeros_like(w) for w in W]
     	self.optimizer_config['momentum2_B'] = [np.zeros_like(b) for b in B]
     	self.optimizer_config['t'] = 0
-    	return W,B
 
     def update(self, W, B, dw, db):
         
@@ -159,11 +155,11 @@ class Adam(Optimizer):
             B[i] -= adaptive_lr_B * momentum1_B_hat
 
 class Nadam(Optimizer):
-    def __init__(self, learning_rate, beta1=0.9, beta2=0.999, eps=1e-8):
+    def __init__(self, learning_rate,**kwargs):
         super().__init__(learning_rate)
-        self.beta1 = beta1
-        self.beta2 = beta2
-        self.eps = eps
+        self.beta1 = kwargs['beta1']
+        self.beta2 = kwargs['beta2']
+        self.eps = kwargs['eps']
         self.t = 0
         
     def config(self,W,B):
@@ -172,8 +168,6 @@ class Nadam(Optimizer):
     	self.optimizer_config['momentum1_B'] = [np.zeros_like(b) for b in B]
     	self.optimizer_config['momentum2_W'] = [np.zeros_like(w) for w in W]
     	self.optimizer_config['momentum2_B'] = [np.zeros_like(b) for b in B]
-    	self.optimizer_config['t'] = 0
-    	return W,B
 
     def update(self, W, B, dw, db):
         
