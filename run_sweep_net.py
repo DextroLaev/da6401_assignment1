@@ -19,6 +19,13 @@ def train():
     
     wandb.run.name = run_name
     wandb.run.save()
+    optimizer_kwargs = {
+        'beta':0.9,
+        'beta1':0.9,
+        'beta2':0.999,
+        'eps':1e-8,
+        'momentum':0.9
+    }
 
     print(f"Starting training with run name: {run_name}")
     nn = Neural_Net(
@@ -41,13 +48,14 @@ def train():
         test_label=test_label,
         val_data = val_data,
         val_label = val_label,
-        loss_type = 'mse',
-        batch_size=config.batch_size
+        loss_type = 'cross_entropy',
+        batch_size=config.batch_size,
+        **optimizer_kwargs
     )
 
 if __name__ == '__main__':
     sweep_config = {
-		'name': 'fashion-mnist-exp(random-select)-3.3.1-mse',
+		'name': 'fashion-mnist-exp(bayes-select)-3.3.1-ce exp',
 		'method': 'bayes',
 		'metric': {'goal': 'maximize', 'name': 'val_acc'},
 		'parameters': {
@@ -57,7 +65,7 @@ if __name__ == '__main__':
 		    'batch_size': {'values': [16, 32, 64]},
 		    'epochs': {'values': [5, 10]},
 		    'learning_rate': {'values': [1e-3,1e-4]},
-		    'optimizer': {'values': ['sgd', 'momentum', 'Nestrov', 'RMSProp', 'Adam', 'Nadam']},
+		    'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsProp', 'adam', 'nadam']},
 		    'weight_initialization': {'values': ['random', 'Xavier']},
 		    'weight_decay': {'values': [0, 0.0005,0.5]},
 		  }
