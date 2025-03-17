@@ -9,8 +9,6 @@ if __name__ == '__main__':
 
     parser.add_argument("-wp", "--wandb_project", type=str, required=True,help="Project name used to track experiments in Weights & Biases dashboard.",default='cs24s031-dl-assignment')
 
-    parser.add_argument("-wp", "--wandb_project", type=str, required=True,help="Project name used to track experiments in Weights & Biases dashboard.",default='cs24s031-dl-assignment1')
-
     parser.add_argument("-we", "--wandb_entity", type=str, required=True,help="Wandb Entity used to track experiments in the Weights & Biases dashboard.",default='rajshekharrakshit')
     parser.add_argument("-d", "--dataset", type=str,choices=["mnist", "fashion_mnist"], default="fashion_mnist",help="Dataset to be used. Choices: ['mnist', 'fashion_mnist'].")
     parser.add_argument("-e", "--epochs", type=int, default=10,help="Number of epochs to train the neural network.")
@@ -79,5 +77,6 @@ if __name__ == '__main__':
     test_loss, test_acc = nn.test_accuracy_loss(test_data,test_label)
     print('Test loss:- ',test_loss)
     print('Test Acc:- ',test_acc)
+    wandb.finish()
 
 
