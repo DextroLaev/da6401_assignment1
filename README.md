@@ -72,6 +72,11 @@ These files contain the essential code for building and running the neural netwo
     
 ## 🚀 Training the Neural Network
 
+First install the necessary dependencies
+```bash
+pip3 install -r requirements.txt
+```
+
 To train the neural network,the general run command is the following:
 
 ```bash
