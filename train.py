@@ -6,14 +6,14 @@ from dataset import *
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description="Train a neural network with configurable hyperparameters.")
-    parser.add_argument("-wp", "--wandb_project", type=str, required=True,help="Project name used to track experiments in Weights & Biases dashboard.",default='myproject')
-    parser.add_argument("-we", "--wandb_entity", type=str, required=True,help="Wandb Entity used to track experiments in the Weights & Biases dashboard.",default='myname')
+    parser.add_argument("-wp", "--wandb_project", type=str, required=True,help="Project name used to track experiments in Weights & Biases dashboard.",default='cs24s031-dl-assignment1')
+    parser.add_argument("-we", "--wandb_entity", type=str, required=True,help="Wandb Entity used to track experiments in the Weights & Biases dashboard.",default='rajshekharrakshit')
     parser.add_argument("-d", "--dataset", type=str,choices=["mnist", "fashion_mnist"], default="fashion_mnist",help="Dataset to be used. Choices: ['mnist', 'fashion_mnist'].")
-    parser.add_argument("-e", "--epochs", type=int, default=5,help="Number of epochs to train the neural network.")
-    parser.add_argument("-b", "--batch_size", type=int, default=32,help="Batch size used to train the neural network.")
+    parser.add_argument("-e", "--epochs", type=int, default=10,help="Number of epochs to train the neural network.")
+    parser.add_argument("-b", "--batch_size", type=int, default=64,help="Batch size used to train the neural network.")
     parser.add_argument("-l", "--loss", type=str,default='cross_entropy', choices=["mean_squared_error", "cross_entropy"],help="Loss function to be used. Choices: ['mean_squared_error', 'cross_entropy'].")
 
-    parser.add_argument("-o", "--optimizer", type=str,default='adam' ,choices=["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"],help="Optimizer to be used. Choices: ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'].")
+    parser.add_argument("-o", "--optimizer", type=str,default='nadam' ,choices=["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"],help="Optimizer to be used. Choices: ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam'].")
     parser.add_argument("-lr", "--learning_rate", type=float, default=0.0001,help="Learning rate used to optimize model parameters.")
     parser.add_argument("-m", "--momentum", type=float, default=0.9,help="Momentum used by momentum and nag optimizers.")
     parser.add_argument("-beta", "--beta", type=float, default=0.9,help="Beta used by the RMSprop optimizer.")
@@ -23,8 +23,8 @@ if __name__ == '__main__':
     parser.add_argument("-eps", "--epsilon", type=float, default=1e-8,help="Epsilon used by optimizers.")
     parser.add_argument("-w_d", "--weight_decay", type=float, default=0.0,help="Weight decay used by optimizers.")
     parser.add_argument("-w_i", "--weight_init", type=str, default='Xavier', choices=["random", "Xavier"], help="Weight initialization method. Choices: ['random', 'Xavier'].")
-    parser.add_argument("-nhl", "--num_layers", type=int, default=2,help="Number of hidden layers used in the feedforward neural network including output layer.")
-    parser.add_argument("-sz", "--hidden_size", type=int, default=64,help="List of numbers specifying the number of hidden neurons in each layer including output layer.")
+    parser.add_argument("-nhl", "--num_layers", type=int, default=3,help="Number of hidden layers used in the feedforward neural network including output layer.")
+    parser.add_argument("-sz", "--hidden_size", type=int, default=32,help="List of numbers specifying the number of hidden neurons in each layer including output layer.")
     parser.add_argument("-a", "--activation", type=str,default='ReLU', choices=["identity","sigmoid", "tanh", "ReLU"], help="Activation function to be used. Choices: ['identity', 'sigmoid', 'tanh', 'ReLU'].")
     parser.add_argument("--output_shape",type=int,default=10,help="Number of neuron in output layer.")    
 
