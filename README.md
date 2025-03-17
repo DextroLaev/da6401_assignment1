@@ -82,7 +82,7 @@ For Example, To train the model with adam optimizer, ReLU acivation, with weight
 ```bash
 python train.py --wandb_project project_1 --wandb_entity fashion_mnist_run --dataset fashion_mnist --epochs 10 --batch_size 32 --loss cross_entropy --learning_rate 0.0001 --beta1 0.9 --beta2 0.999 --epsilon 1e-8 --weight_decay 0.0005 --weight_init Xavier --num_layers 4 --hidden_size 64 --activation ReLU --output_shape 10
 ```
-After the training , it will automatically give you the test loss and test accuracy in the command line / terminak.
+After the training , it will automatically give you the test loss and test accuracy in the command line / terminal.
 
 
 
