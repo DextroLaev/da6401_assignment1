@@ -1,0 +1,7 @@
+{'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08}
+Traceback (most recent call last):
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/train.py", line 63, in <module>
+    nn.train(
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/neural_net.py", line 123, in train
+    input()
+KeyboardInterrupt

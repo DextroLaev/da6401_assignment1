@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_4_bs_64_ac_sigmoid
+(64, 784) (1, 64)
+(64, 64) (1, 64)
+(64, 64) (1, 64)
+(64, 64) (1, 64)
+(10, 10) (1, 10)

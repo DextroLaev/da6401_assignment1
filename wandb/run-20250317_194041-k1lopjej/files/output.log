@@ -1,0 +1,12 @@
+Epoch 1/10 - Batch 800/843 - train-loss: 0.849976 train-acc: 0.703125 val-loss:0.867289 val-acc : 0.696833 
+Epoch 2/10 - Batch 800/843 - train-loss: 0.613716 train-acc: 0.750000 val-loss:0.633185 val-acc : 0.775833 
+Epoch 3/10 - Batch 800/843 - train-loss: 0.526560 train-acc: 0.765625 val-loss:0.552599 val-acc : 0.805500 
+Epoch 4/10 - Batch 800/843 - train-loss: 0.481127 train-acc: 0.765625 val-loss:0.509898 val-acc : 0.822167 
+Epoch 5/10 - Batch 800/843 - train-loss: 0.448362 train-acc: 0.765625 val-loss:0.483037 val-acc : 0.829833 
+Epoch 6/10 - Batch 800/843 - train-loss: 0.427180 train-acc: 0.781250 val-loss:0.462868 val-acc : 0.839000 
+Epoch 7/10 - Batch 800/843 - train-loss: 0.416525 train-acc: 0.796875 val-loss:0.448323 val-acc : 0.842833 
+Epoch 8/10 - Batch 800/843 - train-loss: 0.409153 train-acc: 0.796875 val-loss:0.436603 val-acc : 0.848333 
+Epoch 9/10 - Batch 800/843 - train-loss: 0.397097 train-acc: 0.812500 val-loss:0.427611 val-acc : 0.852167 
+Epoch 10/10 - Batch 800/843 - train-loss: 0.386171 train-acc: 0.796875 val-loss:0.420001 val-acc : 0.856333 
+Test loss:-  0.42903176169940255
+Test Acc:-  0.8493

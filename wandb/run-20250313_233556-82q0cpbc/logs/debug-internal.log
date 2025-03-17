@@ -1,0 +1,16 @@
+{"time":"2025-03-13T23:35:56.155726251+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250313_233556-82q0cpbc/logs/debug-core.log"}
+{"time":"2025-03-13T23:35:57.668793063+05:30","level":"INFO","msg":"created new stream","id":"82q0cpbc"}
+{"time":"2025-03-13T23:35:57.668880277+05:30","level":"INFO","msg":"stream: started","id":"82q0cpbc"}
+{"time":"2025-03-13T23:35:57.668982331+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:35:57.669169191+05:30","level":"INFO","msg":"sender: started","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:35:57.669291392+05:30","level":"INFO","msg":"handler: started","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:35:58.117352907+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T23:35:58.52008522+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T23:35:58.520597365+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T23:35:59.512504437+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.099361232,"progress":"199B/199B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.099262348,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-03-13T23:36:00.327643817+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T23:36:00.686923709+05:30","level":"INFO","msg":"stream: closing","id":"82q0cpbc"}
+{"time":"2025-03-13T23:36:00.686989106+05:30","level":"INFO","msg":"handler: closed","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:36:00.687074465+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:36:00.687116086+05:30","level":"INFO","msg":"sender: closed","stream_id":"82q0cpbc"}
+{"time":"2025-03-13T23:36:00.687227959+05:30","level":"INFO","msg":"stream: closed","id":"82q0cpbc"}

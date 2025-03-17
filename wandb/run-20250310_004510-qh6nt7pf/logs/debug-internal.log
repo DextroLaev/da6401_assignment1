@@ -1,0 +1,13 @@
+{"time":"2025-03-10T00:45:10.184566147+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_004510-qh6nt7pf/logs/debug-core.log"}
+{"time":"2025-03-10T00:45:10.291284849+05:30","level":"INFO","msg":"created new stream","id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.291375526+05:30","level":"INFO","msg":"stream: started","id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.291590672+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.291698474+05:30","level":"INFO","msg":"sender: started","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.291823299+05:30","level":"INFO","msg":"handler: started","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.58995181+05:30","level":"INFO","msg":"stream: closing","id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:10.692788289+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-10T00:45:11.454208698+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T00:45:11.454439214+05:30","level":"INFO","msg":"handler: closed","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:11.45450643+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:11.454665618+05:30","level":"INFO","msg":"sender: closed","stream_id":"qh6nt7pf"}
+{"time":"2025-03-10T00:45:11.454968529+05:30","level":"INFO","msg":"stream: closed","id":"qh6nt7pf"}

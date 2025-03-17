@@ -1,0 +1,16 @@
+{"time":"2025-03-09T23:19:27.752258908+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_231927-n64yk1e7/logs/debug-core.log"}
+{"time":"2025-03-09T23:19:27.856932917+05:30","level":"INFO","msg":"created new stream","id":"n64yk1e7"}
+{"time":"2025-03-09T23:19:27.857026408+05:30","level":"INFO","msg":"stream: started","id":"n64yk1e7"}
+{"time":"2025-03-09T23:19:27.857165365+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:19:27.857386824+05:30","level":"INFO","msg":"handler: started","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:19:27.85766044+05:30","level":"INFO","msg":"sender: started","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:19:28.222212831+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T23:21:03.534353641+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T23:21:03.535045115+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T23:21:04.539353343+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.138188994,"progress":"52B/52B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.138159688,"progress":"228B/228B"}],"total_operations":2}}
+{"time":"2025-03-09T23:21:05.221439185+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T23:21:05.644896138+05:30","level":"INFO","msg":"stream: closing","id":"n64yk1e7"}
+{"time":"2025-03-09T23:21:05.644995771+05:30","level":"INFO","msg":"handler: closed","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:21:05.645036762+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:21:05.645057065+05:30","level":"INFO","msg":"sender: closed","stream_id":"n64yk1e7"}
+{"time":"2025-03-09T23:21:05.64526859+05:30","level":"INFO","msg":"stream: closed","id":"n64yk1e7"}

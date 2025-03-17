@@ -1,0 +1,16 @@
+{"time":"2025-03-10T00:58:01.295959024+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_005801-ighe52jl/logs/debug-core.log"}
+{"time":"2025-03-10T00:58:02.811733528+05:30","level":"INFO","msg":"created new stream","id":"ighe52jl"}
+{"time":"2025-03-10T00:58:02.811832454+05:30","level":"INFO","msg":"stream: started","id":"ighe52jl"}
+{"time":"2025-03-10T00:58:02.81215104+05:30","level":"INFO","msg":"handler: started","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:02.812128211+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:02.812308614+05:30","level":"INFO","msg":"sender: started","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:03.250772426+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T00:58:04.15768886+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T00:58:04.158147507+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T00:58:05.124130795+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.517105058,"progress":"281B/281B"},{"desc":"uploading config.yaml","runtime_seconds":0.208343112,"progress":"923B/923B"}],"total_operations":2}}
+{"time":"2025-03-10T00:58:05.93667208+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T00:58:06.296694054+05:30","level":"INFO","msg":"stream: closing","id":"ighe52jl"}
+{"time":"2025-03-10T00:58:06.296757698+05:30","level":"INFO","msg":"handler: closed","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:06.296783638+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:06.296923852+05:30","level":"INFO","msg":"sender: closed","stream_id":"ighe52jl"}
+{"time":"2025-03-10T00:58:06.29715263+05:30","level":"INFO","msg":"stream: closed","id":"ighe52jl"}

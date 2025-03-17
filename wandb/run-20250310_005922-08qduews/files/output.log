@@ -1,0 +1,9 @@
+Starting training with run name: hl_5_bs_32_ac_sigmoid
+[64, 64, 64, 64, 64]
+(64, 784) (1, 64)
+(64, 64) (1, 64)
+(64, 64) (1, 64)
+(64, 64) (1, 64)
+(64, 64) (1, 64)
+(64, 10) (1, 10)
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

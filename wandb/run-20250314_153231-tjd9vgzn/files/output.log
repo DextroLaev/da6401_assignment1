@@ -1,0 +1,12 @@
+Starting training with run name: hl_3_bs_32_ac_tanh
+Epoch 1/10 - Batch 1680/1687 - train-loss: 0.048364 train-acc: 0.656250 val-loss:0.043998 val-acc : 0.727000 
+Epoch 2/10 - Batch 1680/1687 - train-loss: 0.049394 train-acc: 0.687500 val-loss:0.048390 val-acc : 0.729167 
+Epoch 3/10 - Batch 1680/1687 - train-loss: 0.051347 train-acc: 0.718750 val-loss:0.051114 val-acc : 0.704000 
+Epoch 4/10 - Batch 1680/1687 - train-loss: 0.052172 train-acc: 0.625000 val-loss:0.052412 val-acc : 0.651167 
+Epoch 5/10 - Batch 1680/1687 - train-loss: 0.052711 train-acc: 0.656250 val-loss:0.053113 val-acc : 0.638333 
+Epoch 6/10 - Batch 1680/1687 - train-loss: 0.053063 train-acc: 0.656250 val-loss:0.053358 val-acc : 0.639667 
+Epoch 7/10 - Batch 1680/1687 - train-loss: 0.053216 train-acc: 0.625000 val-loss:0.053395 val-acc : 0.644000 
+Epoch 8/10 - Batch 1680/1687 - train-loss: 0.053249 train-acc: 0.625000 val-loss:0.053382 val-acc : 0.645167 
+Epoch 9/10 - Batch 1680/1687 - train-loss: 0.053245 train-acc: 0.625000 val-loss:0.053370 val-acc : 0.646500 
+Epoch 10/10 - Batch 1560/1687 - train-loss: 0.047416 train-acc: 0.781250 val-loss:0.053528 val-acc : 0.655000 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

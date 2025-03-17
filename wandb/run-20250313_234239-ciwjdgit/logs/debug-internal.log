@@ -1,0 +1,16 @@
+{"time":"2025-03-13T23:42:39.529164068+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250313_234239-ciwjdgit/logs/debug-core.log"}
+{"time":"2025-03-13T23:42:39.633791037+05:30","level":"INFO","msg":"created new stream","id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:39.633867431+05:30","level":"INFO","msg":"stream: started","id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:39.633972504+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:39.634122437+05:30","level":"INFO","msg":"sender: started","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:39.634171866+05:30","level":"INFO","msg":"handler: started","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:40.302474265+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T23:42:47.330547677+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T23:42:47.331110001+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T23:42:48.338294104+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.410077201,"progress":"922B/922B"}],"total_operations":1}}
+{"time":"2025-03-13T23:42:48.489075969+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T23:42:49.11397805+05:30","level":"INFO","msg":"stream: closing","id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:49.11403632+05:30","level":"INFO","msg":"handler: closed","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:49.114056911+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:49.11410927+05:30","level":"INFO","msg":"sender: closed","stream_id":"ciwjdgit"}
+{"time":"2025-03-13T23:42:49.114207429+05:30","level":"INFO","msg":"stream: closed","id":"ciwjdgit"}

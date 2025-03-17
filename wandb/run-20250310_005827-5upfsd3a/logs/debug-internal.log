@@ -1,0 +1,7 @@
+{"time":"2025-03-10T00:58:27.656159543+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_005827-5upfsd3a/logs/debug-core.log"}
+{"time":"2025-03-10T00:58:29.170752584+05:30","level":"INFO","msg":"created new stream","id":"5upfsd3a"}
+{"time":"2025-03-10T00:58:29.170780975+05:30","level":"INFO","msg":"stream: started","id":"5upfsd3a"}
+{"time":"2025-03-10T00:58:29.170791484+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5upfsd3a"}
+{"time":"2025-03-10T00:58:29.170800891+05:30","level":"INFO","msg":"sender: started","stream_id":"5upfsd3a"}
+{"time":"2025-03-10T00:58:29.170852177+05:30","level":"INFO","msg":"handler: started","stream_id":"5upfsd3a"}
+{"time":"2025-03-10T00:58:29.573868168+05:30","level":"INFO","msg":"Starting system monitor"}

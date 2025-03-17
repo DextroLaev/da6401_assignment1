@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:43:43.576210139+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250315_214343-1u6pt3a4/logs/debug-core.log"}
+{"time":"2025-03-15T21:43:43.680556342+05:30","level":"INFO","msg":"created new stream","id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:43.680584334+05:30","level":"INFO","msg":"stream: started","id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:43.680599039+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:43.68063068+05:30","level":"INFO","msg":"handler: started","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:43.680660373+05:30","level":"INFO","msg":"sender: started","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:44.049951295+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:43:52.045619711+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:43:52.046474391+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:43:53.055656644+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.705128519,"progress":"206B/206B"},{"desc":"uploading config.yaml","runtime_seconds":0.41187023,"progress":"928B/928B"}],"total_operations":2}}
+{"time":"2025-03-15T21:43:53.690442211+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:43:54.075746208+05:30","level":"INFO","msg":"stream: closing","id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:54.075807849+05:30","level":"INFO","msg":"handler: closed","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:54.075837433+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:54.075972083+05:30","level":"INFO","msg":"sender: closed","stream_id":"1u6pt3a4"}
+{"time":"2025-03-15T21:43:54.076122148+05:30","level":"INFO","msg":"stream: closed","id":"1u6pt3a4"}

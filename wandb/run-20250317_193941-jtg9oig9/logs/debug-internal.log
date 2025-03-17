@@ -1,0 +1,15 @@
+{"time":"2025-03-17T19:39:41.392770994+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250317_193941-jtg9oig9/logs/debug-core.log"}
+{"time":"2025-03-17T19:39:41.500388573+05:30","level":"INFO","msg":"created new stream","id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:41.500530891+05:30","level":"INFO","msg":"stream: started","id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:41.500745617+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:41.500769968+05:30","level":"INFO","msg":"sender: started","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:41.501024918+05:30","level":"INFO","msg":"handler: started","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:41.907164666+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T19:39:50.373843293+05:30","level":"INFO","msg":"stream: closing","id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:50.374096254+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T19:39:50.376683542+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T19:39:51.47326715+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T19:39:51.792476868+05:30","level":"INFO","msg":"handler: closed","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:51.792511736+05:30","level":"INFO","msg":"sender: closed","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:51.792508416+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jtg9oig9"}
+{"time":"2025-03-17T19:39:51.792551154+05:30","level":"INFO","msg":"stream: closed","id":"jtg9oig9"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:50:23.440931463+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_015023-zin5m32v/logs/debug-core.log"}
+{"time":"2025-03-16T01:50:23.544900339+05:30","level":"INFO","msg":"created new stream","id":"zin5m32v"}
+{"time":"2025-03-16T01:50:23.544934799+05:30","level":"INFO","msg":"stream: started","id":"zin5m32v"}
+{"time":"2025-03-16T01:50:23.544997844+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:50:23.545027662+05:30","level":"INFO","msg":"handler: started","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:50:23.545033149+05:30","level":"INFO","msg":"sender: started","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:50:23.868821093+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:51:43.255551597+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:51:43.258935694+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:51:44.256706277+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.418493939,"progress":"1.1KB/1.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.140156124,"progress":"925B/925B"}],"total_operations":2}}
+{"time":"2025-03-16T01:51:44.480115861+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:51:44.779704394+05:30","level":"INFO","msg":"stream: closing","id":"zin5m32v"}
+{"time":"2025-03-16T01:51:44.779726674+05:30","level":"INFO","msg":"handler: closed","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:51:44.779734619+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:51:44.779745744+05:30","level":"INFO","msg":"sender: closed","stream_id":"zin5m32v"}
+{"time":"2025-03-16T01:51:44.779779059+05:30","level":"INFO","msg":"stream: closed","id":"zin5m32v"}

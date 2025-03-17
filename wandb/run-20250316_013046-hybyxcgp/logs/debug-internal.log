@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:30:46.700533966+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_013046-hybyxcgp/logs/debug-core.log"}
+{"time":"2025-03-16T01:30:46.803131174+05:30","level":"INFO","msg":"created new stream","id":"hybyxcgp"}
+{"time":"2025-03-16T01:30:46.803153597+05:30","level":"INFO","msg":"stream: started","id":"hybyxcgp"}
+{"time":"2025-03-16T01:30:46.803166348+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:30:46.803247883+05:30","level":"INFO","msg":"sender: started","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:30:46.803262084+05:30","level":"INFO","msg":"handler: started","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:30:47.17607593+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:31:48.624192321+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:31:48.624812896+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:31:49.629303285+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.411260184,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.411226878,"progress":"196B/196B"},{"desc":"uploading config.yaml","runtime_seconds":0.117859822,"progress":"926B/926B"}],"total_operations":3}}
+{"time":"2025-03-16T01:31:50.504198093+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:31:50.842296155+05:30","level":"INFO","msg":"stream: closing","id":"hybyxcgp"}
+{"time":"2025-03-16T01:31:50.842370772+05:30","level":"INFO","msg":"handler: closed","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:31:50.842399678+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:31:50.842508093+05:30","level":"INFO","msg":"sender: closed","stream_id":"hybyxcgp"}
+{"time":"2025-03-16T01:31:50.842615301+05:30","level":"INFO","msg":"stream: closed","id":"hybyxcgp"}

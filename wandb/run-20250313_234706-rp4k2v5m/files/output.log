@@ -1,0 +1,11 @@
+Starting training with run name: hl_4_bs_16_ac_sigmoid
+Epoch 1/10 - Batch 3300/3375 - train-loss: 0.909376 train-acc: 0.687500 val-loss:0.797649 test-acc : 0.732167 
+Epoch 2/10 - Batch 3300/3375 - train-loss: 0.759392 train-acc: 0.812500 val-loss:0.554709 test-acc : 0.799000 
+Epoch 3/10 - Batch 3300/3375 - train-loss: 0.646967 train-acc: 0.812500 val-loss:0.485545 test-acc : 0.827833 
+Epoch 4/10 - Batch 3300/3375 - train-loss: 0.538211 train-acc: 0.812500 val-loss:0.451458 test-acc : 0.836667 
+Epoch 5/10 - Batch 3300/3375 - train-loss: 0.449880 train-acc: 0.812500 val-loss:0.428993 test-acc : 0.844833 
+Epoch 6/10 - Batch 3300/3375 - train-loss: 0.384624 train-acc: 0.875000 val-loss:0.412662 test-acc : 0.851833 
+Epoch 7/10 - Batch 3300/3375 - train-loss: 0.337614 train-acc: 0.875000 val-loss:0.400367 test-acc : 0.855333 
+Epoch 8/10 - Batch 3300/3375 - train-loss: 0.302627 train-acc: 0.875000 val-loss:0.390823 test-acc : 0.860667 
+Epoch 9/10 - Batch 3300/3375 - train-loss: 0.275041 train-acc: 0.875000 val-loss:0.383209 test-acc : 0.864833 
+Epoch 10/10 - Batch 3300/3375 - train-loss: 0.252636 train-acc: 0.875000 val-loss:0.376993 test-acc : 0.867833 

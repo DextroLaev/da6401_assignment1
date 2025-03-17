@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:51:48.552090598+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_015148-rivqiv0k/logs/debug-core.log"}
+{"time":"2025-03-16T01:51:48.656064549+05:30","level":"INFO","msg":"created new stream","id":"rivqiv0k"}
+{"time":"2025-03-16T01:51:48.656103817+05:30","level":"INFO","msg":"stream: started","id":"rivqiv0k"}
+{"time":"2025-03-16T01:51:48.656171435+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:51:48.656194044+05:30","level":"INFO","msg":"sender: started","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:51:48.656198661+05:30","level":"INFO","msg":"handler: started","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:51:49.00775311+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:52:45.806430394+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:52:45.807037768+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:52:46.808051606+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.695566369,"progress":"194B/194B"},{"desc":"uploading config.yaml","runtime_seconds":0.410328041,"progress":"924B/924B"}],"total_operations":2}}
+{"time":"2025-03-16T01:52:47.431819711+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:52:47.757743748+05:30","level":"INFO","msg":"stream: closing","id":"rivqiv0k"}
+{"time":"2025-03-16T01:52:47.757794882+05:30","level":"INFO","msg":"handler: closed","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:52:47.757823982+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:52:47.757905054+05:30","level":"INFO","msg":"sender: closed","stream_id":"rivqiv0k"}
+{"time":"2025-03-16T01:52:47.757960192+05:30","level":"INFO","msg":"stream: closed","id":"rivqiv0k"}

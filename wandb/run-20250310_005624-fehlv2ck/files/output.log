@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_5_bs_16_ac_tanh
+[128, 128, 128, 128, 128]
+(128, 784) (1, 128)
+(128, 128) (1, 128)
+(128, 128) (1, 128)
+(128, 128) (1, 128)
+(128, 128) (1, 128)
+(128, 10) (1, 10)

@@ -66,7 +66,7 @@ class Neural_Net:
             'tanh': Tanh,
             'ReLU': ReLU,
             'softmax': Softmax,
-            'linear':Linear
+            'identity':Linear
         }
         return activation_func[name]()
 

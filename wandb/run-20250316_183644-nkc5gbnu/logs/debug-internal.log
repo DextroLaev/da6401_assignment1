@@ -1,0 +1,16 @@
+{"time":"2025-03-16T18:36:44.722875823+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_183644-nkc5gbnu/logs/debug-core.log"}
+{"time":"2025-03-16T18:36:46.231787511+05:30","level":"INFO","msg":"created new stream","id":"nkc5gbnu"}
+{"time":"2025-03-16T18:36:46.231836612+05:30","level":"INFO","msg":"stream: started","id":"nkc5gbnu"}
+{"time":"2025-03-16T18:36:46.231888842+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:36:46.231920377+05:30","level":"INFO","msg":"sender: started","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:36:46.231938991+05:30","level":"INFO","msg":"handler: started","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:36:46.603154506+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T18:38:54.937534938+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T18:38:54.938104945+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T18:38:55.942796716+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.432238836,"progress":"1.8KB/1.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.432219578,"progress":"206B/206B"},{"desc":"uploading config.yaml","runtime_seconds":0.132218553,"progress":"969B/969B"}],"total_operations":3}}
+{"time":"2025-03-16T18:38:56.861887594+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T18:38:57.184619866+05:30","level":"INFO","msg":"stream: closing","id":"nkc5gbnu"}
+{"time":"2025-03-16T18:38:57.184691467+05:30","level":"INFO","msg":"handler: closed","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:38:57.184727006+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:38:57.184778469+05:30","level":"INFO","msg":"sender: closed","stream_id":"nkc5gbnu"}
+{"time":"2025-03-16T18:38:57.184937504+05:30","level":"INFO","msg":"stream: closed","id":"nkc5gbnu"}

@@ -1,0 +1,23 @@
+Epoch 1/10 - Batch 800/843 - CE Train Loss: 0.896682 Train Acc: 0.750000 Val Loss: 0.863756 Val Acc: 0.715000 
+Epoch 2/10 - Batch 800/843 - CE Train Loss: 0.607328 Train Acc: 0.796875 Val Loss: 0.618185 Val Acc: 0.789500 
+Epoch 3/10 - Batch 800/843 - CE Train Loss: 0.528827 Train Acc: 0.781250 Val Loss: 0.538452 Val Acc: 0.814167 
+Epoch 4/10 - Batch 800/843 - CE Train Loss: 0.496887 Train Acc: 0.859375 Val Loss: 0.499209 Val Acc: 0.824167 
+Epoch 5/10 - Batch 800/843 - CE Train Loss: 0.488070 Train Acc: 0.843750 Val Loss: 0.474714 Val Acc: 0.831833 
+Epoch 6/10 - Batch 800/843 - CE Train Loss: 0.481464 Train Acc: 0.843750 Val Loss: 0.457995 Val Acc: 0.837333 
+Epoch 7/10 - Batch 800/843 - CE Train Loss: 0.470939 Train Acc: 0.828125 Val Loss: 0.444346 Val Acc: 0.842167 
+Epoch 8/10 - Batch 800/843 - CE Train Loss: 0.459758 Train Acc: 0.828125 Val Loss: 0.434356 Val Acc: 0.844667 
+Epoch 9/10 - Batch 800/843 - CE Train Loss: 0.448084 Train Acc: 0.843750 Val Loss: 0.426052 Val Acc: 0.848000 
+Epoch 10/10 - Batch 800/843 - CE Train Loss: 0.440829 Train Acc: 0.843750 Val Loss: 0.420130 Val Acc: 0.849833 
+Epoch 1/10 - Batch 800/843 - MSE Train Loss: 0.049804 Train Acc: 0.640625 Val Loss: 0.055552 Val Acc: 0.578333 
+Epoch 2/10 - Batch 800/843 - MSE Train Loss: 0.031918 Train Acc: 0.812500 Val Loss: 0.034966 Val Acc: 0.745667 
+Epoch 3/10 - Batch 800/843 - MSE Train Loss: 0.028392 Train Acc: 0.812500 Val Loss: 0.029836 Val Acc: 0.784333 
+Epoch 4/10 - Batch 800/843 - MSE Train Loss: 0.027552 Train Acc: 0.812500 Val Loss: 0.027298 Val Acc: 0.802167 
+Epoch 5/10 - Batch 800/843 - MSE Train Loss: 0.026855 Train Acc: 0.828125 Val Loss: 0.025778 Val Acc: 0.816333 
+Epoch 6/10 - Batch 800/843 - MSE Train Loss: 0.026199 Train Acc: 0.843750 Val Loss: 0.024832 Val Acc: 0.823000 
+Epoch 7/10 - Batch 800/843 - MSE Train Loss: 0.024880 Train Acc: 0.843750 Val Loss: 0.024060 Val Acc: 0.829500 
+Epoch 8/10 - Batch 800/843 - MSE Train Loss: 0.024287 Train Acc: 0.828125 Val Loss: 0.023444 Val Acc: 0.835167 
+Epoch 9/10 - Batch 800/843 - MSE Train Loss: 0.023807 Train Acc: 0.828125 Val Loss: 0.022938 Val Acc: 0.838500 
+Epoch 10/10 - Batch 800/843 - MSE Train Loss: 0.023778 Train Acc: 0.828125 Val Loss: 0.022508 Val Acc: 0.842167 
+Create sweep with ID: zpnm45s4
+Sweep URL: https://wandb.ai/cs24s031-indian-institute-of-technology-madras/dl-assignment1/sweeps/zpnm45s4
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

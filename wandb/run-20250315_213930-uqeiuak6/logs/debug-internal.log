@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:39:30.349161205+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250315_213930-uqeiuak6/logs/debug-core.log"}
+{"time":"2025-03-15T21:39:30.453285919+05:30","level":"INFO","msg":"created new stream","id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:30.453331774+05:30","level":"INFO","msg":"stream: started","id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:30.453399752+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:30.453442898+05:30","level":"INFO","msg":"sender: started","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:30.453491319+05:30","level":"INFO","msg":"handler: started","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:30.800942188+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:39:48.222687294+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:39:48.223133316+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:39:49.22758679+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.695629605,"progress":"209B/209B"},{"desc":"uploading config.yaml","runtime_seconds":0.413221157,"progress":"927B/927B"}],"total_operations":2}}
+{"time":"2025-03-15T21:39:49.849793465+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:39:50.173812746+05:30","level":"INFO","msg":"stream: closing","id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:50.173915757+05:30","level":"INFO","msg":"handler: closed","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:50.173936921+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:50.174051917+05:30","level":"INFO","msg":"sender: closed","stream_id":"uqeiuak6"}
+{"time":"2025-03-15T21:39:50.174187518+05:30","level":"INFO","msg":"stream: closed","id":"uqeiuak6"}

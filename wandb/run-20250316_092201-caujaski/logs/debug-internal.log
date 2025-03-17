@@ -1,0 +1,16 @@
+{"time":"2025-03-16T09:22:01.569491075+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_092201-caujaski/logs/debug-core.log"}
+{"time":"2025-03-16T09:22:03.078765804+05:30","level":"INFO","msg":"created new stream","id":"caujaski"}
+{"time":"2025-03-16T09:22:03.078790989+05:30","level":"INFO","msg":"stream: started","id":"caujaski"}
+{"time":"2025-03-16T09:22:03.078805578+05:30","level":"INFO","msg":"handler: started","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:03.07881624+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:03.078842013+05:30","level":"INFO","msg":"sender: started","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:03.4759116+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T09:22:52.260153884+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T09:22:52.260746589+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T09:22:53.26189681+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.698278123,"progress":"694B/694B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.698264051,"progress":"176B/176B"},{"desc":"uploading config.yaml","runtime_seconds":0.407121275,"progress":"925B/925B"}],"total_operations":3}}
+{"time":"2025-03-16T09:22:53.910151034+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T09:22:54.245795165+05:30","level":"INFO","msg":"stream: closing","id":"caujaski"}
+{"time":"2025-03-16T09:22:54.24582703+05:30","level":"INFO","msg":"handler: closed","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:54.245842607+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:54.245917841+05:30","level":"INFO","msg":"sender: closed","stream_id":"caujaski"}
+{"time":"2025-03-16T09:22:54.245929175+05:30","level":"INFO","msg":"stream: closed","id":"caujaski"}

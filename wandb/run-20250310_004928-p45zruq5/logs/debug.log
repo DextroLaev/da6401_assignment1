@@ -1,0 +1,41 @@
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_setup.py:_flush():67] Configure stats pid to 30848
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/.config/wandb/settings
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_setup.py:_flush():67] Loading settings from /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/settings
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_004928-p45zruq5/logs/debug.log
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_004928-p45zruq5/logs/debug-internal.log
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():761] calling init triggers
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation_function': 'ReLU', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 128, 'learning_rate': 0.001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_initialization': 'xavier'}
+config: {'_wandb': {}}
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():784] starting backend
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-10 00:49:28,572 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():798] backend started and connected
+2025-03-10 00:49:28,573 INFO    Thread-7 (_run_job):30848 [wandb_run.py:_config_callback():1261] config_cb None None {'activation_function': 'ReLU', 'batch_size': 64, 'epochs': 10, 'hidden_layer_size': 128, 'learning_rate': 0.001, 'num_of_hidden_layers': 4, 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_initialization': 'xavier'}
+2025-03-10 00:49:28,573 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():891] updated telemetry
+2025-03-10 00:49:28,577 INFO    Thread-7 (_run_job):30848 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-10 00:49:28,722 INFO    MsgRouterThr:30848 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-03-10 00:49:28,723 ERROR   Thread-7 (_run_job):30848 [wandb_init.py:init():1478] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 941, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 70, in wait_all_with_progress
+    return _wait_handles(handle_list, timeout=progress_after)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 110, in _wait_handles
+    results.append(handle.wait_or(timeout=remaining_timeout))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 122, in wait_or
+    return self._fn(self._handle.wait_or(timeout=timeout))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/myenv/lib/python3.12/site-packages/wandb/sdk/mailbox/response_handle.py", line 98, in wait_or
+    raise HandleAbandonedError()
+wandb.sdk.mailbox.mailbox_handle.HandleAbandonedError

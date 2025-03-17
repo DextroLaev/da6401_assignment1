@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/train.py", line 59, in <module>
+    nn = Neural_Net(input_shape = input_shape,output_shape = output_shape,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/neural_net.py", line 21, in __init__
+    self.W, self.B = self.weight_init(type_of_init)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/neural_net.py", line 31, in weight_init
+    W.append(np.random.randn(self.input_shape, self.hidden_neurons_per_layer[0]) * np.sqrt(6 / (self.input_shape + self.hidden_neurons_per_layer[0])))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/mtrand.pyx", line 1306, in numpy.random.mtrand.RandomState.randn
+  File "numpy/random/mtrand.pyx", line 1467, in numpy.random.mtrand.RandomState.standard_normal
+  File "_common.pyx", line 657, in numpy.random._common.cont
+TypeError: 'list' object cannot be interpreted as an integer

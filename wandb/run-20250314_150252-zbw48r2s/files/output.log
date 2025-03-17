@@ -1,0 +1,8 @@
+Starting training with run name: hl_4_bs_16_ac_sigmoid
+/home/dextrolaev/Desktop/DL/da6401_assignment1/activations.py:18: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-x))
+Epoch 1/10 - Batch 3300/3375 - train-loss: 0.200000 train-acc: 0.000000 val-loss:0.119998 val-acc : 0.107000 
+Epoch 2/10 - Batch 3300/3375 - train-loss: 0.189120 train-acc: 0.000000 val-loss:0.120302 val-acc : 0.107000 
+Epoch 3/10 - Batch 3300/3375 - train-loss: 0.162500 train-acc: 0.000000 val-loss:0.115064 val-acc : 0.107167 
+Epoch 4/10 - Batch 1500/3375 - train-loss: 0.187500 train-acc: 0.062500 val-loss:0.122261 val-acc : 0.107000 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

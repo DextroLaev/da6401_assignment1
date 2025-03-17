@@ -1,0 +1,16 @@
+{"time":"2025-03-13T23:51:59.813616345+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250313_235159-7sg64j71/logs/debug-core.log"}
+{"time":"2025-03-13T23:51:59.919742093+05:30","level":"INFO","msg":"created new stream","id":"7sg64j71"}
+{"time":"2025-03-13T23:51:59.919878597+05:30","level":"INFO","msg":"stream: started","id":"7sg64j71"}
+{"time":"2025-03-13T23:51:59.919978964+05:30","level":"INFO","msg":"handler: started","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:51:59.919980062+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:51:59.920124068+05:30","level":"INFO","msg":"sender: started","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:52:00.337291017+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T23:52:22.571460061+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T23:52:22.571851688+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T23:52:23.572343138+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.671199166,"progress":"209B/209B"},{"desc":"uploading config.yaml","runtime_seconds":0.393120153,"progress":"929B/929B"}],"total_operations":2}}
+{"time":"2025-03-13T23:52:24.30228502+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T23:52:24.684706065+05:30","level":"INFO","msg":"stream: closing","id":"7sg64j71"}
+{"time":"2025-03-13T23:52:24.684828399+05:30","level":"INFO","msg":"handler: closed","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:52:24.684884795+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:52:24.684962871+05:30","level":"INFO","msg":"sender: closed","stream_id":"7sg64j71"}
+{"time":"2025-03-13T23:52:24.685269635+05:30","level":"INFO","msg":"stream: closed","id":"7sg64j71"}

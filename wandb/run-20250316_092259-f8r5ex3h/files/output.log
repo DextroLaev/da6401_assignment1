@@ -1,0 +1,4 @@
+Starting training with run name: hl_3_bs_64_ac_ReLU
+Epoch 1/10 - Batch 800/843 - train-loss: nan train-acc: 0.109375 val-loss:nan val-acc : 0.104167 
+Epoch 2/10 - Batch 700/843 - train-loss: nan train-acc: 0.062500 val-loss:nan val-acc : 0.104167 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,11 @@
+Starting training with run name: hl_3_bs_16_ac_ReLU
+Epoch 1/10 - Batch 3300/3375 - train-loss: 0.022368 train-acc: 0.812500 val-loss:0.028705 val-acc : 0.800833 
+Epoch 2/10 - Batch 3300/3375 - train-loss: 0.024672 train-acc: 0.937500 val-loss:0.028947 val-acc : 0.801333 
+Epoch 3/10 - Batch 3300/3375 - train-loss: 0.026277 train-acc: 0.875000 val-loss:0.029196 val-acc : 0.803833 
+Epoch 4/10 - Batch 3300/3375 - train-loss: 0.026865 train-acc: 0.875000 val-loss:0.029475 val-acc : 0.802000 
+Epoch 5/10 - Batch 3300/3375 - train-loss: 0.027153 train-acc: 0.875000 val-loss:0.029662 val-acc : 0.801500 
+Epoch 6/10 - Batch 3300/3375 - train-loss: 0.027275 train-acc: 0.875000 val-loss:0.029787 val-acc : 0.798667 
+Epoch 7/10 - Batch 3300/3375 - train-loss: 0.027429 train-acc: 0.875000 val-loss:0.029890 val-acc : 0.797500 
+Epoch 8/10 - Batch 3300/3375 - train-loss: 0.027611 train-acc: 0.875000 val-loss:0.029944 val-acc : 0.798000 
+Epoch 9/10 - Batch 3300/3375 - train-loss: 0.027949 train-acc: 0.875000 val-loss:0.029974 val-acc : 0.798500 
+Epoch 10/10 - Batch 3300/3375 - train-loss: 0.028446 train-acc: 0.875000 val-loss:0.030054 val-acc : 0.798167 

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T09:57:34.85910742+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_095734-r9kwu941/logs/debug-core.log"}
+{"time":"2025-03-16T09:57:34.963703252+05:30","level":"INFO","msg":"created new stream","id":"r9kwu941"}
+{"time":"2025-03-16T09:57:34.963730154+05:30","level":"INFO","msg":"stream: started","id":"r9kwu941"}
+{"time":"2025-03-16T09:57:34.963808772+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:34.963881287+05:30","level":"INFO","msg":"handler: started","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:34.963914651+05:30","level":"INFO","msg":"sender: started","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:35.483439034+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T09:57:41.063058494+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T09:57:41.063854647+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T09:57:42.032428557+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T09:57:42.065676223+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-32, summary, console lines 0-1","runtime_seconds":0.033124546}],"total_operations":1}}
+{"time":"2025-03-16T09:57:42.333517474+05:30","level":"INFO","msg":"stream: closing","id":"r9kwu941"}
+{"time":"2025-03-16T09:57:42.333533256+05:30","level":"INFO","msg":"handler: closed","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:42.333541199+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:42.333551769+05:30","level":"INFO","msg":"sender: closed","stream_id":"r9kwu941"}
+{"time":"2025-03-16T09:57:42.333604479+05:30","level":"INFO","msg":"stream: closed","id":"r9kwu941"}

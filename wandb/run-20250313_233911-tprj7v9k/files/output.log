@@ -1,0 +1,12 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_3_bs_64_ac_tanh
+Epoch 1/10 - Batch 800/843 - train-loss: 0.694683 train-acc: 0.796875 val-loss:0.493142 test-acc : 0.820167 
+Epoch 2/10 - Batch 800/843 - train-loss: 0.737601 train-acc: 0.750000 val-loss:0.474219 test-acc : 0.819500 
+Epoch 3/10 - Batch 800/843 - train-loss: 0.744914 train-acc: 0.734375 val-loss:0.497066 test-acc : 0.810500 
+Epoch 4/10 - Batch 800/843 - train-loss: 0.746785 train-acc: 0.750000 val-loss:0.496181 test-acc : 0.814667 
+Epoch 5/10 - Batch 800/843 - train-loss: 0.750855 train-acc: 0.750000 val-loss:0.491090 test-acc : 0.815667 
+Epoch 6/10 - Batch 800/843 - train-loss: 0.748255 train-acc: 0.765625 val-loss:0.485973 test-acc : 0.818167 
+Epoch 7/10 - Batch 800/843 - train-loss: 0.748183 train-acc: 0.765625 val-loss:0.480952 test-acc : 0.819833 
+Epoch 8/10 - Batch 800/843 - train-loss: 0.748456 train-acc: 0.765625 val-loss:0.476329 test-acc : 0.821500 
+Epoch 9/10 - Batch 800/843 - train-loss: 0.742027 train-acc: 0.765625 val-loss:0.473356 test-acc : 0.823667 
+Epoch 10/10 - Batch 800/843 - train-loss: 0.735179 train-acc: 0.765625 val-loss:0.469827 test-acc : 0.826167 

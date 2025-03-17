@@ -1,0 +1,6 @@
+Starting training with run name: hl_3_bs_64_ac_tanh
+Epoch 1/5 - Batch 800/843 - train-loss: 0.057088 train-acc: 0.593750 val-loss:0.058005 val-acc : 0.575500 
+Epoch 2/5 - Batch 800/843 - train-loss: 0.038707 train-acc: 0.718750 val-loss:0.039121 val-acc : 0.721167 
+Epoch 3/5 - Batch 800/843 - train-loss: 0.030629 train-acc: 0.781250 val-loss:0.031495 val-acc : 0.779667 
+Epoch 4/5 - Batch 800/843 - train-loss: 0.027186 train-acc: 0.812500 val-loss:0.028555 val-acc : 0.801333 
+Epoch 5/5 - Batch 800/843 - train-loss: 0.026059 train-acc: 0.796875 val-loss:0.026813 val-acc : 0.818667 

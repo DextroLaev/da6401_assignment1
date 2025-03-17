@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_3_bs_32_ac_tanh
+Epoch 1/10 - Batch 1688/1687 - train-loss: 0.034903 train-acc: 0.812500 val-loss:0.026630 val-acc : 0.818000 
+Epoch 2/10 - Batch 1688/1687 - train-loss: 0.028534 train-acc: 0.875000 val-loss:0.024676 val-acc : 0.829500 
+Epoch 3/10 - Batch 1688/1687 - train-loss: 0.026892 train-acc: 0.875000 val-loss:0.024381 val-acc : 0.834667 
+Epoch 4/10 - Batch 1688/1687 - train-loss: 0.026351 train-acc: 0.875000 val-loss:0.024396 val-acc : 0.837333 
+Epoch 5/10 - Batch 1688/1687 - train-loss: 0.026112 train-acc: 0.875000 val-loss:0.024422 val-acc : 0.839167 
+Epoch 6/10 - Batch 182/1687 - train-loss: 0.037065 train-acc: 0.750000 val-loss:0.024429 val-acc : 0.834833 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,8 @@
+Starting training with run name: hl_3_bs_32_ac_ReLU
+/home/dextrolaev/Desktop/DL/da6401_assignment1/activations.py:42: RuntimeWarning: invalid value encountered in subtract
+  exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
+Epoch 1/5 - Batch 1600/1687 - train-loss: nan train-acc: 0.125000 val-loss:nan test-acc : 0.104667 
+Epoch 2/5 - Batch 1600/1687 - train-loss: nan train-acc: 0.125000 val-loss:nan test-acc : 0.104667 
+Epoch 3/5 - Batch 1600/1687 - train-loss: nan train-acc: 0.125000 val-loss:nan test-acc : 0.104667 
+Epoch 4/5 - Batch 1600/1687 - train-loss: nan train-acc: 0.125000 val-loss:nan test-acc : 0.104667 
+Epoch 5/5 - Batch 1600/1687 - train-loss: nan train-acc: 0.125000 val-loss:nan test-acc : 0.104667 

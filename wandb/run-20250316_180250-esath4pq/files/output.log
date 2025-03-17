@@ -1,0 +1,10 @@
+Epoch 1/10 - Batch 800/843 - MSE Train Loss: 0.048752 Train Acc: 0.656250 Val Loss: 0.060247 Val Acc: 0.542667 
+Epoch 2/10 - Batch 800/843 - MSE Train Loss: 0.026886 Train Acc: 0.828125 Val Loss: 0.041946 Val Acc: 0.692833 
+Epoch 3/10 - Batch 800/843 - MSE Train Loss: 0.021779 Train Acc: 0.828125 Val Loss: 0.032716 Val Acc: 0.766333 
+Epoch 4/10 - Batch 800/843 - MSE Train Loss: 0.019876 Train Acc: 0.828125 Val Loss: 0.028308 Val Acc: 0.802333 
+Epoch 5/10 - Batch 800/843 - MSE Train Loss: 0.019128 Train Acc: 0.859375 Val Loss: 0.026180 Val Acc: 0.817333 
+Epoch 6/10 - Batch 800/843 - MSE Train Loss: 0.018938 Train Acc: 0.859375 Val Loss: 0.024852 Val Acc: 0.827167 
+Epoch 7/10 - Batch 800/843 - MSE Train Loss: 0.018656 Train Acc: 0.843750 Val Loss: 0.023913 Val Acc: 0.832833 
+Epoch 8/10 - Batch 800/843 - MSE Train Loss: 0.018054 Train Acc: 0.875000 Val Loss: 0.023256 Val Acc: 0.837500 
+Epoch 9/10 - Batch 800/843 - MSE Train Loss: 0.017650 Train Acc: 0.859375 Val Loss: 0.022725 Val Acc: 0.841667 
+Epoch 10/10 - Batch 800/843 - MSE Train Loss: 0.016985 Train Acc: 0.859375 Val Loss: 0.022419 Val Acc: 0.844833 

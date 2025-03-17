@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_4_bs_64_ac_ReLU
+Epoch 1/5 - Batch 800/843 - train-loss: 0.590468 train-acc: 0.796875 val-loss:0.584902 val-acc : 0.793000 
+Epoch 2/5 - Batch 800/843 - train-loss: 0.512068 train-acc: 0.828125 val-loss:0.473674 val-acc : 0.834667 
+Epoch 3/5 - Batch 800/843 - train-loss: 0.465848 train-acc: 0.828125 val-loss:0.432607 val-acc : 0.848333 
+Epoch 4/5 - Batch 800/843 - train-loss: 0.427144 train-acc: 0.828125 val-loss:0.412221 val-acc : 0.856000 
+Epoch 5/5 - Batch 800/843 - train-loss: 0.375535 train-acc: 0.843750 val-loss:0.399040 val-acc : 0.862833 

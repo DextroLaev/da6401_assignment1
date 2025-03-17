@@ -1,0 +1,16 @@
+{"time":"2025-03-10T00:33:25.475184918+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_003325-hn7r5nvt/logs/debug-core.log"}
+{"time":"2025-03-10T00:33:25.579155875+05:30","level":"INFO","msg":"created new stream","id":"hn7r5nvt"}
+{"time":"2025-03-10T00:33:25.579184343+05:30","level":"INFO","msg":"stream: started","id":"hn7r5nvt"}
+{"time":"2025-03-10T00:33:25.579251265+05:30","level":"INFO","msg":"handler: started","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:33:25.579252378+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:33:25.579267888+05:30","level":"INFO","msg":"sender: started","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:33:25.950726204+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T00:35:50.546824125+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T00:35:50.547489319+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T00:35:51.543303382+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.392546601,"progress":"268B/268B"},{"desc":"uploading config.yaml","runtime_seconds":0.100955014,"progress":"924B/924B"}],"total_operations":2}}
+{"time":"2025-03-10T00:35:52.476007018+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T00:35:52.846122006+05:30","level":"INFO","msg":"stream: closing","id":"hn7r5nvt"}
+{"time":"2025-03-10T00:35:52.846139903+05:30","level":"INFO","msg":"handler: closed","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:35:52.846147915+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:35:52.846179214+05:30","level":"INFO","msg":"sender: closed","stream_id":"hn7r5nvt"}
+{"time":"2025-03-10T00:35:52.846199346+05:30","level":"INFO","msg":"stream: closed","id":"hn7r5nvt"}

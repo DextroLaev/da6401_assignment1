@@ -1,0 +1,11 @@
+Starting training with run name: hl_4_bs_32_ac_tanh
+Epoch 1/10 - Batch 1600/1687 - train-loss: 0.692398 train-acc: 0.750000 val-loss:0.529307 val-acc : 0.823667 
+Epoch 2/10 - Batch 1600/1687 - train-loss: 0.706232 train-acc: 0.781250 val-loss:0.530040 val-acc : 0.822667 
+Epoch 3/10 - Batch 1600/1687 - train-loss: 0.714724 train-acc: 0.781250 val-loss:0.520971 val-acc : 0.823333 
+Epoch 4/10 - Batch 1600/1687 - train-loss: 0.729244 train-acc: 0.750000 val-loss:0.518275 val-acc : 0.824833 
+Epoch 5/10 - Batch 1600/1687 - train-loss: 0.715660 train-acc: 0.750000 val-loss:0.513525 val-acc : 0.826167 
+Epoch 6/10 - Batch 1600/1687 - train-loss: 0.700516 train-acc: 0.750000 val-loss:0.510555 val-acc : 0.827833 
+Epoch 7/10 - Batch 1600/1687 - train-loss: 0.688060 train-acc: 0.781250 val-loss:0.509517 val-acc : 0.828500 
+Epoch 8/10 - Batch 1600/1687 - train-loss: 0.684414 train-acc: 0.781250 val-loss:0.507998 val-acc : 0.828500 
+Epoch 9/10 - Batch 1600/1687 - train-loss: 0.683238 train-acc: 0.781250 val-loss:0.507617 val-acc : 0.829000 
+Epoch 10/10 - Batch 1600/1687 - train-loss: 0.677541 train-acc: 0.781250 val-loss:0.506188 val-acc : 0.829000 

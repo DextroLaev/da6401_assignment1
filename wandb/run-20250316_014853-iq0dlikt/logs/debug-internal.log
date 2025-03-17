@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:48:53.235863986+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_014853-iq0dlikt/logs/debug-core.log"}
+{"time":"2025-03-16T01:48:53.33869945+05:30","level":"INFO","msg":"created new stream","id":"iq0dlikt"}
+{"time":"2025-03-16T01:48:53.338728913+05:30","level":"INFO","msg":"stream: started","id":"iq0dlikt"}
+{"time":"2025-03-16T01:48:53.338878211+05:30","level":"INFO","msg":"handler: started","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:48:53.338878308+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:48:53.338897282+05:30","level":"INFO","msg":"sender: started","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:48:53.704364354+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:50:19.09967576+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:50:19.100406105+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:50:20.100545508+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.344633859,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.34461963,"progress":"212B/212B"},{"desc":"uploading config.yaml","runtime_seconds":0.059130113,"progress":"926B/926B"}],"total_operations":3}}
+{"time":"2025-03-16T01:50:20.399366003+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:50:20.70383648+05:30","level":"INFO","msg":"stream: closing","id":"iq0dlikt"}
+{"time":"2025-03-16T01:50:20.703880721+05:30","level":"INFO","msg":"handler: closed","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:50:20.703901753+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:50:20.703975248+05:30","level":"INFO","msg":"sender: closed","stream_id":"iq0dlikt"}
+{"time":"2025-03-16T01:50:20.704018783+05:30","level":"INFO","msg":"stream: closed","id":"iq0dlikt"}

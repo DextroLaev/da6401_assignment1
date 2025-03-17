@@ -1,0 +1,16 @@
+{"time":"2025-03-16T09:46:29.710841797+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_094629-x60mdv14/logs/debug-core.log"}
+{"time":"2025-03-16T09:46:29.814018866+05:30","level":"INFO","msg":"created new stream","id":"x60mdv14"}
+{"time":"2025-03-16T09:46:29.814063109+05:30","level":"INFO","msg":"stream: started","id":"x60mdv14"}
+{"time":"2025-03-16T09:46:29.814092408+05:30","level":"INFO","msg":"handler: started","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:46:29.814094821+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:46:29.814151648+05:30","level":"INFO","msg":"sender: started","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:46:30.150692574+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T09:47:50.414642006+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T09:47:50.415390621+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T09:47:51.378873601+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.358039351,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.35802953,"progress":"198B/198B"},{"desc":"uploading config.yaml","runtime_seconds":0.102076156,"progress":"928B/928B"}],"total_operations":3}}
+{"time":"2025-03-16T09:47:51.656756842+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T09:47:51.962235328+05:30","level":"INFO","msg":"stream: closing","id":"x60mdv14"}
+{"time":"2025-03-16T09:47:51.962284192+05:30","level":"INFO","msg":"handler: closed","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:47:51.962306464+05:30","level":"INFO","msg":"sender: closed","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:47:51.962300123+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x60mdv14"}
+{"time":"2025-03-16T09:47:51.962388838+05:30","level":"INFO","msg":"stream: closed","id":"x60mdv14"}

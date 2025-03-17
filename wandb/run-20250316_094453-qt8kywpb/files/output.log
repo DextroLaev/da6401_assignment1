@@ -1,0 +1,2 @@
+Starting training with run name: hl_5_bs_16_ac_ReLU
+Epoch 1/5 - Batch 3300/3375 - train-loss: 0.091880 train-acc: 0.125000 val-loss:0.091472 val-acc : 0.107167 

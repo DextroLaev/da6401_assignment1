@@ -1,0 +1,16 @@
+{"time":"2025-03-14T14:59:57.118917186+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250314_145957-hz33txng/logs/debug-core.log"}
+{"time":"2025-03-14T14:59:57.222038006+05:30","level":"INFO","msg":"created new stream","id":"hz33txng"}
+{"time":"2025-03-14T14:59:57.222061592+05:30","level":"INFO","msg":"stream: started","id":"hz33txng"}
+{"time":"2025-03-14T14:59:57.222126871+05:30","level":"INFO","msg":"handler: started","stream_id":"hz33txng"}
+{"time":"2025-03-14T14:59:57.222128051+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hz33txng"}
+{"time":"2025-03-14T14:59:57.222149647+05:30","level":"INFO","msg":"sender: started","stream_id":"hz33txng"}
+{"time":"2025-03-14T14:59:57.624680502+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T15:01:17.853578874+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-14T15:01:17.854032462+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-14T15:01:18.858245041+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.097690258,"progress":"926B/926B"}],"total_operations":1}}
+{"time":"2025-03-14T15:01:19.116268522+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-14T15:01:19.486277649+05:30","level":"INFO","msg":"stream: closing","id":"hz33txng"}
+{"time":"2025-03-14T15:01:19.486323279+05:30","level":"INFO","msg":"handler: closed","stream_id":"hz33txng"}
+{"time":"2025-03-14T15:01:19.486339773+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hz33txng"}
+{"time":"2025-03-14T15:01:19.486395844+05:30","level":"INFO","msg":"sender: closed","stream_id":"hz33txng"}
+{"time":"2025-03-14T15:01:19.486504848+05:30","level":"INFO","msg":"stream: closed","id":"hz33txng"}

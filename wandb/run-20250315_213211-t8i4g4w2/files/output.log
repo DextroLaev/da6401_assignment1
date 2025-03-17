@@ -1,0 +1,6 @@
+Starting training with run name: hl_4_bs_32_ac_ReLU
+Epoch 1/10 - Batch 1600/1687 - train-loss: 0.613363 train-acc: 0.937500 val-loss:0.548067 val-acc : 0.803833 
+Epoch 2/10 - Batch 1600/1687 - train-loss: 0.547045 train-acc: 0.906250 val-loss:0.563673 val-acc : 0.797000 
+Epoch 3/10 - Batch 1600/1687 - train-loss: 0.524965 train-acc: 0.875000 val-loss:0.556134 val-acc : 0.801333 
+Epoch 4/10 - Batch 1200/1687 - train-loss: 0.391508 train-acc: 0.968750 val-loss:0.564880 val-acc : 0.801500 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

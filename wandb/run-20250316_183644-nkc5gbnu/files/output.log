@@ -1,0 +1,17 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_3_bs_64_ac_ReLU
+Epoch 1/25 - Batch 800/843 - CE Train Loss: 0.104423 Train Acc: 0.968750 Val Loss: 0.241068 Val Acc: 0.926333 
+Epoch 2/25 - Batch 800/843 - CE Train Loss: 0.061342 Train Acc: 0.984375 Val Loss: 0.154075 Val Acc: 0.952500 
+Epoch 3/25 - Batch 800/843 - CE Train Loss: 0.037037 Train Acc: 0.984375 Val Loss: 0.120711 Val Acc: 0.962167 
+Epoch 4/25 - Batch 800/843 - CE Train Loss: 0.026614 Train Acc: 1.000000 Val Loss: 0.106858 Val Acc: 0.965333 
+Epoch 5/25 - Batch 800/843 - CE Train Loss: 0.014569 Train Acc: 1.000000 Val Loss: 0.100301 Val Acc: 0.967833 
+Epoch 6/25 - Batch 800/843 - CE Train Loss: 0.010039 Train Acc: 1.000000 Val Loss: 0.096418 Val Acc: 0.969667 
+Epoch 7/25 - Batch 800/843 - CE Train Loss: 0.007875 Train Acc: 1.000000 Val Loss: 0.094303 Val Acc: 0.968667 
+Epoch 8/25 - Batch 800/843 - CE Train Loss: 0.004126 Train Acc: 1.000000 Val Loss: 0.094594 Val Acc: 0.971833 
+Epoch 9/25 - Batch 800/843 - CE Train Loss: 0.002536 Train Acc: 1.000000 Val Loss: 0.096442 Val Acc: 0.970500 
+Epoch 10/25 - Batch 800/843 - CE Train Loss: 0.001486 Train Acc: 1.000000 Val Loss: 0.104801 Val Acc: 0.971500 
+Epoch 11/25 - Batch 800/843 - CE Train Loss: 0.000892 Train Acc: 1.000000 Val Loss: 0.116447 Val Acc: 0.969833 
+Epoch 12/25 - Batch 800/843 - CE Train Loss: 0.000518 Train Acc: 1.000000 Val Loss: 0.107994 Val Acc: 0.972833 
+Epoch 13/25 - Batch 800/843 - CE Train Loss: 0.000229 Train Acc: 1.000000 Val Loss: 0.105727 Val Acc: 0.973000 
+Epoch 14/25 - Batch 200/843 - CE Train Loss: 0.011615 Train Acc: 1.000000 Val Loss: 0.096520 Val Acc: 0.974667 
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,16 @@
+{"time":"2025-03-09T23:15:12.710979915+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250309_231512-5jqgd5qs/logs/debug-core.log"}
+{"time":"2025-03-09T23:15:14.33526748+05:30","level":"INFO","msg":"created new stream","id":"5jqgd5qs"}
+{"time":"2025-03-09T23:15:14.335385565+05:30","level":"INFO","msg":"stream: started","id":"5jqgd5qs"}
+{"time":"2025-03-09T23:15:14.335560243+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:15:14.335655881+05:30","level":"INFO","msg":"sender: started","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:15:14.335816636+05:30","level":"INFO","msg":"handler: started","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:15:14.884790594+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T23:17:21.44599971+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T23:17:21.447450435+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T23:17:22.447639132+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.335387448,"progress":"202B/202B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.335352241,"progress":"232B/232B"}],"total_operations":2}}
+{"time":"2025-03-09T23:17:22.901016989+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T23:17:23.265811054+05:30","level":"INFO","msg":"stream: closing","id":"5jqgd5qs"}
+{"time":"2025-03-09T23:17:23.265882875+05:30","level":"INFO","msg":"handler: closed","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:17:23.265916191+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:17:23.266077884+05:30","level":"INFO","msg":"sender: closed","stream_id":"5jqgd5qs"}
+{"time":"2025-03-09T23:17:23.266245437+05:30","level":"INFO","msg":"stream: closed","id":"5jqgd5qs"}

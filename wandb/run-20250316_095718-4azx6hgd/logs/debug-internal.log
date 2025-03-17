@@ -1,0 +1,16 @@
+{"time":"2025-03-16T09:57:18.178077609+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_095718-4azx6hgd/logs/debug-core.log"}
+{"time":"2025-03-16T09:57:18.280394369+05:30","level":"INFO","msg":"created new stream","id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:18.280441787+05:30","level":"INFO","msg":"stream: started","id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:18.280570866+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:18.280609488+05:30","level":"INFO","msg":"sender: started","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:18.280655425+05:30","level":"INFO","msg":"handler: started","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:18.614981752+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T09:57:30.162907936+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T09:57:30.163371516+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T09:57:31.163798644+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.685647636,"progress":"207B/207B"},{"desc":"uploading config.yaml","runtime_seconds":0.381268344,"progress":"923B/923B"}],"total_operations":2}}
+{"time":"2025-03-16T09:57:31.801219825+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T09:57:32.116730784+05:30","level":"INFO","msg":"stream: closing","id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:32.116749799+05:30","level":"INFO","msg":"handler: closed","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:32.116758472+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:32.116777579+05:30","level":"INFO","msg":"sender: closed","stream_id":"4azx6hgd"}
+{"time":"2025-03-16T09:57:32.116844838+05:30","level":"INFO","msg":"stream: closed","id":"4azx6hgd"}

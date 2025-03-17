@@ -1,0 +1,15 @@
+{"time":"2025-03-16T21:32:55.5127627+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_213255-sc168jcs/logs/debug-core.log"}
+{"time":"2025-03-16T21:32:57.027676481+05:30","level":"INFO","msg":"created new stream","id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.027738066+05:30","level":"INFO","msg":"stream: started","id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.027766052+05:30","level":"INFO","msg":"handler: started","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.027797008+05:30","level":"INFO","msg":"sender: started","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.027795638+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.459282821+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T21:32:57.568600556+05:30","level":"INFO","msg":"stream: closing","id":"sc168jcs"}
+{"time":"2025-03-16T21:32:57.568773712+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T21:32:57.570089152+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T21:32:59.164375991+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T21:32:59.511846306+05:30","level":"INFO","msg":"handler: closed","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:59.511861988+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:59.511878835+05:30","level":"INFO","msg":"sender: closed","stream_id":"sc168jcs"}
+{"time":"2025-03-16T21:32:59.511912868+05:30","level":"INFO","msg":"stream: closed","id":"sc168jcs"}

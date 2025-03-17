@@ -1,0 +1,12 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Starting training with run name: hl_4_bs_64_ac_sigmoid
+Epoch 1/10 - Batch 800/843 - train-loss: 0.072864 train-acc: 0.406250 val-loss:0.072624 val-acc : 0.503500 
+Epoch 2/10 - Batch 800/843 - train-loss: 0.051660 train-acc: 0.593750 val-loss:0.050352 val-acc : 0.638667 
+Epoch 3/10 - Batch 800/843 - train-loss: 0.041252 train-acc: 0.656250 val-loss:0.040466 val-acc : 0.683000 
+Epoch 4/10 - Batch 800/843 - train-loss: 0.032280 train-acc: 0.718750 val-loss:0.035139 val-acc : 0.715833 
+Epoch 5/10 - Batch 800/843 - train-loss: 0.026977 train-acc: 0.796875 val-loss:0.031833 val-acc : 0.758500 
+Epoch 6/10 - Batch 800/843 - train-loss: 0.023513 train-acc: 0.828125 val-loss:0.029203 val-acc : 0.785833 
+Epoch 7/10 - Batch 800/843 - train-loss: 0.021441 train-acc: 0.890625 val-loss:0.027079 val-acc : 0.812833 
+Epoch 8/10 - Batch 800/843 - train-loss: 0.020094 train-acc: 0.906250 val-loss:0.025390 val-acc : 0.823167 
+Epoch 9/10 - Batch 800/843 - train-loss: 0.019194 train-acc: 0.921875 val-loss:0.024154 val-acc : 0.831500 
+Epoch 10/10 - Batch 800/843 - train-loss: 0.018532 train-acc: 0.906250 val-loss:0.023217 val-acc : 0.837500 

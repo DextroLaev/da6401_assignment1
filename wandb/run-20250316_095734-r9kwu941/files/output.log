@@ -1,0 +1,2 @@
+Starting training with run name: hl_4_bs_16_ac_sigmoid
+Epoch 1/10 - Batch 3300/3375 - train-loss: 0.089937 train-acc: 0.250000 val-loss:0.089927 val-acc : 0.167667 

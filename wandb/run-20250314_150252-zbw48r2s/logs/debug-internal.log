@@ -1,0 +1,15 @@
+{"time":"2025-03-14T15:02:52.425504524+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250314_150252-zbw48r2s/logs/debug-core.log"}
+{"time":"2025-03-14T15:02:52.534254046+05:30","level":"INFO","msg":"created new stream","id":"zbw48r2s"}
+{"time":"2025-03-14T15:02:52.534396484+05:30","level":"INFO","msg":"stream: started","id":"zbw48r2s"}
+{"time":"2025-03-14T15:02:52.53468678+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:02:52.534811659+05:30","level":"INFO","msg":"sender: started","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:02:52.534951727+05:30","level":"INFO","msg":"handler: started","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:02:52.919371515+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T15:03:27.690064885+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-14T15:03:27.693206295+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-14T15:03:28.066951541+05:30","level":"INFO","msg":"stream: closing","id":"zbw48r2s"}
+{"time":"2025-03-14T15:03:28.678072667+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-14T15:03:29.024147021+05:30","level":"INFO","msg":"handler: closed","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:03:29.024292486+05:30","level":"INFO","msg":"sender: closed","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:03:29.024265774+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zbw48r2s"}
+{"time":"2025-03-14T15:03:29.024558263+05:30","level":"INFO","msg":"stream: closed","id":"zbw48r2s"}

@@ -1,0 +1,17 @@
+{"time":"2025-03-10T01:02:52.422194142+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250310_010252-7rsio6eb/logs/debug-core.log"}
+{"time":"2025-03-10T01:02:52.527855763+05:30","level":"INFO","msg":"created new stream","id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:52.527945799+05:30","level":"INFO","msg":"stream: started","id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:52.528083567+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:52.528265084+05:30","level":"INFO","msg":"sender: started","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:52.528379573+05:30","level":"INFO","msg":"handler: started","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:52.939601722+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T01:02:53.038907567+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T01:02:53.042832567+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T01:02:54.006013302+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.754545262,"progress":"1.1KB/1.1KB"},{"desc":"uploading requirements.txt","runtime_seconds":0.694898312,"progress":"2.6KB/2.6KB"},{"desc":"updating run config","runtime_seconds":0.045501352}],"total_operations":3}}
+{"time":"2025-03-10T01:02:55.603722263+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T01:02:55.955654336+05:30","level":"INFO","msg":"stream: closing","id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:55.955789547+05:30","level":"INFO","msg":"handler: closed","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:55.955802238+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:55.9559663+05:30","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-03-10T01:02:55.956115033+05:30","level":"INFO","msg":"sender: closed","stream_id":"7rsio6eb"}
+{"time":"2025-03-10T01:02:55.956155961+05:30","level":"INFO","msg":"stream: closed","id":"7rsio6eb"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T18:02:50.634999882+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_180250-esath4pq/logs/debug-core.log"}
+{"time":"2025-03-16T18:02:50.73726421+05:30","level":"INFO","msg":"created new stream","id":"esath4pq"}
+{"time":"2025-03-16T18:02:50.737303163+05:30","level":"INFO","msg":"stream: started","id":"esath4pq"}
+{"time":"2025-03-16T18:02:50.737318179+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:02:50.737337803+05:30","level":"INFO","msg":"handler: started","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:02:50.737376291+05:30","level":"INFO","msg":"sender: started","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:02:51.107668033+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T18:03:09.730668425+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T18:03:09.733070668+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T18:03:10.692498472+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T18:03:10.73435919+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 69-79, summary, console lines 8-9","runtime_seconds":0.041732479}],"total_operations":1}}
+{"time":"2025-03-16T18:03:11.025205754+05:30","level":"INFO","msg":"stream: closing","id":"esath4pq"}
+{"time":"2025-03-16T18:03:11.025230613+05:30","level":"INFO","msg":"handler: closed","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:03:11.025240601+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:03:11.025249066+05:30","level":"INFO","msg":"sender: closed","stream_id":"esath4pq"}
+{"time":"2025-03-16T18:03:11.025305726+05:30","level":"INFO","msg":"stream: closed","id":"esath4pq"}

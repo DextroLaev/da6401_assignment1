@@ -1,0 +1,11 @@
+Starting training with run name: hl_5_bs_32_ac_ReLU
+Epoch 1/10 - Batch 1600/1687 - train-loss: 0.096820 train-acc: 0.125000 val-loss:0.098215 val-acc : 0.099667 
+Epoch 2/10 - Batch 1600/1687 - train-loss: 0.092703 train-acc: 0.000000 val-loss:0.090724 val-acc : 0.098667 
+Epoch 3/10 - Batch 1600/1687 - train-loss: 0.093733 train-acc: 0.000000 val-loss:0.091228 val-acc : 0.098667 
+Epoch 4/10 - Batch 1600/1687 - train-loss: 0.092254 train-acc: 0.000000 val-loss:0.091330 val-acc : 0.098667 
+Epoch 5/10 - Batch 1600/1687 - train-loss: 0.092538 train-acc: 0.000000 val-loss:0.091056 val-acc : 0.098667 
+Epoch 6/10 - Batch 1600/1687 - train-loss: 0.092597 train-acc: 0.000000 val-loss:0.091202 val-acc : 0.098667 
+Epoch 7/10 - Batch 1600/1687 - train-loss: 0.092597 train-acc: 0.000000 val-loss:0.091202 val-acc : 0.098667 
+Epoch 8/10 - Batch 1600/1687 - train-loss: 0.092597 train-acc: 0.000000 val-loss:0.091202 val-acc : 0.098667 
+Epoch 9/10 - Batch 1600/1687 - train-loss: 0.092597 train-acc: 0.000000 val-loss:0.091202 val-acc : 0.098667 
+Epoch 10/10 - Batch 1600/1687 - train-loss: 0.092597 train-acc: 0.000000 val-loss:0.091202 val-acc : 0.098667 

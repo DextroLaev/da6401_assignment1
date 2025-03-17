@@ -1,0 +1,12 @@
+Epoch 1/10 - Batch 1600/1687 - train-loss: 0.416500 train-acc: 0.906250 val-loss:0.511438 val-acc : 0.812333 
+Epoch 2/10 - Batch 1600/1687 - train-loss: 0.349737 train-acc: 0.843750 val-loss:0.443300 val-acc : 0.838833 
+Epoch 3/10 - Batch 1600/1687 - train-loss: 0.280461 train-acc: 0.875000 val-loss:0.411716 val-acc : 0.853833 
+Epoch 4/10 - Batch 1600/1687 - train-loss: 0.234002 train-acc: 0.906250 val-loss:0.407914 val-acc : 0.854833 
+Epoch 5/10 - Batch 1600/1687 - train-loss: 0.206085 train-acc: 0.937500 val-loss:0.389316 val-acc : 0.857167 
+Epoch 6/10 - Batch 1600/1687 - train-loss: 0.246607 train-acc: 0.906250 val-loss:0.380997 val-acc : 0.867333 
+Epoch 7/10 - Batch 1600/1687 - train-loss: 0.232495 train-acc: 0.906250 val-loss:0.384277 val-acc : 0.866000 
+Epoch 8/10 - Batch 1600/1687 - train-loss: 0.211302 train-acc: 0.937500 val-loss:0.394688 val-acc : 0.866833 
+Epoch 9/10 - Batch 1600/1687 - train-loss: 0.208790 train-acc: 0.906250 val-loss:0.381960 val-acc : 0.868667 
+Epoch 10/10 - Batch 1600/1687 - train-loss: 0.220084 train-acc: 0.906250 val-loss:0.390425 val-acc : 0.870500 
+Test loss:-  0.41050698292409515
+Test Acc:-  0.8677

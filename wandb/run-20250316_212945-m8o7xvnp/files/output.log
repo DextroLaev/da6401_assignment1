@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/train.py", line 59, in <module>
+    nn = Neural_Net(input_shape = input_shape,output_shape = output_shape,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/neural_net.py", line 21, in __init__
+    self.W, self.B = self.weight_init(type_of_init)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/neural_net.py", line 33, in weight_init
+    W.append(np.random.randn(self.hidden_neurons_per_layer[i-1], self.hidden_neurons_per_layer[i]) *np.sqrt(6 / (self.hidden_neurons_per_layer[i-1] + self.hidden_neurons_per_layer[i])))
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

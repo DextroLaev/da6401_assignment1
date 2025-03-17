@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/plot_image.py", line 38, in <module>
+    plot_img_wandb(train_data,train_label)
+  File "/home/dextrolaev/Desktop/DL/da6401_assignment1/plot_image.py", line 30, in plot_img_wandb
+    in zip(data,class_names[label])]})
+                ~~~~~~~~~~~^^^^^^^
+TypeError: only integer scalar arrays can be converted to a scalar index

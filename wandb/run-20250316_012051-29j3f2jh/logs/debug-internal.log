@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:20:51.834244731+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_012051-29j3f2jh/logs/debug-core.log"}
+{"time":"2025-03-16T01:20:51.941583326+05:30","level":"INFO","msg":"created new stream","id":"29j3f2jh"}
+{"time":"2025-03-16T01:20:51.941637044+05:30","level":"INFO","msg":"stream: started","id":"29j3f2jh"}
+{"time":"2025-03-16T01:20:51.941819785+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:20:51.941882506+05:30","level":"INFO","msg":"handler: started","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:20:51.941942626+05:30","level":"INFO","msg":"sender: started","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:20:52.304283012+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:21:52.169696729+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:21:52.170340758+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:21:53.174708395+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.696672215,"progress":"1.1KB/1.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.375108815,"progress":"932B/932B"}],"total_operations":2}}
+{"time":"2025-03-16T01:21:53.800563162+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:21:54.119557828+05:30","level":"INFO","msg":"stream: closing","id":"29j3f2jh"}
+{"time":"2025-03-16T01:21:54.119622977+05:30","level":"INFO","msg":"handler: closed","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:21:54.119655616+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:21:54.119671378+05:30","level":"INFO","msg":"sender: closed","stream_id":"29j3f2jh"}
+{"time":"2025-03-16T01:21:54.119865503+05:30","level":"INFO","msg":"stream: closed","id":"29j3f2jh"}

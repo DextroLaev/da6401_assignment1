@@ -1,0 +1,13 @@
+Starting training with run name: hl_3_bs_32_ac_sigmoid
+/home/dextrolaev/Desktop/DL/da6401_assignment1/activations.py:18: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-x))
+Epoch 1/10 - Batch 1600/1687 - train-loss: 26.861577 train-acc: 0.093750 val-loss:2.931463 test-acc : 0.055500 
+Epoch 2/10 - Batch 1600/1687 - train-loss: 22.513361 train-acc: 0.093750 val-loss:2.923768 test-acc : 0.055833 
+Epoch 3/10 - Batch 1600/1687 - train-loss: 20.763949 train-acc: 0.093750 val-loss:2.923530 test-acc : 0.055500 
+Epoch 4/10 - Batch 1600/1687 - train-loss: 27.056969 train-acc: 0.093750 val-loss:2.922922 test-acc : 0.055000 
+Epoch 5/10 - Batch 1600/1687 - train-loss: 24.473314 train-acc: 0.093750 val-loss:2.921645 test-acc : 0.052833 
+Epoch 6/10 - Batch 1600/1687 - train-loss: 21.749482 train-acc: 0.093750 val-loss:2.923587 test-acc : 0.053667 
+Epoch 7/10 - Batch 1600/1687 - train-loss: 21.721468 train-acc: 0.093750 val-loss:2.921592 test-acc : 0.056667 
+Epoch 8/10 - Batch 1600/1687 - train-loss: 24.952936 train-acc: 0.093750 val-loss:2.921587 test-acc : 0.060833 
+Epoch 9/10 - Batch 1600/1687 - train-loss: 19.761409 train-acc: 0.093750 val-loss:2.923675 test-acc : 0.054833 
+Epoch 10/10 - Batch 1600/1687 - train-loss: 21.905859 train-acc: 0.062500 val-loss:2.924000 test-acc : 0.052833 

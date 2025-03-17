@@ -1,0 +1,15 @@
+{"time":"2025-03-16T21:35:58.948678084+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_213558-iruova3j/logs/debug-core.log"}
+{"time":"2025-03-16T21:36:00.458532036+05:30","level":"INFO","msg":"created new stream","id":"iruova3j"}
+{"time":"2025-03-16T21:36:00.458554433+05:30","level":"INFO","msg":"stream: started","id":"iruova3j"}
+{"time":"2025-03-16T21:36:00.458613472+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:00.458649036+05:30","level":"INFO","msg":"handler: started","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:00.458637402+05:30","level":"INFO","msg":"sender: started","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:01.04304983+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T21:36:05.542031359+05:30","level":"INFO","msg":"stream: closing","id":"iruova3j"}
+{"time":"2025-03-16T21:36:05.542056595+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T21:36:05.542469233+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T21:36:07.168628638+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T21:36:07.532087219+05:30","level":"INFO","msg":"handler: closed","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:07.53210208+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:07.532113333+05:30","level":"INFO","msg":"sender: closed","stream_id":"iruova3j"}
+{"time":"2025-03-16T21:36:07.532159608+05:30","level":"INFO","msg":"stream: closed","id":"iruova3j"}

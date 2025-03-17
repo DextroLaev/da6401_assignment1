@@ -1,0 +1,6 @@
+Starting training with run name: hl_3_bs_64_ac_sigmoid
+Epoch 1/5 - Batch 800/843 - train-loss: 0.034202 train-acc: 0.781250 val-loss:0.040537 val-acc : 0.744667 
+Epoch 2/5 - Batch 800/843 - train-loss: 0.028572 train-acc: 0.796875 val-loss:0.031529 val-acc : 0.813333 
+Epoch 3/5 - Batch 800/843 - train-loss: 0.027476 train-acc: 0.765625 val-loss:0.026950 val-acc : 0.828667 
+Epoch 4/5 - Batch 800/843 - train-loss: 0.026440 train-acc: 0.796875 val-loss:0.024356 val-acc : 0.838333 
+Epoch 5/5 - Batch 800/843 - train-loss: 0.025257 train-acc: 0.796875 val-loss:0.023338 val-acc : 0.843167 

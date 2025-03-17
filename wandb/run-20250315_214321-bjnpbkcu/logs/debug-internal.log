@@ -1,0 +1,16 @@
+{"time":"2025-03-15T21:43:21.519658404+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250315_214321-bjnpbkcu/logs/debug-core.log"}
+{"time":"2025-03-15T21:43:21.627823847+05:30","level":"INFO","msg":"created new stream","id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:21.627910199+05:30","level":"INFO","msg":"stream: started","id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:21.62802813+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:21.628078577+05:30","level":"INFO","msg":"sender: started","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:21.628098757+05:30","level":"INFO","msg":"handler: started","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:21.955698902+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-15T21:43:35.821365318+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-15T21:43:35.821880559+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-15T21:43:36.826132093+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.690689173,"progress":"207B/207B"},{"desc":"uploading config.yaml","runtime_seconds":0.382180578,"progress":"924B/924B"}],"total_operations":2}}
+{"time":"2025-03-15T21:43:37.454110781+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-15T21:43:37.792982061+05:30","level":"INFO","msg":"stream: closing","id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:37.793034756+05:30","level":"INFO","msg":"handler: closed","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:37.793056702+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:37.793187796+05:30","level":"INFO","msg":"sender: closed","stream_id":"bjnpbkcu"}
+{"time":"2025-03-15T21:43:37.793324999+05:30","level":"INFO","msg":"stream: closed","id":"bjnpbkcu"}

@@ -1,0 +1,22 @@
+{"time":"2025-03-16T18:11:17.162374678+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_181117-ftyovqqj/logs/debug-core.log"}
+{"time":"2025-03-16T18:11:17.266510847+05:30","level":"INFO","msg":"created new stream","id":"ftyovqqj"}
+{"time":"2025-03-16T18:11:17.266556774+05:30","level":"INFO","msg":"stream: started","id":"ftyovqqj"}
+{"time":"2025-03-16T18:11:17.266584331+05:30","level":"INFO","msg":"handler: started","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:11:17.266590358+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:11:17.266588492+05:30","level":"INFO","msg":"sender: started","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:11:17.671659823+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T18:11:33.39640988+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T18:11:37.0031885+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T18:11:54.920757837+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T18:14:32.171151581+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T18:14:32.549918582+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-16T18:14:42.673081052+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-16T18:14:42.714591569+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T18:14:42.715105335+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T18:14:43.679902319+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.379573308,"progress":"2.2KB/2.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.081290995,"progress":"623B/623B"}],"total_operations":2}}
+{"time":"2025-03-16T18:14:44.711875998+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T18:14:45.014217103+05:30","level":"INFO","msg":"stream: closing","id":"ftyovqqj"}
+{"time":"2025-03-16T18:14:45.014243716+05:30","level":"INFO","msg":"handler: closed","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:14:45.014254976+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:14:45.014261924+05:30","level":"INFO","msg":"sender: closed","stream_id":"ftyovqqj"}
+{"time":"2025-03-16T18:14:45.014316643+05:30","level":"INFO","msg":"stream: closed","id":"ftyovqqj"}

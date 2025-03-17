@@ -1,0 +1,11 @@
+Starting training with run name: hl_5_bs_64_ac_tanh
+Epoch 1/10 - Batch 800/843 - train-loss: 0.402553 train-acc: 0.875000 val-loss:0.442805 test-acc : 0.829333 
+Epoch 2/10 - Batch 800/843 - train-loss: 0.346166 train-acc: 0.906250 val-loss:0.387352 test-acc : 0.852500 
+Epoch 3/10 - Batch 800/843 - train-loss: 0.324242 train-acc: 0.906250 val-loss:0.364565 test-acc : 0.864833 
+Epoch 4/10 - Batch 800/843 - train-loss: 0.311828 train-acc: 0.906250 val-loss:0.357014 test-acc : 0.869333 
+Epoch 5/10 - Batch 800/843 - train-loss: 0.291836 train-acc: 0.906250 val-loss:0.350246 test-acc : 0.870333 
+Epoch 6/10 - Batch 800/843 - train-loss: 0.279207 train-acc: 0.921875 val-loss:0.341643 test-acc : 0.876000 
+Epoch 7/10 - Batch 800/843 - train-loss: 0.272305 train-acc: 0.937500 val-loss:0.337545 test-acc : 0.876500 
+Epoch 8/10 - Batch 800/843 - train-loss: 0.273434 train-acc: 0.937500 val-loss:0.340644 test-acc : 0.878000 
+Epoch 9/10 - Batch 800/843 - train-loss: 0.277389 train-acc: 0.937500 val-loss:0.344547 test-acc : 0.875667 
+Epoch 10/10 - Batch 800/843 - train-loss: 0.279385 train-acc: 0.937500 val-loss:0.346915 test-acc : 0.876333 

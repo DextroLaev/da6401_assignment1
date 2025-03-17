@@ -1,0 +1,16 @@
+{"time":"2025-03-16T01:33:20.222951497+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/dextrolaev/Desktop/DL/da6401_assignment1/wandb/run-20250316_013320-tgjrjlri/logs/debug-core.log"}
+{"time":"2025-03-16T01:33:20.33142694+05:30","level":"INFO","msg":"created new stream","id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:20.331654443+05:30","level":"INFO","msg":"stream: started","id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:20.331826836+05:30","level":"INFO","msg":"handler: started","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:20.331794338+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:20.332104552+05:30","level":"INFO","msg":"sender: started","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:20.68013927+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:33:51.996051247+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:33:51.996652246+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:33:53.001117268+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.694720694,"progress":"1.1KB/1.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.694620316,"progress":"208B/208B"},{"desc":"uploading config.yaml","runtime_seconds":0.426371031,"progress":"925B/925B"}],"total_operations":3}}
+{"time":"2025-03-16T01:33:53.606415424+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:33:53.950328643+05:30","level":"INFO","msg":"stream: closing","id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:53.950389753+05:30","level":"INFO","msg":"handler: closed","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:53.950421597+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:53.950473833+05:30","level":"INFO","msg":"sender: closed","stream_id":"tgjrjlri"}
+{"time":"2025-03-16T01:33:53.95060741+05:30","level":"INFO","msg":"stream: closed","id":"tgjrjlri"}

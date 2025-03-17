@@ -1,0 +1,8 @@
+Starting training with run name: hl_3_bs_32_ac_sigmoid
+/home/dextrolaev/Desktop/DL/da6401_assignment1/activations.py:18: RuntimeWarning: overflow encountered in exp
+  return 1/(1+np.exp(-x))
+Epoch 1/5 - Batch 1600/1687 - train-loss: 32.379166 train-acc: 0.093750 val-loss:2.860173 test-acc : 0.094500 
+Epoch 2/5 - Batch 1600/1687 - train-loss: 22.571264 train-acc: 0.093750 val-loss:2.860639 test-acc : 0.094667 
+Epoch 3/5 - Batch 1600/1687 - train-loss: 32.379166 train-acc: 0.093750 val-loss:2.861377 test-acc : 0.094667 
+Epoch 4/5 - Batch 1600/1687 - train-loss: 27.047451 train-acc: 0.093750 val-loss:2.859904 test-acc : 0.094667 
+Epoch 5/5 - Batch 1600/1687 - train-loss: 21.192699 train-acc: 0.093750 val-loss:2.858649 test-acc : 0.094667 
