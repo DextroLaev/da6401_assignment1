@@ -1,3 +1,5 @@
 keras==3.9.0
 matplotlib==3.10.1
-numpy==2.2.4
+wandb
+tensorflow
+
